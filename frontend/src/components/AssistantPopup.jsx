@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, X, Send, Mic, MicOff, Volume2, VolumeX, Image as ImageIcon, ZoomIn, Loader2, Sparkles, Volume1 } from 'lucide-react';
 import './AssistantPopup.css';
 
-const API_BASE_URL = 'http://127.0.0.1:5001'; // Adresse de votre backend Node.js
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:5001'; // Adresse du backend (configurable via VITE_API_BASE_URL)
 
 export default function AssistantPopup() {
   const [isOpen, setIsOpen] = useState(false);
