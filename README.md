@@ -32,36 +32,31 @@ Le widget de chat a été isolé pour être transparent et intégrable facilemen
    - **Root directory** : `frontend`
    - **Build command** : `npm run build`
    - **Build output directory** : `dist`
-3. **Configuration de la variable d'environnement (Crucial)** :
-   - Dans les paramètres de build de Cloudflare Pages, ajoutez la variable d'environnement suivante pour lier le frontend à votre serveur de production backend (OVH) :
+ 3. **Configuration de la variable d'environnement (Crucial)** :
+   - Dans les paramètres de build de Cloudflare Pages, ajoutez la variable d'environnement suivante pour lier le frontend à votre serveur de production backend (Render.com) :
      - Clé : `VITE_API_BASE_URL`
-     - Valeur : `https://votre-backend-ovh.com` *(Remplacez par l'URL de votre serveur Node.js hébergé sur OVH)*
+     - Valeur : `https://votre-backend-assistant.onrender.com` *(Remplacez par l'URL de votre Web Service sur Render)*
 
 ---
 
-## Déploiement du Backend sur OVH
+## Déploiement du Backend sur Render.com
 
-Le serveur RAG Node.js s'exécute en arrière-plan et effectue les recherches de similarité sur Pinecone.
+Le serveur RAG Node.js s'exécute sous forme de **Web Service** sur Render.com.
 
-1. **Prérequis** :
-   - Assurez-vous que Node.js (v18+) et Python 3 sont installés sur votre instance OVH.
-2. **Fichiers** :
-   - Transférez le contenu du dossier `backend/` sur votre serveur OVH.
-3. **Configuration des variables d'environnement** :
-   - Créez un fichier `.env` dans le répertoire `backend/` de production :
-     ```ini
-     PORT=5001
-     GEMINI_API_KEY=votre_cle_api_gemini
-     PINECONE_API_KEY=votre_cle_api_pinecone
-     PINECONE_INDEX_NAME=clef-guide-soft-transit
-     ```
-4. **Démarrage du Serveur** :
-   - Installez les dépendances : `npm install`
-   - Démarrez le serveur (il est recommandé d'utiliser `pm2` pour le maintenir actif en arrière-plan) :
-     ```bash
-     npm install -g pm2
-     pm2 start server.js --name "soft-transit-rag-backend"
-     ```
+1. **Création du Web Service** :
+   - Connectez votre compte GitHub sur Render.com et créez un nouveau **Web Service**.
+   - Sélectionnez votre dépôt `mbndiaye232/guidestransit`.
+2. **Configuration du Web Service** :
+   - **Name** : `soft-transit-assistant-backend` (ou le nom de votre choix)
+   - **Root Directory** : `backend`
+   - **Environment** : `Node`
+   - **Build Command** : `npm install`
+   - **Start Command** : `npm start`
+3. **Configuration des variables d'environnement (Environment Variables)** :
+   - Ajoutez les variables d'environnement suivantes dans les paramètres du Web Service :
+     - `GEMINI_API_KEY` : `votre_cle_api_gemini_ici`
+     - `PINECONE_API_KEY` : `votre_cle_api_pinecone_ici`
+     - `PINECONE_INDEX_NAME` : `clef-guide-soft-transit` (ou le nom exact de votre index)
 
 ---
 
