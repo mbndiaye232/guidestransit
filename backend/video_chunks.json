@@ -1,0 +1,289 @@
+[
+  {
+    "timestamp_seconds": 27,
+    "time_string": "00:00:27",
+    "title": "Connexion à la plateforme Soft Transit",
+    "description": "Formulaire de connexion web comprenant les champs d'identification, de mot de passe et d'accès.",
+    "instructions": "Saisissez votre identifiant ou email professionnel et votre mot de passe pour vous connecter à votre session."
+  },
+  {
+    "timestamp_seconds": 37,
+    "time_string": "00:00:37",
+    "title": "Tableau de bord principal",
+    "description": "Menu d'accueil affichant les indicateurs clés et l'ensemble des modules opérationnels classés par catégories.",
+    "instructions": "Utilisez cette interface centrale pour naviguer rapidement vers les différents services de l'application."
+  },
+  {
+    "timestamp_seconds": 44,
+    "time_string": "00:00:44",
+    "title": "Configuration de la société",
+    "description": "Interface d'édition de la fiche signalétique et d'intégration des logos et cachets de l'entreprise.",
+    "instructions": "Renseignez les détails juridiques et téléchargez vos visuels officiels pour la génération automatique des documents."
+  },
+  {
+    "timestamp_seconds": 74,
+    "time_string": "00:01:14",
+    "title": "Gestion des Agents",
+    "description": "Tableau récapitulatif listant l'identité, le service et le niveau d'accès des différents agents enregistrés.",
+    "instructions": "Consultez, modifiez ou activez/désactivez les comptes des collaborateurs de votre structure."
+  },
+  {
+    "timestamp_seconds": 85,
+    "time_string": "00:01:25",
+    "title": "Attribution des permissions",
+    "description": "Matrice de droits d'accès permettant de définir les actions autorisées par utilisateur et par module.",
+    "instructions": "Cochez les cases correspondantes aux rôles de l'agent (Voir, Créer, Modifier, Supprimer) et enregistrez."
+  },
+  {
+    "timestamp_seconds": 114,
+    "time_string": "00:01:54",
+    "title": "Gestion des Sociétés Clientes",
+    "description": "Affichage des cartes résumant l'identité et le statut des clients partenaires enregistrés.",
+    "instructions": "Cliquez sur une carte pour modifier une fiche existante ou sur 'Nouveau' pour en ajouter une."
+  },
+  {
+    "timestamp_seconds": 120,
+    "time_string": "00:02:00",
+    "title": "Paramètres clients et financiers",
+    "description": "Fiche de configuration des données de contact et des conditions de facturation du client.",
+    "instructions": "Saisissez les encours autorisés, déterminez les délais de paiement et renseignez les coordonnées de facturation."
+  },
+  {
+    "timestamp_seconds": 166,
+    "time_string": "00:02:46",
+    "title": "Configuration des contacts clients",
+    "description": "Section dédiée à l'identité du point focal et aux annotations spécifiques à chaque client.",
+    "instructions": "Saisissez les informations de contact par défaut pour faciliter les échanges commerciaux et administratifs."
+  },
+  {
+    "timestamp_seconds": 192,
+    "time_string": "00:03:12",
+    "title": "Gestion des Tiers",
+    "description": "Module d'enregistrement des prestataires logistiques (compagnies maritimes, aériennes, routières).",
+    "instructions": "Ajoutez vos partenaires externes et affectez-les à leur catégorie respective pour filtrer les recherches ultérieures."
+  },
+  {
+    "timestamp_seconds": 243,
+    "time_string": "00:04:03",
+    "title": "Liste des dossiers de transit",
+    "description": "Tableau de suivi général centralisant l'ensemble des opérations de transit actives et passées.",
+    "instructions": "Faites une recherche rapide par code ou par nom pour localiser et gérer un dossier spécifique."
+  },
+  {
+    "timestamp_seconds": 252,
+    "time_string": "00:04:12",
+    "title": "Ouverture d'un dossier",
+    "description": "Formulaire de création de dossier incluant la sélection du client, le mode d'expédition et la nature de l'opération.",
+    "instructions": "Complétez les données requises pour générer automatiquement les codes uniques et ouvrir le dossier."
+  },
+  {
+    "timestamp_seconds": 327,
+    "time_string": "00:05:27",
+    "title": "Validation sous réserve",
+    "description": "Section d'approbation requise en cas de dépassement d'encours ou de restrictions financières du client.",
+    "instructions": "Désignez un responsable habilité pour valider manuellement l'avancement d'un dossier bloqué."
+  },
+  {
+    "timestamp_seconds": 369,
+    "time_string": "00:06:09",
+    "title": "Description et pièces jointes",
+    "description": "Zone de saisie des détails de la cargaison et d'importation des fichiers sources d'origine.",
+    "instructions": "Ajoutez les spécificités de livraison et associez les documents physiques numérisés correspondants."
+  },
+  {
+    "timestamp_seconds": 451,
+    "time_string": "00:07:31",
+    "title": "Visualisation du dossier créé",
+    "description": "Fiche de synthèse du dossier de transit affichant les codes longs et courts générés par le système.",
+    "instructions": "Vérifiez la structure du dossier et utilisez le code court pour vos futures déclarations simplifiées."
+  },
+  {
+    "timestamp_seconds": 504,
+    "time_string": "00:08:24",
+    "title": "Cotation du Déclarant",
+    "description": "Interface d'attribution du dossier de dédouanement à un agent déclarant de l'équipe.",
+    "instructions": "Sélectionnez le déclarant responsable de l'opération douanière pour lui affecter formellement la tâche."
+  },
+  {
+    "timestamp_seconds": 514,
+    "time_string": "00:08:34",
+    "title": "Ordre de Transit (OT)",
+    "description": "Module de génération de l'ordre d'exécution comprenant les conditions logistiques de départ.",
+    "instructions": "Complétez les données géographiques et temporelles requises pour formaliser l'ordre de transit."
+  },
+  {
+    "timestamp_seconds": 521,
+    "time_string": "00:08:41",
+    "title": "Titre d'Exonération (TE)",
+    "description": "Formulaire d'enregistrement des informations d'exonération applicables à l'expédition.",
+    "instructions": "Renseignez les détails réglementaires liés aux exonérations douanières obtenues par le destinataire."
+  },
+  {
+    "timestamp_seconds": 528,
+    "time_string": "00:08:48",
+    "title": "Suivi des Transports",
+    "description": "Formulaire de saisie des escales, des ports d'embarquement, des dates de voyage et des navires associés.",
+    "instructions": "Sélectionnez la compagnie de transport pour lister et lier le navire approprié au dossier."
+  },
+  {
+    "timestamp_seconds": 615,
+    "time_string": "00:10:15",
+    "title": "Composition de la marchandise",
+    "description": "Module de définition des cargaisons, incluant la gestion des conteneurs, types et volumes.",
+    "instructions": "Listez les conteneurs ou colis en renseignant les dimensions, poids et natures pour le suivi logistique."
+  },
+  {
+    "timestamp_seconds": 698,
+    "time_string": "00:11:38",
+    "title": "Note de Détail Dynamique",
+    "description": "Interface de calcul dynamique des droits de douane et taxes selon la nomenclature du produit.",
+    "instructions": "Saisissez le libellé de l'article pour récupérer automatiquement sa position tarifaire et son régime douanier."
+  },
+  {
+    "timestamp_seconds": 792,
+    "time_string": "00:13:12",
+    "title": "Liquidation des taxes",
+    "description": "Tableau de saisie de la valeur FOB, du fret et de l'assurance pour calculer automatiquement la liquidation.",
+    "instructions": "Saisissez les montants financiers et laissez l'application générer le total de la liquidation des droits."
+  },
+  {
+    "timestamp_seconds": 842,
+    "time_string": "00:14:02",
+    "title": "Génération du PDF de liquidation",
+    "description": "Aperçu du document final structurant le décompte des taxes et débours généré par le système.",
+    "instructions": "Contrôlez les calculs de douane affichés et téléchargez le document PDF pour vos archives."
+  },
+  {
+    "timestamp_seconds": 935,
+    "time_string": "00:15:35",
+    "title": "Saisie des Factures Tiers",
+    "description": "Module de centralisation et de saisie des factures reçues de vos prestataires logistiques pour ce dossier.",
+    "instructions": "Renseignez le montant, la rubrique et le tiers correspondant pour lier la dépense au dossier de transit."
+  },
+  {
+    "timestamp_seconds": 1023,
+    "time_string": "00:17:03",
+    "title": "Facturation Client",
+    "description": "Écran de facturation client récapitulant les débours réels et les prestations à facturer.",
+    "instructions": "Cochez les rubriques à intégrer à la facture, les valeurs étant récupérées automatiquement des étapes précédentes."
+  },
+  {
+    "timestamp_seconds": 1152,
+    "time_string": "00:19:12",
+    "title": "Aperçu de la Facture Client",
+    "description": "Fichier PDF de la facture client finale avec cachet de facturation et signatures électroniques.",
+    "instructions": "Vérifiez l'exactitude de la mise en page et des montants facturés avant son envoi définitif."
+  },
+  {
+    "timestamp_seconds": 1193,
+    "time_string": "00:19:53",
+    "title": "Envoi des factures par email",
+    "description": "Formulaire d'envoi d'email incluant l'objet, le corps de texte standardisé et les fichiers joints sélectionnables.",
+    "instructions": "Sélectionnez les pièces jointes justificatives à inclure avec la facture et cliquez sur envoyer."
+  },
+  {
+    "timestamp_seconds": 1271,
+    "time_string": "00:21:11",
+    "title": "Réception de l'email",
+    "description": "Aperçu de la réception du message et des documents joints correspondants dans la boîte Gmail.",
+    "instructions": "Assurez-vous de la bonne délivrance de la facture et de la complétude des justificatifs transmis au destinataire."
+  },
+  {
+    "timestamp_seconds": 1299,
+    "time_string": "00:21:39",
+    "title": "Suivi des Sommiers (Suspensifs)",
+    "description": "Module de suivi des régimes douaniers suspensifs avec code couleur alertant sur les échéances.",
+    "instructions": "Surveillez les sommiers pour anticiper les dates d'échéance et éviter les amendes douanières."
+  },
+  {
+    "timestamp_seconds": 1351,
+    "time_string": "00:22:31",
+    "title": "Création d'un Sommier",
+    "description": "Formulaire d'enregistrement d'une déclaration sous régime suspensif de douane.",
+    "instructions": "Renseignez le régime, la date d'échéance réglementaire, puis listez les articles associés au sommier."
+  },
+  {
+    "timestamp_seconds": 1422,
+    "time_string": "00:23:42",
+    "title": "Saisie d'un apurement",
+    "description": "Interface d'enregistrement d'une sortie d'entrepôt pour mise à la consommation ou réexportation.",
+    "instructions": "Saisissez les quantités et valeurs sorties de l'entrepôt douanier pour mettre à jour le solde du sommier."
+  },
+  {
+    "timestamp_seconds": 1474,
+    "time_string": "00:24:34",
+    "title": "Consultation d'historique de sommier",
+    "description": "Synthèse chronologique d'un sommier montrant les apurements successifs et les quantités restantes en douane.",
+    "instructions": "Utilisez cet historique pour obtenir un état précis des stocks sous douane pour chaque dossier client."
+  },
+  {
+    "timestamp_seconds": 1520,
+    "time_string": "00:25:20",
+    "title": "Gestion Électronique des Documents (GED)",
+    "description": "Espace d'archivage des documents administratifs et douaniers numérisés et indexés par dossier.",
+    "instructions": "Centralisez l'ensemble des fichiers du dossier de transit pour assurer leur accessibilité et leur traçabilité."
+  },
+  {
+    "timestamp_seconds": 1593,
+    "time_string": "00:26:33",
+    "title": "Téléchargement groupé de documents",
+    "description": "Fonctionnalité permettant d'exporter l'ensemble des fichiers GED d'un dossier sous format compressé.",
+    "instructions": "Cliquez sur 'Récupérer tout' pour télécharger un fichier archive zip contenant toutes les pièces du dossier."
+  },
+  {
+    "timestamp_seconds": 1693,
+    "time_string": "00:28:13",
+    "title": "Suivi des Traitements",
+    "description": "Tableau de suivi d'avancement des étapes de transit par rapport à un objectif de délai théorique.",
+    "instructions": "Surveillez les statuts opérationnels des dossiers pour identifier les blocages et accélérer les flux."
+  },
+  {
+    "timestamp_seconds": 1770,
+    "time_string": "00:29:30",
+    "title": "Rapports Financiers",
+    "description": "Génération de relevés, grands livres de compte, analyses de chiffres d'affaires et exports compatibles SAARI.",
+    "instructions": "Consultez les états comptables et financiers de l'activité ou exportez-les pour votre logiciel externe."
+  },
+  {
+    "timestamp_seconds": 1828,
+    "time_string": "00:30:28",
+    "title": "Suivi des Règlements par Client",
+    "description": "Statuts de paiement des factures clients (Non réglé, Partiel, Payé) pour le contrôle du recouvrement.",
+    "instructions": "Filtrez et suivez les créances clients pour piloter le recouvrement et relancer les impayés."
+  },
+  {
+    "timestamp_seconds": 1854,
+    "time_string": "00:30:54",
+    "title": "Tableau de Bord Directionnel",
+    "description": "Représentation graphique de la balance âgée, de l'évolution du chiffre d'affaires et des volumes d'activité.",
+    "instructions": "Analysez ces indicateurs consolidés en temps réel pour optimiser le pilotage de l'activité."
+  },
+  {
+    "timestamp_seconds": 1933,
+    "time_string": "00:32:13",
+    "title": "Configuration Système et Référentiels",
+    "description": "Accès aux bases de données des devises, ports, types de transport et rubriques comptables.",
+    "instructions": "Administrez les bases de données référentielles pour standardiser les saisies dans les formulaires."
+  },
+  {
+    "timestamp_seconds": 1940,
+    "time_string": "00:32:20",
+    "title": "Configuration des Moyens de Transport",
+    "description": "Module de mise à jour de la flotte de véhicules, navires et avions utilisés dans les trajets.",
+    "instructions": "Ajoutez ou modifiez les identifiants des moyens de transport de vos prestataires logistiques."
+  },
+  {
+    "timestamp_seconds": 2081,
+    "time_string": "00:34:41",
+    "title": "Configuration des Lieux et Ports",
+    "description": "Base de données référençant les terminaux, gares et ports d'embarquement internationaux.",
+    "instructions": "Enregistrez les points logistiques mondiaux pour documenter de manière exacte le transit."
+  },
+  {
+    "timestamp_seconds": 2200,
+    "time_string": "00:36:40",
+    "title": "Paramétrage des Sauvegardes",
+    "description": "Interface d'administration de la politique de sauvegarde automatique et manuelle du système.",
+    "instructions": "Planifiez la fréquence des backups et lancez des sauvegardes manuelles pour sécuriser vos données."
+  }
+]

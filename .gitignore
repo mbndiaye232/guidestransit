@@ -1,0 +1,41 @@
+# Dependency directories
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+
+# Large media files
+*.mp4
+*.avi
+*.mkv
+presentation-de-soft-transit-web.mp4
+présentation-de-soft-transit-web.mp4
+
+# PDF Source (if not needed in git)
+# SOFT_TRANSIT_WEB_GUIDE_UTILISATION.pdf
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/

@@ -1,0 +1,22 @@
+{
+  "name": "soft-transit-assistant-backend",
+  "version": "1.0.0",
+  "description": "Backend for Soft Transit RAG Guide Assistant",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "prep": "node prep_rag.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^6.7.0",
+    "@google-cloud/text-to-speech": "^5.3.0",
+    "@google/generative-ai": "^0.14.0",
+    "@pinecone-database/pinecone": "^2.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
