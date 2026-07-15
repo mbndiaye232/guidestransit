@@ -11,6 +11,10 @@ frontend/.env
 .env.development.local
 .env.test.local
 .env.production.local
+backend/credentials/guide-soft-transit-461ce3c39b93.json
+backend/powershell.cmd
+powershell.cmd
+
 
 # Build outputs
 dist/

@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import multer from 'multer';
 import dotenv from 'dotenv';
-import { Pinecone } from '@pinecone-database/pinecone';
+import { Firestore, FieldValue } from '@google-cloud/firestore';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import speech from '@google-cloud/speech';
 import textToSpeech from '@google-cloud/text-to-speech';
@@ -13,7 +13,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const PINECONE_INDEX_NAME = process.env.PINECONE_INDEX_NAME || 'soft-transit-guide';
+const COLLECTION_NAME = process.env.FIRESTORE_COLLECTION || 'rag_chunks';
 
 app.use(cors());
 app.use(express.json());
@@ -25,8 +25,7 @@ app.use('/screenshots', express.static('public/screenshots'));
 const upload = multer({ storage: multer.memoryStorage() });
 
 // Initialisation des SDK
-let pc;
-let index;
+let db;
 let genAI;
 let embeddingModel;
 let chatModel;
@@ -34,17 +33,13 @@ let speechClient;
 let ttsClient;
 
 try {
-  if (process.env.PINECONE_API_KEY) {
-    pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
-    index = pc.Index(PINECONE_INDEX_NAME);
-  } else {
-    console.warn("⚠️ PINECONE_API_KEY n'est pas défini.");
-  }
+  // Initialiser Firestore
+  db = new Firestore({ databaseId: process.env.FIRESTORE_DATABASE_ID || '(default)' });
 
   if (process.env.GEMINI_API_KEY) {
     genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
     embeddingModel = genAI.getGenerativeModel({ model: "gemini-embedding-001" });
-    chatModel = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
+    chatModel = genAI.getGenerativeModel({ model: "gemini-3.1-flash-lite" });
   } else {
     console.warn("⚠️ GEMINI_API_KEY n'est pas défini.");
   }
@@ -69,31 +64,48 @@ app.post('/api/assistant/chat', async (req, res) => {
   }
 
   try {
-    if (!pc || !genAI) {
-      return res.status(500).json({ error: "Les API Gemini ou Pinecone ne sont pas correctement configurées." });
+    if (!db || !genAI) {
+      return res.status(500).json({ error: "Les API Gemini ou Firestore ne sont pas correctement configurées." });
     }
 
     console.log(`Question de l'utilisateur : "${message}"`);
 
-    // A. Générer l'embedding de la question
-    const embedResult = await embeddingModel.embedContent(message);
+    // A. Générer l'embedding de la question (768 dimensions pour Firestore)
+    const embedResult = await embeddingModel.embedContent({
+      content: { parts: [{ text: message }] },
+      outputDimensionality: 768
+    });
     const queryVector = embedResult.embedding.values;
 
-    // B. Interroger Pinecone pour récupérer les 3 chunks les plus similaires
-    const queryResponse = await index.query({
-      vector: queryVector,
-      topK: 3,
-      includeMetadata: true
-    });
+    // B. Interroger Firestore pour récupérer les 3 chunks les plus similaires
+    // Note: Si l'index de recherche vectorielle n'existe pas, Firestore renverra une erreur contenant un lien.
+    const snapshot = await db.collection(COLLECTION_NAME)
+      .findNearest('embedding', FieldValue.vector(queryVector), {
+        limit: 3,
+        distanceMeasure: 'COSINE',
+        distanceResultField: 'vector_distance'
+      })
+      .get();
 
-    const matches = queryResponse.matches || [];
+    const matches = [];
+    snapshot.forEach(doc => {
+      matches.push({
+        id: doc.id,
+        metadata: doc.data(),
+        // Dans Firestore, la distance cosinus varie de 0.0 (identique) à 2.0 (opposé).
+        // Plus la distance est proche de 0, plus les vecteurs sont proches.
+        // Un score de similarité cosinus de 0.3 (Pinecone) correspond à une distance cosinus < 0.7 dans Firestore.
+        distance: doc.data().vector_distance
+      });
+    });
     
     // C. Extraire le contexte et les captures d'écran associées
     let context = '';
     const screenshots = [];
 
     matches.forEach(match => {
-      if (match.metadata && match.score > 0.3) { // Seuil de pertinence
+      // Seuil de pertinence : distance < 0.7 (équivalent à similarité > 0.3)
+      if (match.metadata && (match.distance === undefined || match.distance < 0.7)) {
         context += `${match.metadata.text}\n\n`;
         
         // Ajouter la capture d'écran si elle existe et n'est pas déjà dans la liste

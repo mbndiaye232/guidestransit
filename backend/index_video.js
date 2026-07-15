@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { Pinecone } from '@pinecone-database/pinecone';
+import { Firestore, FieldValue } from '@google-cloud/firestore';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import dotenv from 'dotenv';
 
@@ -9,8 +9,7 @@ dotenv.config();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const JSON_PATH = path.join(__dirname, 'video_chunks.json');
-const PINECONE_INDEX_NAME = process.env.PINECONE_INDEX_NAME || 'clef-guide-soft-transit';
-const TARGET_DIMENSION = 3072; // Dimension pour gemini-embedding-001 / gemini-embedding-2
+const COLLECTION_NAME = process.env.FIRESTORE_COLLECTION || 'rag_chunks';
 
 if (!fs.existsSync(JSON_PATH)) {
   console.error(`Erreur: Le fichier ${JSON_PATH} n'existe pas. Veuillez d'abord exécuter analyze_video.py.`);
@@ -19,11 +18,6 @@ if (!fs.existsSync(JSON_PATH)) {
 
 if (!process.env.GEMINI_API_KEY) {
   console.error("Erreur: GEMINI_API_KEY n'est pas configuré dans le fichier .env");
-  process.exit(1);
-}
-
-if (!process.env.PINECONE_API_KEY) {
-  console.error("Erreur: PINECONE_API_KEY n'est pas configuré dans le fichier .env");
   process.exit(1);
 }
 
@@ -39,10 +33,12 @@ async function run() {
     const chunks = JSON.parse(rawData);
     console.log(`Chargement de ${chunks.length} chunks vidéo depuis ${JSON_PATH}.`);
 
-    // 2. Connexion à Pinecone
-    console.log("Connexion à Pinecone...");
-    const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
-    const index = pc.Index(PINECONE_INDEX_NAME);
+    // 2. Connexion à Firestore
+    console.log("Connexion à Firestore...");
+    const db = new Firestore({
+      databaseId: process.env.FIRESTORE_DATABASE_ID || '(default)'
+    });
+    const collectionRef = db.collection(COLLECTION_NAME);
 
     // 3. Générer les embeddings et insérer par lots de 10
     const batchSize = 10;
@@ -50,7 +46,9 @@ async function run() {
       const batch = chunks.slice(i, i + batchSize);
       console.log(`Traitement du lot ${Math.floor(i / batchSize) + 1}/${Math.ceil(chunks.length / batchSize)}...`);
       
-      const upsertData = [];
+      const dbBatch = db.batch();
+      let batchCount = 0;
+      
       for (const chunk of batch) {
         try {
           const ts = chunk.timestamp_seconds;
@@ -63,28 +61,30 @@ async function run() {
           const textToEmbed = `[Guide Vidéo - ${timeStr}] ${title}\n\nDescription de l'écran : ${desc}\n\nInstructions d'utilisation : ${inst}`;
 
           console.log(`  Embedding du chunk "${title}" (${timeStr})...`);
-          const embedResult = await embeddingModel.embedContent(textToEmbed);
+          const embedResult = await embeddingModel.embedContent({
+            content: { parts: [{ text: textToEmbed }] },
+            outputDimensionality: 768
+          });
           const values = embedResult.embedding.values;
 
-          upsertData.push({
-            id: `video_timestamp_${ts}`,
-            values: values,
-            metadata: {
-              text: textToEmbed,
-              source: 'video',
-              pageNumber: 0,
-              screenshotUrl: `/screenshots/video_frame_${ts}.png`,
-              title: `Guide Vidéo - ${title} (${timeStr})`
-            }
+          const docRef = collectionRef.doc(`video_timestamp_${ts}`);
+          dbBatch.set(docRef, {
+            text: textToEmbed,
+            source: 'video',
+            pageNumber: 0,
+            screenshotUrl: `/screenshots/video_frame_${ts}.png`,
+            title: `Guide Vidéo - ${title} (${timeStr})`,
+            embedding: FieldValue.vector(values)
           });
+          batchCount++;
         } catch (err) {
           console.error(`Erreur d'embedding pour le chunk "${chunk.title}":`, err);
         }
       }
       
-      if (upsertData.length > 0) {
-        await index.upsert(upsertData);
-        console.log(`  ✓ Lot de ${upsertData.length} vecteurs insérés dans Pinecone.`);
+      if (batchCount > 0) {
+        await dbBatch.commit();
+        console.log(`  ✓ Lot de ${batchCount} vecteurs insérés dans Firestore.`);
       }
     }
 

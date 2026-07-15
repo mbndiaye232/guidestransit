@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import pdf from 'pdf-parse';
 import { execSync } from 'child_process';
-import { Pinecone } from '@pinecone-database/pinecone';
+import { Firestore, FieldValue } from '@google-cloud/firestore';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import dotenv from 'dotenv';
 
@@ -10,16 +10,11 @@ dotenv.config();
 
 const PDF_PATH = '../SOFT_TRANSIT_WEB_GUIDE_UTILISATION.pdf';
 const SCREENSHOTS_DIR = './public/screenshots';
-const PINECONE_INDEX_NAME = process.env.PINECONE_INDEX_NAME || 'soft-transit-guide';
-const TARGET_DIMENSION = 3072; // Dimension pour gemini-embedding-001 / gemini-embedding-2
+const COLLECTION_NAME = process.env.FIRESTORE_COLLECTION || 'rag_chunks';
 
 // Vérifier les clés API
 if (!process.env.GEMINI_API_KEY) {
   console.error("Erreur: GEMINI_API_KEY n'est pas configuré dans le fichier .env");
-  process.exit(1);
-}
-if (!process.env.PINECONE_API_KEY) {
-  console.error("Erreur: PINECONE_API_KEY n'est pas configuré dans le fichier .env");
   process.exit(1);
 }
 
@@ -118,47 +113,26 @@ async function convertPdfToScreenshots() {
   }
 }
 
-// 4. Indexer dans Pinecone
-async function indexToPinecone(chunks) {
-  console.log("Connexion à Pinecone...");
-  const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
-  
-  // Lister les index existants
-  const indexList = await pc.listIndexes();
-  const existingIndex = indexList.indexes?.find(idx => idx.name === PINECONE_INDEX_NAME);
-  
-  let shouldCreate = !existingIndex;
+// 4. Indexer dans Firestore
+async function indexToFirestore(chunks) {
+  console.log("Connexion à Firestore...");
+  const db = new Firestore({
+    databaseId: process.env.FIRESTORE_DATABASE_ID || '(default)'
+  });
+  const collectionRef = db.collection(COLLECTION_NAME);
 
-  if (existingIndex) {
-    if (existingIndex.dimension !== TARGET_DIMENSION) {
-      console.log(`⚠️ L'index existant a une dimension de ${existingIndex.dimension} (attendu: ${TARGET_DIMENSION}). Suppression en cours...`);
-      await pc.deleteIndex(PINECONE_INDEX_NAME);
-      console.log("Index supprimé. Attente de la suppression complète (15s)...");
-      await new Promise(r => setTimeout(r, 15000));
-      shouldCreate = true;
-    } else {
-      console.log(`L'index "${PINECONE_INDEX_NAME}" existe déjà avec la bonne dimension (${TARGET_DIMENSION}).`);
-    }
-  }
-
-  if (shouldCreate) {
-    console.log(`Création de l'index "${PINECONE_INDEX_NAME}" (dimension: ${TARGET_DIMENSION})...`);
-    await pc.createIndex({
-      name: PINECONE_INDEX_NAME,
-      dimension: TARGET_DIMENSION,
-      metric: 'cosine',
-      spec: {
-        serverless: {
-          cloud: 'aws',
-          region: 'us-east-1'
-        }
-      }
+  // Supprimer les anciens documents de la collection pour éviter les doublons
+  console.log("Nettoyage de l'ancienne collection Firestore...");
+  const snapshot = await collectionRef.get();
+  if (snapshot.size > 0) {
+    const batch = db.batch();
+    snapshot.docs.forEach((doc) => {
+      batch.delete(doc.ref);
     });
-    console.log("Index créé. Attente de l'initialisation (60s)...");
-    await new Promise(r => setTimeout(r, 60000));
+    await batch.commit();
+    console.log(`✓ ${snapshot.size} anciens documents supprimés.`);
   }
 
-  const index = pc.Index(PINECONE_INDEX_NAME);
   console.log("Indexation des chunks...");
 
   // Traiter par lots (batchs) de 10 pour éviter de surcharger l'API Gemini
@@ -167,36 +141,40 @@ async function indexToPinecone(chunks) {
     const batch = chunks.slice(i, i + batchSize);
     console.log(`Traitement du lot ${Math.floor(i / batchSize) + 1}/${Math.ceil(chunks.length / batchSize)}...`);
     
-    const upsertData = [];
+    const dbBatch = db.batch();
+    let batchCount = 0;
+    
     for (const chunk of batch) {
       try {
-        // Générer l'embedding
-        const embedResult = await embeddingModel.embedContent(chunk.text);
+        // Générer l'embedding (768 dimensions max pour Firestore)
+        const embedResult = await embeddingModel.embedContent({
+          content: { parts: [{ text: chunk.text }] },
+          outputDimensionality: 768
+        });
         const values = embedResult.embedding.values;
         
-        upsertData.push({
-          id: chunk.id,
-          values: values,
-          metadata: {
-            text: chunk.text,
-            source: chunk.metadata.source,
-            pageNumber: chunk.metadata.pageNumber,
-            screenshotUrl: chunk.metadata.screenshotUrl,
-            title: chunk.metadata.title
-          }
+        const docRef = collectionRef.doc(chunk.id);
+        dbBatch.set(docRef, {
+          text: chunk.text,
+          source: chunk.metadata.source,
+          pageNumber: chunk.metadata.pageNumber,
+          screenshotUrl: chunk.metadata.screenshotUrl,
+          title: chunk.metadata.title,
+          embedding: FieldValue.vector(values)
         });
+        batchCount++;
       } catch (err) {
         console.error(`Erreur d'embedding pour le chunk ${chunk.id}:`, err);
       }
     }
     
-    if (upsertData.length > 0) {
-      await index.upsert(upsertData);
-      console.log(`✓ Lot de ${upsertData.length} vecteurs insérés dans Pinecone.`);
+    if (batchCount > 0) {
+      await dbBatch.commit();
+      console.log(`✓ Lot de ${batchCount} vecteurs insérés dans Firestore.`);
     }
   }
 
-  console.log("Félicitations! L'indexation dans Pinecone est terminée.");
+  console.log("Félicitations! L'indexation dans Firestore est terminée.");
 }
 
 // Lancement du processus
@@ -213,8 +191,8 @@ async function run() {
     // Étape 3 : Découper le texte en chunks
     const chunks = chunkText(pages);
     
-    // Étape 4 : Générer les embeddings et insérer dans Pinecone
-    await indexToPinecone(chunks);
+    // Étape 4 : Générer les embeddings et insérer dans Firestore
+    await indexToFirestore(chunks);
     
     console.log("=== Préparation RAG terminée avec succès ===");
   } catch (error) {

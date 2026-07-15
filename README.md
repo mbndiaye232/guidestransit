@@ -10,9 +10,9 @@ Le widget de chat a été isolé pour être transparent et intégrable facilemen
 
 ```text
 ├── backend/                   # Serveur Node.js / Express
-│   ├── prep_rag.js            # Préparation et indexation du PDF dans Pinecone
+│   ├── prep_rag.js            # Préparation et indexation du PDF dans Firestore
 │   ├── analyze_video.py       # Extraction des chapitres vidéo avec Gemini 3.5 et FFmpeg
-│   ├── index_video.js         # Indexation des segments vidéo dans Pinecone
+│   ├── index_video.js         # Indexation des segments vidéo dans Firestore
 │   ├── server.js              # Serveur API de chat assistant RAG et synthèse
 │   └── public/screenshots/    # Dossier stockant les captures d'écran du manuel et de la vidéo
 ├── frontend/                  # Application React (Vite)
@@ -52,11 +52,11 @@ Le serveur RAG Node.js s'exécute sous forme de **Web Service** sur Render.com.
    - **Environment** : `Node`
    - **Build Command** : `npm install`
    - **Start Command** : `npm start`
-3. **Configuration des variables d'environnement (Environment Variables)** :
-   - Ajoutez les variables d'environnement suivantes dans les paramètres du Web Service :
-     - `GEMINI_API_KEY` : `votre_cle_api_gemini_ici`
-     - `PINECONE_API_KEY` : `votre_cle_api_pinecone_ici`
-     - `PINECONE_INDEX_NAME` : `clef-guide-soft-transit` (ou le nom exact de votre index)
+ 3. **Configuration des variables d'environnement (Environment Variables)** :
+    - Ajoutez les variables d'environnement suivantes dans les paramètres du Web Service :
+      - `GEMINI_API_KEY` : `votre_cle_api_gemini_ici`
+      - `FIRESTORE_DATABASE_ID` : `nom_de_votre_base_firestore` (ex: 'guidesofttransit')
+      - `FIRESTORE_COLLECTION` : `nom_de_la_collection` (ex: 'rag_chunks')
 
 ---
 
@@ -65,7 +65,7 @@ Le serveur RAG Node.js s'exécute sous forme de **Web Service** sur Render.com.
 ### 1. Démarrer le Backend
 - Allez dans le dossier `backend`.
 - Installez les packages : `npm install`.
-- Assurez-vous d'avoir configuré le fichier `.env` avec vos clés API Gemini et Pinecone.
+- Assurez-vous d'avoir configuré le fichier `.env` avec vos clés API Gemini et Firestore.
 - Lancez le serveur : `npm start`. Il tournera sur `http://127.0.0.1:5001`.
 
 ### 2. Démarrer le Frontend
