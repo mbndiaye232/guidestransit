@@ -113,8 +113,17 @@ export default function AssistantPopup() {
 
     // Sécurité si le texte est manquant
     const safeText = text ? String(text) : "";
-    // Remplacer tous les symboles d'astérisque (*) pour éviter qu'ils soient lus oralement
-    const cleanText = safeText.replace(/\*/g, '');
+    // Nettoyage du texte pour éviter la lecture des caractères spéciaux et de la numérotation
+    const cleanText = safeText
+      // 1. Supprimer les astérisques (*) et les dièses (#)
+      .replace(/[*#]/g, '')
+      // 2. Remplacer les abréviations de numéro (n°, N°, n° , N° ) par "numéro "
+      .replace(/[nN]°\s*/g, 'numéro ')
+      // 3. Supprimer les puces de liste au début de ligne (-, +, •, –, —, *)
+      .replace(/(^|\n)\s*[-•+–—]\s+/g, '$1')
+      // 4. Supprimer le caractère de numérotation (. / ) -) après un chiffre en début de ligne/phrase
+      //    Ex: "1. " devient "1, " pour que le TTS fasse une pause sans lire "point"
+      .replace(/(^|\n)\s*(\d+)[.\/\)-]\s+/g, '$1$2, ');
     
     if (!cleanText.trim()) return;
 
