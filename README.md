@@ -72,3 +72,17 @@ Le serveur RAG Node.js s'exécute sous forme de **Web Service** sur Render.com.
 - Allez dans le dossier `frontend`.
 - Installez les packages : `npm install`.
 - Démarrez en mode développement : `npm run dev`. Le widget sera accessible localement sur `http://127.0.0.1:3001` (avec fond transparent pour tester les intégrations).
+
+---
+
+## Mettre à jour les connaissances de l'assistant
+
+L'assistant répond à partir de la collection Firestore définie par `FIRESTORE_COLLECTION`. Pour la mettre à jour **sans risque** (la collection en service n'est jamais modifiée) :
+
+1. **Sauvegarder** la collection actuelle (lecture seule) : `node sauvegarde_rag.js` (fichier dans `backups/`, vecteurs inclus).
+2. **Préparer le contenu** : placer le nouveau guide PDF à la racine, adapter `GUIDE_OCTOBRE` et la liste `CONSERVES_JUIN` (pages de l'ancien guide à garder) dans `construire_chunks_2026.py`, puis `python construire_chunks_2026.py` (écrit `rag_2026_chunks.json` et les images `public/screenshots/g2_page_N.jpg`).
+3. **Indexer dans une NOUVELLE collection** : `node prep_rag_2026.js <nouvelle-collection> backups/<sauvegarde>.json` (`--dry-run` pour simuler). Le script refuse la collection en service et toute collection non vide.
+4. **Tester** : lancer le serveur avec `FIRESTORE_COLLECTION=<nouvelle-collection>` sur un autre port et poser des questions types (POST `/api/assistant/chat`).
+5. **Déployer** : pousser les nouvelles images (le backend Render les sert depuis `public/screenshots`), puis changer `FIRESTORE_COLLECTION` dans les variables d'environnement du service Render et redéployer. Retour arrière : remettre l'ancienne valeur.
+
+⚠ `prep_rag.js` (premier script) **vide la collection avant de la reconstruire** : ne pas l'utiliser pour une mise à jour.
