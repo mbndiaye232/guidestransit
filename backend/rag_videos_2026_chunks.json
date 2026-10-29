@@ -1,0 +1,556 @@
+{
+ "chunks": [
+  {
+   "id": "yt_m01_intro",
+   "text": "[Vidéo guide Soft Transit – Module 1 : Connexion et tableau de bord – Introduction] Nous allons voir comment se connecter, puis comment s'orienter dans l'application. Cette partie est expliquée dans la vidéo, à 0:00 : https://youtu.be/xtjD5SP7xRw?t=0 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 1 : Connexion et tableau de bord (Introduction)"
+  },
+  {
+   "id": "yt_m01_connexion",
+   "text": "[Vidéo guide Soft Transit – Module 1 : Connexion et tableau de bord – Se connecter] Soft Transit s'utilise dans un navigateur internet, comme un site web. Il n'y a rien à installer sur votre ordinateur. Votre administrateur vous a donné un identifiant et un mot de passe. Tapez d'abord votre identifiant, ici. Puis tapez votre mot de passe. Les caractères s'affichent sous forme de points : c'est normal. Faites attention aux majuscules et aux minuscules. Puis cliquez sur Se connecter. Si vous avez oublié votre mot de passe, cliquez sur Oublié, et suivez les instructions reçues par e-mail. Cette partie est expliquée dans la vidéo, à 0:10 : https://youtu.be/xtjD5SP7xRw?t=10 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 1 : Connexion et tableau de bord (Se connecter)"
+  },
+  {
+   "id": "yt_m01_tableau",
+   "text": "[Vidéo guide Soft Transit – Module 1 : Connexion et tableau de bord – Le tableau de bord] Vous arrivez sur le tableau de bord. C'est la page d'accueil, le point de départ de tout votre travail. En haut, trois compteurs : les dossiers actifs, les notes en attente, et l'équipe active. Au milieu, le menu principal. Chaque case ouvre une page de l'application. Les cases sont rangées par famille. Par exemple, les référentiels : votre société, vos agents, vos clients et vos tiers. La case Dossiers, que vous utiliserez le plus souvent, ouvre la liste de tous vos dossiers. Vous ne voyez que les cases auxquelles vous avez droit. Si une case manque, demandez à votre administrateur de vous ouvrir l'accès. Cette partie est expliquée dans la vidéo, à 0:40 : https://youtu.be/xtjD5SP7xRw?t=40 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 1 : Connexion et tableau de bord (Le tableau de bord)"
+  },
+  {
+   "id": "yt_m01_menu",
+   "text": "[Vidéo guide Soft Transit – Module 1 : Connexion et tableau de bord – Se déplacer] Sur toutes les pages, un bouton rond bleu apparaît en bas à gauche. Il ouvre une barre de raccourcis. Le bouton Retour revient à la page précédente. Le bouton Accueil vous ramène au tableau de bord. Quand vous quittez votre poste, cliquez sur Quitter pour vous déconnecter. Ne prêtez jamais votre mot de passe, même à un collègue de confiance : chaque action est enregistrée à votre nom. Cette partie est expliquée dans la vidéo, à 1:19 : https://youtu.be/xtjD5SP7xRw?t=79 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 1 : Connexion et tableau de bord (Se déplacer)"
+  },
+  {
+   "id": "yt_m02_intro",
+   "text": "[Vidéo guide Soft Transit – Module 2 : Clients et tiers – Introduction] Nous allons créer la fiche d'un client, puis découvrir les tiers, c'est-à-dire vos partenaires. Cette partie est expliquée dans la vidéo, à 0:00 : https://youtu.be/Xc2u1luxVt0?t=0 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 2 : Clients et tiers (Introduction)"
+  },
+  {
+   "id": "yt_m02_clients",
+   "text": "[Vidéo guide Soft Transit – Module 2 : Clients et tiers – La liste des clients] Un client, c'est l'entreprise pour laquelle vous faites passer des marchandises en douane. Il faut créer sa fiche avant d'ouvrir son premier dossier. Cliquez sur la case Clients du tableau de bord. Chaque client apparaît sous forme de carte, avec son adresse, son délai de règlement et son solde. Avant de créer un client, cherchez toujours dans la liste : il ne faut jamais créer deux fiches pour le même client. Pour en ajouter un, cliquez sur le bouton Nouveau Client. Cette partie est expliquée dans la vidéo, à 0:09 : https://youtu.be/Xc2u1luxVt0?t=9 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 2 : Clients et tiers (La liste des clients)"
+  },
+  {
+   "id": "yt_m02_client-form",
+   "text": "[Vidéo guide Soft Transit – Module 2 : Clients et tiers – Créer un client] Voici la fiche du client. Commencez par la raison sociale : le nom de l'entreprise. C'est le champ le plus important. Puis le numéro d'identification fiscale, appelé NINEA, et l'adresse. Choisissez le statut du client dans la liste : société anonyme, SARL, et ainsi de suite. Renseignez le téléphone et l'adresse e-mail. L'e-mail sert à envoyer les factures. Dans les paramètres financiers, indiquez le délai de règlement accordé au client, en nombre de jours. Quand tout est rempli, cliquez sur Valider le dossier client. Les champs marqués d'une étoile rouge sont obligatoires. Cette partie est expliquée dans la vidéo, à 0:35 : https://youtu.be/Xc2u1luxVt0?t=35 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 2 : Clients et tiers (Créer un client)"
+  },
+  {
+   "id": "yt_m02_tiers",
+   "text": "[Vidéo guide Soft Transit – Module 2 : Clients et tiers – Les tiers] Passons aux tiers. Un tiers est un partenaire extérieur : une compagnie maritime ou aérienne, un transporteur routier, une banque. Chaque tiers est une carte, avec son activité en étiquette. Le filtre permet de n'afficher qu'un seul type de partenaire. Pour en ajouter un, cliquez sur Nouveau Tiers. Cette partie est expliquée dans la vidéo, à 1:12 : https://youtu.be/Xc2u1luxVt0?t=72 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 2 : Clients et tiers (Les tiers)"
+  },
+  {
+   "id": "yt_m02_tiers-form",
+   "text": "[Vidéo guide Soft Transit – Module 2 : Clients et tiers – Ajouter un tiers] Tapez le nom ou la raison sociale du tiers. Complétez, si vous les avez, le téléphone, l'e-mail et le site web. Choisissez aussi son domaine d'activité : c'est ce qui permet de le retrouver dans le bon formulaire. Puis cliquez sur Créer le tiers. Cette partie est expliquée dans la vidéo, à 1:31 : https://youtu.be/Xc2u1luxVt0?t=91 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 2 : Clients et tiers (Ajouter un tiers)"
+  },
+  {
+   "id": "yt_m03_intro",
+   "text": "[Vidéo guide Soft Transit – Module 3 : Ouvrir un dossier – Introduction] Bonjour, et bienvenue dans ce guide vidéo de Soft Transit. Dans ce module, nous allons apprendre, pas à pas, à ouvrir un nouveau dossier. Il suffit de quelques clics. Vous allez voir, c'est très simple. Cette partie est expliquée dans la vidéo, à 0:00 : https://youtu.be/2F_BzJFE_Fo?t=0 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 3 : Ouvrir un dossier (Introduction)"
+  },
+  {
+   "id": "yt_m03_liste",
+   "text": "[Vidéo guide Soft Transit – Module 3 : Ouvrir un dossier – La liste des dossiers] Tout commence par la liste des dossiers. Vous y arrivez en cliquant sur la case Dossiers, depuis le tableau de bord. Chaque ligne de la liste est un dossier. Vous y voyez son code, son libellé, le nom du client et son état. Pour en créer un nouveau, cliquez sur le bouton Nouveau Dossier, en haut à droite. Cette partie est expliquée dans la vidéo, à 0:14 : https://youtu.be/2F_BzJFE_Fo?t=14 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 3 : Ouvrir un dossier (La liste des dossiers)"
+  },
+  {
+   "id": "yt_m03_client",
+   "text": "[Vidéo guide Soft Transit – Module 3 : Ouvrir un dossier – Choisir le client] Une nouvelle page s'ouvre : c'est le formulaire d'ouverture d'un dossier. Nous allons le remplir ensemble, de haut en bas. D'abord, choisissez le client. Dans la zone Rechercher un client, tapez quelques lettres de son nom. La liste se réduit. Cliquez sur la ligne du bon client. La ligne change de couleur : cela confirme votre choix. Cette partie est expliquée dans la vidéo, à 0:32 : https://youtu.be/2F_BzJFE_Fo?t=32 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 3 : Ouvrir un dossier (Choisir le client)"
+  },
+  {
+   "id": "yt_m03_remplir",
+   "text": "[Vidéo guide Soft Transit – Module 3 : Ouvrir un dossier – Libellé, nature, mode et type] Passons au libellé. Écrivez une courte phrase qui décrit l'opération, par exemple : importation de riz en sacs. Choisissez ensuite la nature du dossier : import, ou export. Puis le mode d'expédition : maritime, aérien, ou routier. Et enfin le type : conteneur, conventionnel, ou groupage. Le groupage, c'est quand plusieurs clients partagent un même conteneur. Le numéro DPI et la personne à contacter sont facultatifs : remplissez-les seulement si vous les avez. Cette partie est expliquée dans la vidéo, à 0:54 : https://youtu.be/2F_BzJFE_Fo?t=54 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 3 : Ouvrir un dossier (Libellé, nature, mode et type)"
+  },
+  {
+   "id": "yt_m03_valider",
+   "text": "[Vidéo guide Soft Transit – Module 3 : Ouvrir un dossier – Valider] Avant de valider, vérifiez bien le client, la nature, le mode et le type. Ces choix déterminent le code du dossier. Quand tout est bon, cliquez sur le bouton Valider et créer le dossier, tout en bas de la page. Cette partie est expliquée dans la vidéo, à 1:25 : https://youtu.be/2F_BzJFE_Fo?t=85 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 3 : Ouvrir un dossier (Valider)"
+  },
+  {
+   "id": "yt_m03_resultat",
+   "text": "[Vidéo guide Soft Transit – Module 3 : Ouvrir un dossier – Le dossier est créé] Et voilà ! Le dossier est créé, et il apparaît tout de suite dans la liste. Regardez son code : il a été généré automatiquement. Il reprend la nature, le mode, le type et l'année. Vous n'avez rien à inventer. N'oubliez pas : un dossier, c'est une seule opération. Pour une nouvelle opération, ouvrez toujours un nouveau dossier. Cette partie est expliquée dans la vidéo, à 1:39 : https://youtu.be/2F_BzJFE_Fo?t=99 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 3 : Ouvrir un dossier (Le dossier est créé)"
+  },
+  {
+   "id": "yt_m04_intro",
+   "text": "[Vidéo guide Soft Transit – Module 4 : Préparer le transport – Introduction] Un dossier se prépare onglet par onglet, de gauche à droite. Nous allons voir les six premiers : détails, cotation, ordre de transit, titre de transport, transports et composition. Cette partie est expliquée dans la vidéo, à 0:00 : https://youtu.be/wPRtAQKySMk?t=0 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 4 : Préparer le transport (Introduction)"
+  },
+  {
+   "id": "yt_m04_dossier",
+   "text": "[Vidéo guide Soft Transit – Module 4 : Préparer le transport – Les onglets] Quand vous ouvrez un dossier, vous arrivez sur une page à onglets. L'en-tête orange rappelle le code du dossier, le client, le mode et le type. Les onglets sont rangés dans l'ordre du travail. L'onglet actif est surligné en orange. Dans l'onglet Détails, vous pouvez corriger le libellé et les informations saisies à l'ouverture. Chaque onglet s'enregistre séparément. Pensez à cliquer sur Enregistrer avant de changer d'onglet. Cette partie est expliquée dans la vidéo, à 0:15 : https://youtu.be/wPRtAQKySMk?t=15 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 4 : Préparer le transport (Les onglets)"
+  },
+  {
+   "id": "yt_m04_cotation",
+   "text": "[Vidéo guide Soft Transit – Module 4 : Préparer le transport – Cotation] L'onglet Cotation sert à confier le dossier à un déclarant, c'est-à-dire l'agent qui préparera la déclaration en douane. Cliquez sur Réaffecter pour choisir le déclarant. Son nom s'affiche ensuite dans Agent actuel. L'application garde l'historique : vous saurez toujours qui a eu le dossier, et depuis quand. Cette partie est expliquée dans la vidéo, à 0:40 : https://youtu.be/wPRtAQKySMk?t=40 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 4 : Préparer le transport (Cotation)"
+  },
+  {
+   "id": "yt_m04_ot",
+   "text": "[Vidéo guide Soft Transit – Module 4 : Préparer le transport – Ordre de transit] L'ordre de transit est le document par lequel le client vous demande officiellement d'effectuer le transit. S'il n'existe pas encore, cliquez sur Créer OT. Remplissez le numéro, la date et l'incoterm. Cochez aussi les documents déjà reçus du client. Cette partie est expliquée dans la vidéo, à 0:59 : https://youtu.be/wPRtAQKySMk?t=59 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 4 : Préparer le transport (Ordre de transit)"
+  },
+  {
+   "id": "yt_m04_tt",
+   "text": "[Vidéo guide Soft Transit – Module 4 : Préparer le transport – Titre de transport] Le titre de transport est le document du transporteur : le connaissement pour la mer, la lettre de transport aérien pour l'avion. Recopiez son numéro exactement comme sur le document, lettres et chiffres compris. Puis cliquez sur Enregistrer, en bas de l'onglet. Cette partie est expliquée dans la vidéo, à 1:14 : https://youtu.be/wPRtAQKySMk?t=74 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 4 : Préparer le transport (Titre de transport)"
+  },
+  {
+   "id": "yt_m04_transports",
+   "text": "[Vidéo guide Soft Transit – Module 4 : Préparer le transport – Transports] L'onglet Transports décrit le voyage : quel navire, quel avion ou quel camion, parti d'où, arrivé où, et quand. Choisissez la compagnie de transport, puis le navire. La liste ne propose que les navires de cette compagnie. Indiquez les lieux de départ et d'arrivée, puis la date d'arrivée prévue. Astuce : tapez les premières lettres pour retrouver un pays plus vite. Cette partie est expliquée dans la vidéo, à 1:31 : https://youtu.be/wPRtAQKySMk?t=91 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 4 : Préparer le transport (Transports)"
+  },
+  {
+   "id": "yt_m04_composition",
+   "text": "[Vidéo guide Soft Transit – Module 4 : Préparer le transport – Composition] Enfin, la composition liste ce qu'il y a dans l'expédition : chaque conteneur, et ce qu'il contient. À gauche, la liste des conteneurs, avec le bouton plus pour en ajouter. Cliquez sur un conteneur : son contenu s'affiche à droite. Cet onglet exige qu'un titre de transport existe. Remplissez donc d'abord l'onglet précédent. Cette partie est expliquée dans la vidéo, à 1:53 : https://youtu.be/wPRtAQKySMk?t=113 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 4 : Préparer le transport (Composition)"
+  },
+  {
+   "id": "yt_m05_intro",
+   "text": "[Vidéo guide Soft Transit – Module 5 : Droits et taxes – Introduction] C'est le cœur du travail du déclarant : calculer les droits et taxes, puis enregistrer la déclaration en douane. Cette partie est expliquée dans la vidéo, à 0:00 : https://youtu.be/AUk9oy0HK_8?t=0 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 5 : Droits et taxes (Introduction)"
+  },
+  {
+   "id": "yt_m05_notes",
+   "text": "[Vidéo guide Soft Transit – Module 5 : Droits et taxes – Notes de détail] Dans le dossier, l'onglet Notes de détail ouvre l'écran de calcul. Pour chaque article de l'expédition, il calcule les droits et taxes que la douane va réclamer. Cette partie est expliquée dans la vidéo, à 0:10 : https://youtu.be/AUk9oy0HK_8?t=10 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 5 : Droits et taxes (Notes de détail)"
+  },
+  {
+   "id": "yt_m05_matrice",
+   "text": "[Vidéo guide Soft Transit – Module 5 : Droits et taxes – La matrice] En haut à droite, les notes de détail du dossier. Cliquez sur Nouveau pour en créer une, ou sur une note existante pour la rouvrir. En bas, la matrice : chaque colonne est un article. Tapez le code NTS de la marchandise. C'est lui qui détermine les taxes : vérifiez-le deux fois. Saisissez ensuite la valeur FOB, c'est-à-dire le prix d'achat, puis le fret et l'assurance, avec leurs devises. La valeur CAF se calcule toute seule : prix d'achat, plus fret, plus assurance. Cliquez sur Sauvegarder la matrice pour enregistrer. Cette partie est expliquée dans la vidéo, à 0:20 : https://youtu.be/AUk9oy0HK_8?t=20 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 5 : Droits et taxes (La matrice)"
+  },
+  {
+   "id": "yt_m05_taxes",
+   "text": "[Vidéo guide Soft Transit – Module 5 : Droits et taxes – Liquidation des taxes] Cliquez sur la colonne de l'article à calculer, puis, dans le bloc rouge, sur Lancer. Les taxes s'affichent : le code, le taux et le montant. Le cumul liquidé donne le total à payer pour cet article. Cette partie est expliquée dans la vidéo, à 0:53 : https://youtu.be/AUk9oy0HK_8?t=53 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 5 : Droits et taxes (Liquidation des taxes)"
+  },
+  {
+   "id": "yt_m05_valider",
+   "text": "[Vidéo guide Soft Transit – Module 5 : Droits et taxes – Valider la note] Quand tout est calculé, cliquez sur Générer Note de Détail, pour obtenir le document en PDF. Quand la note est définitive, activez l'interrupteur Valider la note. Une note validée peut ensuite être facturée. Attention : ne modifiez pas une note validée sans l'accord de votre responsable. Cette partie est expliquée dans la vidéo, à 1:06 : https://youtu.be/AUk9oy0HK_8?t=66 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 5 : Droits et taxes (Valider la note)"
+  },
+  {
+   "id": "yt_m05_declaration",
+   "text": "[Vidéo guide Soft Transit – Module 5 : Droits et taxes – La déclaration] Une fois la déclaration déposée à la douane, vous l'enregistrez dans l'onglet Déclaration, pour garder une trace de son numéro et de ses dates. Cet onglet n'est utilisable que si un déclarant est assigné au dossier, dans l'onglet Cotation. Cliquez sur Ajouter une déclaration. Cette partie est expliquée dans la vidéo, à 1:25 : https://youtu.be/AUk9oy0HK_8?t=85 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 5 : Droits et taxes (La déclaration)"
+  },
+  {
+   "id": "yt_m05_declaration-form",
+   "text": "[Vidéo guide Soft Transit – Module 5 : Droits et taxes – Enregistrer] Tapez le numéro donné par la douane, la date de déclaration, et la date du bon à enlever, qui autorise à retirer la marchandise. Choisissez le régime et le bureau de douane, puis cliquez sur Enregistrer. Un dossier peut avoir plusieurs déclarations : elles sont toutes listées. Cette partie est expliquée dans la vidéo, à 1:41 : https://youtu.be/AUk9oy0HK_8?t=101 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 5 : Droits et taxes (Enregistrer)"
+  },
+  {
+   "id": "yt_m06_intro",
+   "text": "[Vidéo guide Soft Transit – Module 6 : Livraison – Introduction] Une fois la marchandise dédouanée, il faut la sortir du port et la livrer au client. Trois onglets organisent cette étape. Cette partie est expliquée dans la vidéo, à 0:00 : https://youtu.be/yl-Qfho9eIo?t=0 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 6 : Livraison (Introduction)"
+  },
+  {
+   "id": "yt_m06_mise-liv",
+   "text": "[Vidéo guide Soft Transit – Module 6 : Livraison – Mise en livraison] Le contremaître est la personne qui va au port retirer les conteneurs. La mise en livraison lui transmet le dossier. À droite, cliquez sur le contremaître choisi : il apparaît sous Assigné au dossier. Renseignez la date de mise en livraison, et le numéro de pregate : la référence de rendez-vous au portail du port. Plus tard, complétez la date de retour du conteneur vide. Au-delà de la franchise, la compagnie facture des frais de retard, les surestaries. Puis cliquez sur Valider la mise en livraison. Le bouton Imprimer Bordereau sort la feuille de remise. Cette partie est expliquée dans la vidéo, à 0:11 : https://youtu.be/yl-Qfho9eIo?t=11 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 6 : Livraison (Mise en livraison)"
+  },
+  {
+   "id": "yt_m06_otr",
+   "text": "[Vidéo guide Soft Transit – Module 6 : Livraison – Ordre de transport] L'ordre de transport routier est le document que vous remettez au transporteur : il lui indique quels conteneurs enlever, et où les livrer. Cochez les conteneurs concernés. Ceux déjà affectés à un autre ordre sont signalés. Choisissez ensuite le transporteur terrestre. Vérifiez le code de l'ordre et la date, puis tapez l'adresse de livraison. Cliquez sur Enregistrer et imprimer : le PDF de l'ordre s'ouvre. Les ordres déjà émis restent listés dans l'historique, en bas de l'onglet. Cette partie est expliquée dans la vidéo, à 0:43 : https://youtu.be/yl-Qfho9eIo?t=43 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 6 : Livraison (Ordre de transport)"
+  },
+  {
+   "id": "yt_m06_bl",
+   "text": "[Vidéo guide Soft Transit – Module 6 : Livraison – Bordereau de livraison] Le bordereau de livraison est la pièce que le client signe à réception de sa marchandise. Elle prouve la livraison. Cliquez sur l'ordre de transport concerné : la carte se colore en bleu. Puis cliquez sur Générer le bordereau de livraison. Imprimez-le en deux exemplaires : un pour le transporteur, un pour le client, qui le signe. Cette partie est expliquée dans la vidéo, à 1:12 : https://youtu.be/yl-Qfho9eIo?t=72 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 6 : Livraison (Bordereau de livraison)"
+  },
+  {
+   "id": "yt_m07_intro",
+   "text": "[Vidéo guide Soft Transit – Module 7 : Facturation et règlements – Introduction] Dernière étape du dossier : demander au client l'argent qu'il vous doit. Nous verrons les factures de tiers, la facture du client, l'envoi par e-mail, puis les règlements. Cette partie est expliquée dans la vidéo, à 0:00 : https://youtu.be/C9_dIKCqouY?t=0 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 7 : Facturation et règlements (Introduction)"
+  },
+  {
+   "id": "yt_m07_tiers",
+   "text": "[Vidéo guide Soft Transit – Module 7 : Facturation et règlements – Factures de tiers] Les débours sont les sommes que vous avez avancées pour le client : port, compagnie maritime, transporteur. Vous les saisissez dans l'onglet Factures Tiers. Choisissez le fournisseur, puis la rubrique de débours. Saisissez le numéro de la facture du fournisseur, et le montant toutes taxes comprises. Puis cliquez sur Ajouter. Gardez le justificatif : le client peut vous le réclamer. Cette partie est expliquée dans la vidéo, à 0:13 : https://youtu.be/C9_dIKCqouY?t=13 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 7 : Facturation et règlements (Factures de tiers)"
+  },
+  {
+   "id": "yt_m07_facturation",
+   "text": "[Vidéo guide Soft Transit – Module 7 : Facturation et règlements – La facture] Dans l'onglet Facturation, cliquez sur Note de détail : l'application reprend automatiquement les droits de douane calculés. Si une note n'est pas encore validée, cette fenêtre vous propose de la valider, ou de la supprimer. Cliquez ensuite sur Intégrer tiers : les débours saisis à l'étape précédente deviennent des lignes de la facture. Pour vos prestations, cochez les rubriques voulues dans la liste de gauche, et complétez les montants. Contrôlez les totaux : le total hors taxe, la TVA, et le total toutes taxes comprises. Relisez la facture en entier, puis cliquez sur Terminer et imprimer la facture. Elle reçoit alors son numéro. Cette partie est expliquée dans la vidéo, à 0:36 : https://youtu.be/C9_dIKCqouY?t=36 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 7 : Facturation et règlements (La facture)"
+  },
+  {
+   "id": "yt_m07_envoi",
+   "text": "[Vidéo guide Soft Transit – Module 7 : Facturation et règlements – Envoi par e-mail] L'onglet Envoi Factures permet d'envoyer par e-mail, au client, une facture validée. Si l'écran indique qu'aucun compte mail n'est configuré, demandez à l'administrateur de le faire. Cette partie est expliquée dans la vidéo, à 1:13 : https://youtu.be/C9_dIKCqouY?t=73 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 7 : Facturation et règlements (Envoi par e-mail)"
+  },
+  {
+   "id": "yt_m07_reglements-onglet",
+   "text": "[Vidéo guide Soft Transit – Module 7 : Facturation et règlements – Règlements du dossier] L'onglet Règlements donne la situation financière du dossier : le total facturé, le total réglé, et le reliquat. Pour encaisser un paiement, cliquez sur Saisir un règlement. Indiquez le montant, la date et le mode de règlement. Cette partie est expliquée dans la vidéo, à 1:25 : https://youtu.be/C9_dIKCqouY?t=85 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 7 : Facturation et règlements (Règlements du dossier)"
+  },
+  {
+   "id": "yt_m07_reglements",
+   "text": "[Vidéo guide Soft Transit – Module 7 : Facturation et règlements – Règlements multiples] Quand un client paie plusieurs factures d'un coup, utilisez la page Règlements. Choisissez d'abord le client, à gauche. Ses factures impayées s'affichent. Cochez celles que ce paiement concerne. À droite, saisissez le montant reçu, la date et le mode de règlement, puis enregistrez. En cas d'erreur, le bouton Historique et annulations permet de retrouver un règlement et de l'annuler. Cette partie est expliquée dans la vidéo, à 1:39 : https://youtu.be/C9_dIKCqouY?t=99 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 7 : Facturation et règlements (Règlements multiples)"
+  },
+  {
+   "id": "yt_m07_suivi",
+   "text": "[Vidéo guide Soft Transit – Module 7 : Facturation et règlements – Suivi des factures] Enfin, la page Suivi des factures montre, pour chaque client, le total facturé, le total réglé et le reliquat. Cette partie est expliquée dans la vidéo, à 2:03 : https://youtu.be/C9_dIKCqouY?t=123 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 7 : Facturation et règlements (Suivi des factures)"
+  },
+  {
+   "id": "yt_m08_intro",
+   "text": "[Vidéo guide Soft Transit – Module 8 : Sommiers et apurements – Introduction] Certaines marchandises ne paient pas tout de suite les droits et taxes : elles sont placées sous douane, dans un entrepôt. On suit alors chaque lot avec un sommier. Cette partie est expliquée dans la vidéo, à 0:00 : https://youtu.be/5q3C6t22ke8?t=0 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 8 : Sommiers et apurements (Introduction)"
+  },
+  {
+   "id": "yt_m08_entrepots",
+   "text": "[Vidéo guide Soft Transit – Module 8 : Sommiers et apurements – Les entrepôts] Commençons par les entrepôts. Un entrepôt est un lieu agréé de stockage sous douane. Il en faut au moins un avant de créer un sommier. Pour en créer un, cliquez sur Nouvel entrepôt. Tapez le libellé, un code et l'adresse. Choisissez le type d'entrepôt, selon l'agrément reçu de la douane, puis cliquez sur Créer. Cette partie est expliquée dans la vidéo, à 0:12 : https://youtu.be/5q3C6t22ke8?t=12 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 8 : Sommiers et apurements (Les entrepôts)"
+  },
+  {
+   "id": "yt_m08_sommiers",
+   "text": "[Vidéo guide Soft Transit – Module 8 : Sommiers et apurements – Les sommiers] Le sommier est la fiche de suivi d'une marchandise sous douane. En haut, quatre compteurs : le total, les actifs, les urgents et les apurés. Chaque ligne est un sommier, avec son numéro, son régime, son client et sa date d'échéance. Pour en créer un, cliquez sur Nouveau sommier. Cette partie est expliquée dans la vidéo, à 0:32 : https://youtu.be/5q3C6t22ke8?t=32 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 8 : Sommiers et apurements (Les sommiers)"
+  },
+  {
+   "id": "yt_m08_creer",
+   "text": "[Vidéo guide Soft Transit – Module 8 : Sommiers et apurements – Créer un sommier] Choisissez le régime suspensif, puis tapez le numéro de déclaration, la date de déclaration et la date d'échéance. Rattachez le sommier à un client et à un dossier, si vous le souhaitez. Ajoutez les articles : désignation, code tarifaire, entrepôt, poids, colis et valeur. Puis cliquez sur Créer le sommier. Cette partie est expliquée dans la vidéo, à 0:51 : https://youtu.be/5q3C6t22ke8?t=51 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 8 : Sommiers et apurements (Créer un sommier)"
+  },
+  {
+   "id": "yt_m08_apurement",
+   "text": "[Vidéo guide Soft Transit – Module 8 : Sommiers et apurements – Apurer un sommier] Cliquez sur une ligne de la liste pour ouvrir le détail du sommier : le détail, les articles et les apurements. L'apurement, c'est la sortie de la marchandise de l'entrepôt. Pour en enregistrer un, cliquez sur Saisir une sortie. Choisissez la date et le type de sortie : réexportation, mise à la consommation, destruction ou transfert de régime. Dans la ventilation par article, saisissez le poids, les colis et la valeur qui sortent. Puis cliquez sur Enregistrer apurement. Cette partie est expliquée dans la vidéo, à 1:11 : https://youtu.be/5q3C6t22ke8?t=71 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 8 : Sommiers et apurements (Apurer un sommier)"
+  },
+  {
+   "id": "yt_m08_alertes",
+   "text": "[Vidéo guide Soft Transit – Module 8 : Sommiers et apurements – Alertes et historique] Pour que rien ne soit oublié, l'application envoie des e-mails d'alerte quand une échéance approche : trente, quinze, sept, trois, deux et un jour avant. Enfin, la page Historique des sommiers permet de retrouver les sommiers passés, par client ou par entrepôt. Cette partie est expliquée dans la vidéo, à 1:40 : https://youtu.be/5q3C6t22ke8?t=100 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 8 : Sommiers et apurements (Alertes et historique)"
+  },
+  {
+   "id": "yt_m09_intro",
+   "text": "[Vidéo guide Soft Transit – Module 9 : Paramétrage – Introduction] Il s'adresse aux administrateurs : comment préparer l'application avant que l'équipe ne l'utilise. Cette partie est expliquée dans la vidéo, à 0:00 : https://youtu.be/AAGQLPKcudg?t=0 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 9 : Paramétrage (Introduction)"
+  },
+  {
+   "id": "yt_m09_societe",
+   "text": "[Vidéo guide Soft Transit – Module 9 : Paramétrage – La fiche société] La fiche Société contient l'identité de votre entreprise. Ces informations s'impriment sur les factures, les devis et les autres documents. Ajoutez votre logo, et les cachets officiels : le cachet facture, et le cachet exploitation. Remplissez la fiche signalétique, puis cliquez sur Sauvegarder les paramètres. Cette partie est expliquée dans la vidéo, à 0:09 : https://youtu.be/AAGQLPKcudg?t=9 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 9 : Paramétrage (La fiche société)"
+  },
+  {
+   "id": "yt_m09_agents",
+   "text": "[Vidéo guide Soft Transit – Module 9 : Paramétrage – Les agents] Un agent est un utilisateur de l'application : un de vos collègues. Chacun a son identifiant et ses droits. Pour en créer un, cliquez sur Créer un agent. Renseignez l'identité : nom, fonction, e-mail et téléphone. Choisissez un identifiant unique, et un mot de passe provisoire. Puis le rôle : collaborateur pour un employé normal, administrateur pour un responsable. Et son service. Cochez Recevoir alertes suspensifs si l'agent doit être prévenu des échéances. Enfin, la matrice des permissions : pour chaque domaine, cochez ce que l'agent peut voir, créer, modifier ou supprimer. Quand un agent quitte l'entreprise, désactivez son compte plutôt que de le supprimer : son historique est conservé. Cette partie est expliquée dans la vidéo, à 0:29 : https://youtu.be/AAGQLPKcudg?t=29 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 9 : Paramétrage (Les agents)"
+  },
+  {
+   "id": "yt_m09_references",
+   "text": "[Vidéo guide Soft Transit – Module 9 : Paramétrage – Les listes de référence] Les listes de référence sont les menus déroulants de l'application. Elles sont toutes regroupées dans la page Paramètres système. On y trouve les devises, les rubriques de facturation, les lieux, les comptes mails, et bien d'autres. Pensez aussi à programmer une sauvegarde automatique, vers un autre disque ou un service en ligne. Cette partie est expliquée dans la vidéo, à 1:13 : https://youtu.be/AAGQLPKcudg?t=73 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 9 : Paramétrage (Les listes de référence)"
+  },
+  {
+   "id": "yt_m09_devises",
+   "text": "[Vidéo guide Soft Transit – Module 9 : Paramétrage – Devises et rubriques] Pour les marchandises achetées dans une autre monnaie, l'application convertit avec un taux de change. Cliquez sur Modifier sur la carte de la devise. Saisissez le nouveau taux, et enregistrez. Une rubrique est une ligne que l'on met sur un devis ou une facture : droit de douane, manutention, et ainsi de suite. Pour en ajouter une, remplissez le formulaire à gauche, puis cliquez sur Ajouter. Cette partie est expliquée dans la vidéo, à 1:32 : https://youtu.be/AAGQLPKcudg?t=92 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 9 : Paramétrage (Devises et rubriques)"
+  },
+  {
+   "id": "yt_m10_intro",
+   "text": "[Vidéo guide Soft Transit – Module 10 : Les sauvegardes – Introduction] Une sauvegarde est une copie de sécurité de toutes vos données. Elle permet de tout retrouver en cas de panne ou d'erreur grave. Cette partie est expliquée dans la vidéo, à 0:00 : https://youtu.be/KZtp2QPvfu4?t=0 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 10 : Les sauvegardes (Introduction)"
+  },
+  {
+   "id": "yt_m10_acces",
+   "text": "[Vidéo guide Soft Transit – Module 10 : Les sauvegardes – Accéder aux sauvegardes] Les sauvegardes se gèrent depuis la case Sauvegarder, dans la famille Outils et administration du tableau de bord. Cette page est réservée au super administrateur, car une sauvegarde contient toutes les données de l'entreprise. Cette partie est expliquée dans la vidéo, à 0:12 : https://youtu.be/KZtp2QPvfu4?t=12 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 10 : Les sauvegardes (Accéder aux sauvegardes)"
+  },
+  {
+   "id": "yt_m10_manuelle",
+   "text": "[Vidéo guide Soft Transit – Module 10 : Les sauvegardes – Sauvegarde manuelle] La page se compose de deux colonnes. À gauche, la sauvegarde manuelle et l'historique. À droite, les paramètres. Pour faire une sauvegarde tout de suite, cliquez sur Lancer la sauvegarde maintenant. Cela prend quelques secondes. Un message vert confirme la réussite, et la nouvelle sauvegarde apparaît en tête de l'historique. Chaque sauvegarde est un seul fichier compressé. Il contient la base de données, et tous les documents joints aux dossiers. Cliquez sur Télécharger pour en copier une sur une clé USB, ou sur un disque externe. Cette partie est expliquée dans la vidéo, à 0:25 : https://youtu.be/KZtp2QPvfu4?t=25 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 10 : Les sauvegardes (Sauvegarde manuelle)"
+  },
+  {
+   "id": "yt_m10_automatique",
+   "text": "[Vidéo guide Soft Transit – Module 10 : Les sauvegardes – Sauvegarde automatique] Pour ne plus y penser, activez la planification automatique. Choisissez la fréquence, en heures. Par exemple, une sauvegarde toutes les six heures. L'application vérifie régulièrement si une sauvegarde est due. Si l'ordinateur était éteint à l'heure prévue, elle est faite dès qu'il redémarre. Indiquez le dossier de destination. Choisissez de préférence un autre disque, ou un dossier synchronisé avec un service en ligne : vous serez protégé si l'ordinateur tombe en panne. Puis le nombre de sauvegardes à conserver. Quand ce nombre est atteint, les plus anciennes sont supprimées automatiquement. Cliquez enfin sur Enregistrer la configuration. Cette partie est expliquée dans la vidéo, à 0:56 : https://youtu.be/KZtp2QPvfu4?t=56 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 10 : Les sauvegardes (Sauvegarde automatique)"
+  },
+  {
+   "id": "yt_m10_reflexes",
+   "text": "[Vidéo guide Soft Transit – Module 10 : Les sauvegardes – Les bons réflexes] Quelques bons réflexes. Vérifiez de temps en temps que de nouvelles sauvegardes apparaissent bien dans l'historique. Copiez régulièrement une sauvegarde en dehors de l'entreprise. Il n'y a pas de bouton de restauration : en cas de problème, contactez votre administrateur informatique, avec le fichier de sauvegarde. Conservez aussi, en lieu sûr, une copie du fichier de configuration du serveur : il contient la clé qui protège vos documents. Cette partie est expliquée dans la vidéo, à 1:34 : https://youtu.be/KZtp2QPvfu4?t=94 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 10 : Les sauvegardes (Les bons réflexes)"
+  },
+  {
+   "id": "yt_m11_intro",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Introduction] Le portail client est un espace web, en lecture seule, où vos clients suivent eux-mêmes leurs dossiers, téléchargent leurs documents et consultent leurs factures. C'est une option : votre administrateur doit l'activer. Cette partie est expliquée dans la vidéo, à 0:00 : https://youtu.be/I_VNv8IoZGU?t=0 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Introduction)"
+  },
+  {
+   "id": "yt_m11_acces",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Où le trouver] Côté entreprise, tout se gère depuis la case Portail client, dans la famille Outils et administration du tableau de bord. Cette case n'apparaît que si l'option est activée, et elle est réservée aux administrateurs. Cette partie est expliquée dans la vidéo, à 0:17 : https://youtu.be/I_VNv8IoZGU?t=17 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Où le trouver)"
+  },
+  {
+   "id": "yt_m11_adresse",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – L'adresse du portail] En haut de la page, l'application rappelle l'adresse du portail. C'est cette adresse que vous communiquez à vos clients. Cette partie est expliquée dans la vidéo, à 0:30 : https://youtu.be/I_VNv8IoZGU?t=30 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (L'adresse du portail)"
+  },
+  {
+   "id": "yt_m11_connexion",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Côté client : demander un accès] Voici ce que voit votre client en ouvrant cette adresse : la page Espace client. Elle est séparée de l'application de l'entreprise. S'il n'a pas encore de compte, il clique sur Demander un accès. Cette partie est expliquée dans la vidéo, à 0:37 : https://youtu.be/I_VNv8IoZGU?t=37 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Côté client : demander un accès)"
+  },
+  {
+   "id": "yt_m11_demande",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Côté client : la demande] Il indique son nom, sa société et son adresse e-mail. Il n'y a aucun mot de passe à cette étape. Puis il clique sur Envoyer ma demande. Un message confirme que la demande est enregistrée. Le client reçoit un e-mail contenant un lien. Cette partie est expliquée dans la vidéo, à 0:49 : https://youtu.be/I_VNv8IoZGU?t=49 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Côté client : la demande)"
+  },
+  {
+   "id": "yt_m11_confirmer",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Côté client : confirmer son adresse] En cliquant sur ce lien, valable vingt-quatre heures, il arrive sur cette page. Il choisit lui-même son mot de passe : huit caractères au minimum, avec une majuscule, une minuscule et un chiffre. Cette étape prouve que l'adresse lui appartient bien. Il termine en cliquant sur Confirmer et enregistrer. Cette partie est expliquée dans la vidéo, à 1:04 : https://youtu.be/I_VNv8IoZGU?t=64 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Côté client : confirmer son adresse)"
+  },
+  {
+   "id": "yt_m11_demandes",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Côté entreprise : valider la demande] Revenons côté entreprise. Les demandes arrivent dans l'onglet Demandes, dont le nombre est rappelé entre parenthèses. Dans cet exemple, la première demande n'est pas encore confirmée : le demandeur n'a pas cliqué sur son lien. Le bouton Valider est grisé, et vous pouvez lui renvoyer l'e-mail. La seconde demande est confirmée. L'application a même retrouvé la fiche client qui porte la même adresse e-mail. Vérifiez que le demandeur est bien la personne attendue. Si oui, cliquez sur Valider. Sinon, cliquez sur Refuser. Un message confirme que l'accès est activé pour ce client. Cette partie est expliquée dans la vidéo, à 1:22 : https://youtu.be/I_VNv8IoZGU?t=82 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Côté entreprise : valider la demande)"
+  },
+  {
+   "id": "yt_m11_comptes",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Gérer les accès] L'onglet Comptes liste tous les accès, avec leur état et leur dernière connexion. Vous pouvez suspendre un accès à tout moment, puis le réactiver plus tard. Cette partie est expliquée dans la vidéo, à 1:57 : https://youtu.be/I_VNv8IoZGU?t=117 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Gérer les accès)"
+  },
+  {
+   "id": "yt_m11_visibles",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Choisir les documents visibles] L'onglet Documents visibles règle ce que les clients peuvent voir. Par défaut, ils voient tous les documents de leurs dossiers. Pour cacher un type de document, par exemple un ordre de transit interne, décochez-le. Il n'apparaît plus, et ne peut plus être téléchargé. Cette partie est expliquée dans la vidéo, à 2:07 : https://youtu.be/I_VNv8IoZGU?t=127 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Choisir les documents visibles)"
+  },
+  {
+   "id": "yt_m11_dossiers",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Ce que voit le client : ses dossiers] Voyons maintenant le portail une fois l'accès validé. Le client arrive sur la liste de ses dossiers, et seulement les siens. En haut, trois chiffres : le nombre de dossiers, le total facturé et le reste à payer. Le tableau donne, pour chaque dossier, l'étape en cours, l'arrivée prévue du navire, le nombre de documents et le reste à payer. Une zone de recherche aide à retrouver un dossier. Cette partie est expliquée dans la vidéo, à 2:22 : https://youtu.be/I_VNv8IoZGU?t=142 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Ce que voit le client : ses dossiers)"
+  },
+  {
+   "id": "yt_m11_dossier",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Ce que voit le client : un dossier] En ouvrant un dossier, le client suit son avancement, le navire, et la date d'arrivée prévue. Il télécharge ses documents un par un, ou tous ensemble dans un fichier ZIP. Il voit aussi ses factures validées, avec le montant réglé et le reste à payer. Les factures non validées ne sont jamais affichées. Cette partie est expliquée dans la vidéo, à 2:46 : https://youtu.be/I_VNv8IoZGU?t=166 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Ce que voit le client : un dossier)"
+  },
+  {
+   "id": "yt_m11_factures",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Ce que voit le client : ses factures] La page Mes factures regroupe toutes les factures du client, avec les totaux facturé, réglé et à payer. Il peut télécharger chaque facture en PDF. Le client ne voit que ses propres données. Il n'a aucun accès aux autres écrans de l'entreprise, et sa session se ferme automatiquement au bout de huit heures. Cette partie est expliquée dans la vidéo, à 3:05 : https://youtu.be/I_VNv8IoZGU?t=185 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Ce que voit le client : ses factures)"
+  },
+  {
+   "id": "yt_m11_journal",
+   "text": "[Vidéo guide Soft Transit – Module 11 : Le portail client – Suivre l'activité] De retour côté entreprise, l'onglet Journal garde la trace de ce que font les clients. On y retrouve chaque connexion et chaque téléchargement : qui, quand, et quel document. Cette partie est expliquée dans la vidéo, à 3:23 : https://youtu.be/I_VNv8IoZGU?t=203 (toute la série en lecture continue : https://www.youtube.com/watch?v=xtjD5SP7xRw&list=PLESnikCnIJ-k)",
+   "source": "video",
+   "pageNumber": 0,
+   "screenshotUrl": "",
+   "title": "Vidéo – Module 11 : Le portail client (Suivre l'activité)"
+  }
+ ]
+}
