@@ -86,3 +86,11 @@ L'assistant répond à partir de la collection Firestore définie par `FIRESTORE
 5. **Déployer** : pousser les nouvelles images (le backend Render les sert depuis `public/screenshots`), puis changer `FIRESTORE_COLLECTION` dans les variables d'environnement du service Render et redéployer. Retour arrière : remettre l'ancienne valeur.
 
 ⚠ `prep_rag.js` (premier script) **vide la collection avant de la reconstruire** : ne pas l'utiliser pour une mise à jour.
+
+### Ajouter les vidéos du guide (YouTube) aux connaissances
+
+Les segments vidéo (une entrée par partie de vidéo, avec lien YouTube horodaté) s'ajoutent **sans toucher aux autres documents** :
+
+1. `python backend/construire_chunks_videos_2026.py <dossier remotion-pilote>` : écrit `backend/rag_videos_2026_chunks.json` (chronologie réelle des scènes, voix en cache).
+2. `node sauvegarde_rag.js <collection>` puis `node ajout_videos_2026.js <collection-de-test>` pour essayer, enfin `node ajout_videos_2026.js <collection-en-service>` (`--dry-run` pour simuler).
+3. Retour arrière : `node ajout_videos_2026.js <collection> --retirer` (supprime seulement les documents `yt_…`).
