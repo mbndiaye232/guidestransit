@@ -1,0 +1,746 @@
+{
+ "nouveaux": [
+  {
+   "id": "oct_page_5",
+   "text": "[Guide d'utilisation 2026 – Page 5] PARTIEA — DÉCOUVRIRL ’ APPLICATION\nCHAPITRE01 Bienvenue dans Soft Transit\nSoft Transit est un logiciel qui aide une entreprise de transit à suivre tout son travail au même endroit :\nses clients, ses dossiers d’importation et d’exportation, les calculs de droits et taxes, les déclarations en\ndouane, les livraisons, les factures et les paiements.\nAvant Soft Transit, beaucoup de ces informations se trouvaient dans des cahiers, des fichiers Excel et des\ndossiers papier. Désormais, chaque information est saisie une seule fois, puis retrouvée et réutilisée\nautomatiquement par les collègues qui en ont besoin.\nÀ qui s’adresse ce guide ?\nÀ tous les utilisateurs, même sans connaissances en informatique. Il explique chaque écran avec des\nmots simples, des captures d’écran et des étapes numérotées. Vous n’avez pas besoin de le lire en entier\n: repérez simplement le chapitre qui correspond à votre métier.\nVous êtes…\nChapitres à lire en priorité\nDirecteur / administrateur\nChapitres 2, 3, puis toute la partie B (paramétrage), puis 15, 17, 18 et\n19 (suivi, états, sommiers, portail client)\nDéclarant en douane\nChapitres 2, 3, 8 à 13 et 15\nAgent de transit / chargé de dossiers\nChapitres 2, 3, 8 à 12 et 15\nComptable / facturation\nChapitres 2, 3, 8, 14, 16 et 17\nContremaître / transport\nChapitres 2, 3 et 13\nResponsable des entrepôts et\nsommiers\nChapitres 2, 3 et 18\nComment lire ce guide\nPour que le guide reste facile à suivre, les mêmes signes reviennent partout :\nSigne\nCe que cela veut dire\nBouton\nUn nom écrit sur fond bleu désigne un bouton ou un lien de l’écran, à cliquer.\nExemple : Enregistrer .\nTexte en gras\nUn mot important, ou un nom de champ à remplir.\nÉtapes numérotées\nUne suite d’actions à faire dans l’ordre, une par une.\n💡 Astuce\nUn conseil pour aller plus vite ou éviter une erreur.\n⚠ Attention\nUn point qui demande de la vigilance.\n⛔ À ne pas faire\nUne action à éviter absolument.",
+   "source": "pdf",
+   "pageNumber": 5,
+   "screenshotUrl": "/screenshots/g2_page_5.jpg",
+   "title": "Guide d'utilisation 2026 - Page 5"
+  },
+  {
+   "id": "oct_page_6",
+   "text": "[Guide d'utilisation 2026 – Page 6] Signe\nCe que cela veut dire\n📌 À retenir\nL’essentiel à garder en tête.\n🧩 Exemple\nUn cas concret, avec des données fictives.\n⚠ ATTEN TI O N\nToutes les captures d’écran de ce guide utilisent des données fictives (entreprise « Transit Exemple\nSA », clients inventés, numéros inventés). Aucune donnée réelle n’y figure. Les montants sont\nexprimés dans la monnaie de référence de l’application, ici le franc CFA (F XAF). Si votre entreprise\ntravaille dans un autre pays, votre écran affichera sa propre monnaie, ses propres taxes et ses\npropres régimes douaniers : la méthode de travail reste la même.",
+   "source": "pdf",
+   "pageNumber": 6,
+   "screenshotUrl": "/screenshots/g2_page_6.jpg",
+   "title": "Guide d'utilisation 2026 - Page 6"
+  },
+  {
+   "id": "oct_page_7",
+   "text": "[Guide d'utilisation 2026 – Page 7] CHAPITRE02 Premiers pas : se connecter et s’orienter\n2.1 Ouvrir l’application\nSoft Transit s’utilise dans un navigateur internet (Chrome, Edge ou Firefox), comme un site web. Rien à\ninstaller sur votre ordinateur.\n1\nOuvrez votre navigateur (l’icône Chrome, Edge ou Firefox sur le bureau).\n2\nDans la barre d’adresse en haut, tapez l’adresse de Soft Transit que votre administrateur vous\na communiquée, puis appuyez sur la touche Entrée.\n3\nLa page de connexion s’affiche.\n💡 A S T UC E\nAjoutez l’adresse aux favoris de votre navigateur (étoile à droite de la barre d’adresse) : vous la\nretrouverez en un clic.\n2.2 Se connecter\nPour des raisons de sécurité, personne ne peut entrer sans un identifiant et un mot de passe. Ils vous\nsont donnés par l’administrateur de votre entreprise.\nFigure 1 — La page de connexion\n1\nDans Identifiant ou email, tapez votre identifiant (par exemple « declarant »).\n2\nDans Mot de passe, tapez votre mot de passe. Les caractères s’affichent sous forme de points\n: c’est normal. Cliquez sur l’icône en forme d’œil, à droite du champ, pour vérifier ce que vous\ntapez.",
+   "source": "pdf",
+   "pageNumber": 7,
+   "screenshotUrl": "/screenshots/g2_page_7.jpg",
+   "title": "Guide d'utilisation 2026 - Page 7"
+  },
+  {
+   "id": "oct_page_8",
+   "text": "[Guide d'utilisation 2026 – Page 8] 3\nCliquez sur Se connecter .\n4\nVous arrivez sur le tableau de bord.\n⚠ ATTEN TI O N\nRespectez les majuscules et minuscules du mot de passe : « Soleil » et « soleil » sont deux mots de\npasse différents.\nAprès plusieurs erreurs, l’application peut vous bloquer quelques minutes : attendez, puis réessayez\ncalmement.\nMot de passe oublié ?\nFigure 2 — La page « Mot de passe oublié »\n1\nSur la page de connexion, cliquez sur Oublié ? , à droite de « Mot de passe ».\n2\nTapez l’adresse e-mail de votre compte, puis cliquez sur Envoyer le lien de récupération .\n3\nOuvrez votre messagerie : vous recevez un message avec un lien. Cliquez sur ce lien et\nchoisissez un nouveau mot de passe.\n💡 A S T UC E\nSi le message n’arrive pas au bout de quelques minutes, regardez dans le dossier « Courrier\nindésirable » (spam), puis demandez à votre administrateur de vous aider.\n2.3 Découvrir le tableau de bord\nLe tableau de bord est la page d’accueil. C’est le point de départ de tout votre travail. Il contient :\n• en haut, un message de bienvenue et trois compteurs : les dossiers actifs, les notes en attente et\nl’équipe active ;\n• au milieu, le Menu principal, organisé en quatre familles de cases à cliquer ;\n• en bas, le calendrier des arrivées de navires et vos informations professionnelles.",
+   "source": "pdf",
+   "pageNumber": 8,
+   "screenshotUrl": "/screenshots/g2_page_8.jpg",
+   "title": "Guide d'utilisation 2026 - Page 8"
+  },
+  {
+   "id": "oct_page_9",
+   "text": "[Guide d'utilisation 2026 – Page 9] Figure 3 — Le tableau de bord et son menu principal\nChaque case du menu ouvre une page. Voici à quoi elles servent :\nFamille\nCases\nÀ quoi ça sert\nRéférentiels métier\nSociété, Agents, Clients, Tiers\nLes fiches de base : votre entreprise, vos\ncollègues, vos clients et vos partenaires\n(compagnies maritimes, transporteurs,\nbanques…).\nDossiers & Transit\nDossiers, Suivi dossiers, Arrivées\nnavires, Cotation, Ordre de Transit,\nConfiguration OT, Gestion\ndocuments, Note de détail, Suivi\ntraitements, Sommiers, Entrepôts,\nHistorique Sommiers\nLe cœur du métier : ouvrir et suivre les dossiers,\ncalculer les droits et taxes, gérer les entrepôts\nsous douane.",
+   "source": "pdf",
+   "pageNumber": 9,
+   "screenshotUrl": "/screenshots/g2_page_9.jpg",
+   "title": "Guide d'utilisation 2026 - Page 9"
+  },
+  {
+   "id": "oct_page_10",
+   "text": "[Guide d'utilisation 2026 – Page 10] Famille\nCases\nÀ quoi ça sert\nDocuments &\nFinance\nÉtats financiers, Suivi factures\nLes factures, les paiements reçus et les états\ncomptables.\nOutils &\nAdministration\nDashboard, Paramètres, Licence,\nSauvegarder, Quitter\nLe tableau de bord de direction, les réglages, la\nsauvegarde et la déconnexion.\n📌 À R E TE N IR\nVous ne voyez que les cases auxquelles vous avez droit. Un déclarant et un comptable n’ont pas le\nmême menu : c’est voulu (voir le chapitre 5). Si une case manque, demandez à votre administrateur\nde vous ouvrir l’accès.\nLes fenêtres d’accueil\nSelon votre métier, une fenêtre peut s’ouvrir automatiquement après la connexion : par exemple le\ntableau de bord financier pour la direction, ou la liste des prochaines arrivées de navires pour les\ndéclarants. Fermez-la avec la croix en haut à droite, ou cliquez sur le bouton du bas pour voir le détail.\nElle ne réapparaît pas pendant la même session.\nFigure 4 — Exemple de fenêtre d’accueil (tableau de bord financier)\n2.4 Se déplacer : le menu flottant\nSur toutes les pages, un bouton rond bleu est affiché en bas à gauche de l’écran. Il ouvre une barre de\nraccourcis qui vous évite de revenir sans cesse au tableau de bord.",
+   "source": "pdf",
+   "pageNumber": 10,
+   "screenshotUrl": "/screenshots/g2_page_10.jpg",
+   "title": "Guide d'utilisation 2026 - Page 10"
+  },
+  {
+   "id": "oct_page_11",
+   "text": "[Guide d'utilisation 2026 – Page 11] Figure 5 — Le menu flottant déplié\nBouton\nEffet\nRetour\nRevient à la page précédente (comme la flèche « précédent » du navigateur).\nAccueil\nRetourne au tableau de bord.\nRèglements\nOuvre la saisie des paiements des clients.\nSuivi factures\nOuvre le suivi des factures par client.\nSommiers et Entrepôts\nOuvrent la gestion des marchandises placées sous douane.\nParamètres\nOuvre les réglages de l’application (réservé aux administrateurs).\nQuitter\nVous déconnecte.\nLe petit bouton rond bleu foncé en bas à droite, marqué d’un point d’interrogation, ouvre l’assistant\nd’aide : une fenêtre où vous pouvez poser vos questions sur l’utilisation du logiciel.\n2.5 Se déconnecter\nQuand vous quittez votre poste, déconnectez-vous : sinon, quelqu’un d’autre pourrait travailler sous\nvotre nom.\n1\nCliquez sur le bouton rond en bas à gauche pour ouvrir le menu flottant, puis sur Quitter ;\nou, sur le tableau de bord, cliquez sur la case Quitter ou sur l’icône de sortie en haut à droite.\n2\nVous revenez à la page de connexion.\n⛔ ÀNEPASFA IR E\nNe prêtez jamais votre mot de passe, même à un collègue de confiance. Chaque action est\nenregistrée au nom de la personne connectée : en cas d’erreur, c’est vous qui seriez désigné.\nNe notez pas votre mot de passe sur un papier collé à l’écran.",
+   "source": "pdf",
+   "pageNumber": 11,
+   "screenshotUrl": "/screenshots/g2_page_11.jpg",
+   "title": "Guide d'utilisation 2026 - Page 11"
+  },
+  {
+   "id": "oct_page_12",
+   "text": "[Guide d'utilisation 2026 – Page 12] CHAPITRE03 Les notions à connaître\nLe transit a son propre vocabulaire. Voici les mots que vous rencontrerez dans l’application, expliqués\nsimplement. Un lexique complet se trouve à la fin du guide.\n3.1 Le vocabulaire de base\nMot\nExplication simple\nClient\nL’entreprise ou la personne qui vous confie ses marchandises à faire passer en douane.\nVous lui envoyez les factures.\nTiers\nUn partenaire avec lequel vous travaillez, mais qui n’est pas votre client : compagnie\nmaritime, transporteur, banque, port… Sa fiche sert à remplir les formulaires.\nDossier\nLe « classeur numérique » d’une opération d’import ou d’export pour un client. Tout ce\nqui concerne cette opération (transport, déclaration, factures…) y est rangé.\nDéclarant\nL’agent qui prépare et dépose la déclaration en douane pour un dossier. On dit qu’un\ndossier lui est « coté » ou « affecté ».\nTitre de transport\nLe document du transporteur qui prouve l’expédition : connaissement (B/L) pour la\nmer, LTA pour l’avion, LVI/CMR pour la route.\nConteneur\nLa grande caisse métallique dans laquelle voyagent les marchandises (20 pieds ou 40\npieds). Chaque conteneur a un numéro.\nTEC / NTS\nLe Tarif Extérieur Commun : le grand catalogue officiel qui donne un code à 11\nchiffres (la NTS) à chaque type de marchandise. C’est ce code qui détermine les taxes à\npayer.\nRégime douanier\nLe « mode de passage » de la marchandise en douane, identifié par un code. Exemple :\nIM4000 = mise à la consommation (la marchandise est importée définitivement).\nDroits et taxes\nLes sommes dues à la douane : droit de douane, TVA, redevances… Elles se calculent à\npartir de la valeur de la marchandise et de son code NTS.\nValeur CAF\nLa valeur de la marchandise rendue au port : prix d’achat (FOB) + transport (fret) +\nassurance. C’est la base de calcul de la plupart des taxes.\nNote de détail\nLe document de calcul : article par article, il liste le code NTS, la valeur, les taxes et le\ntotal à payer à la douane.\nDéclaration\nLe document officiel déposé à la douane pour faire sortir (ou entrer) une marchandise,\navec son numéro et sa date.\nMise en livraison\nL’étape où la marchandise, dédouanée, est confiée au contremaître pour être retirée du\nport.\nSommier\nLe dossier de suivi d’une marchandise placée sous douane sans payer les taxes\n(régime suspensif), jusqu’à sa sortie : c’est l’« apurement ».\nEntrepôt\nLe lieu agréé où sont stockées les marchandises sous douane.\nDébours\nLes sommes que vous avancez pour le client (frais du port, de la compagnie maritime…)\net que vous lui refacturez.",
+   "source": "pdf",
+   "pageNumber": 12,
+   "screenshotUrl": "/screenshots/g2_page_12.jpg",
+   "title": "Guide d'utilisation 2026 - Page 12"
+  },
+  {
+   "id": "oct_page_13",
+   "text": "[Guide d'utilisation 2026 – Page 13] Mot\nExplication simple\nCotation\nL’affectation d’un dossier à un déclarant.\n3.2 Le parcours d’un dossier, de A à Z\nQuelle que soit l’opération, un dossier suit à peu près toujours le même chemin. Dans l’application,\nchaque étape correspond à un onglet du dossier : il suffit de les parcourir de gauche à droite.\nÉtape\nCe qui se passe\nOnglet / page\n1. Ouverture\nVous créez le dossier pour un client.\nDossiers → Nouveau dossier\n2. Affectation\nLe dossier est confié à un déclarant.\nCotation\n3. Transport\nVous saisissez le titre de transport, le navire (ou l’avion, le\ncamion), les dates et les conteneurs.\nTT (Titre), Transports,\nComposition\n4. Calcul\nVous calculez les droits et taxes article par article.\nNotes de détail\n5. Déclaration\nVous enregistrez la déclaration déposée à la douane.\nDéclaration\n6. Livraison\nLa marchandise est remise au contremaître, puis\ntransportée chez le client.\nMise en Liv., OTR, BL\n7. Facturation\nVous établissez le devis, ajoutez les factures des tiers,\npuis la facture finale du client.\nDevis, Factures Tiers,\nFacturation, Envoi Factures\n8. Paiement\nVous enregistrez les règlements reçus du client.\nRèglements\n📌 À R E TE N IR\nChaque dossier porte un code unique généré automatiquement, par exemple IMP-MA-TC-2026-\n00001. Il se lit ainsi : IMP (importation) – MA (transport maritime) – TC (en conteneur) – 2026\n(année) – 00001 (numéro d’ordre). Le « code court » (ici IMA-26-00001) est la version abrégée.\n3.3 Qui a le droit de faire quoi ?\nSoft Transit protège les informations : chaque personne a des droits qui dépendent de son métier. Il\nexiste trois niveaux :\nNiveau\nCe que la personne peut faire\nSuper administrateur\nTout, y compris gérer les autres administrateurs.\nAdministrateur\nTout paramétrer, créer des collègues, régler leurs droits.\nCollaborateur (utilisateur)\nSeulement ce que l’administrateur lui a ouvert : par exemple « voir et créer des\ndossiers, mais pas supprimer ».",
+   "source": "pdf",
+   "pageNumber": 13,
+   "screenshotUrl": "/screenshots/g2_page_13.jpg",
+   "title": "Guide d'utilisation 2026 - Page 13"
+  },
+  {
+   "id": "oct_page_15",
+   "text": "[Guide d'utilisation 2026 – Page 15] PARTIEB — PARAMÉTRERL ’ APPLICATION ( ADMINISTRATEUR )\nCHAPITRE04 Régler la fiche de l’entreprise\nCette partie s’adresse à la direction et aux administrateurs. Elle explique comment préparer\nl’application avant que l’équipe ne l’utilise. Les collaborateurs n’ont normalement pas accès à ces pages.\nLa fiche Société contient l’identité de votre entreprise. Ces informations s’impriment automatiquement\nsur les factures, devis, ordres de transport et autres documents.\nFigure 6 — La fiche Société (configuration système)\n1\nSur le tableau de bord, cliquez sur la case Société.\n2\nDans Identité visuelle, ajoutez votre logo (image PNG ou JPG sur fond clair ou transparent).\n3\nAjoutez les cachets officiels : le cachet « Facture » et le cachet « Exploitation ». Ils seront\napposés sur les documents correspondants.\n4\nRemplissez la fiche signalétique : raison sociale, sigle, adresse, e-mail, téléphone, forme\njuridique, capital, numéro d’identification fiscale (NIF), registre du commerce, compte\nbancaire.\n5\nCliquez sur Enregistrer en bas de page.\n💡 A S T UC E\nUtilisez des images nettes : le logo et les cachets seront imprimés. Un cachet scanné sur fond blanc\nfonctionne très bien ; un fond transparent (PNG) donne le meilleur résultat.\n⚠ ATTEN TI O N\nVérifiez bien le capital, le NIF et le numéro de compte : ces mentions légales apparaissent sur\ntoutes vos factures.",
+   "source": "pdf",
+   "pageNumber": 15,
+   "screenshotUrl": "/screenshots/g2_page_15.jpg",
+   "title": "Guide d'utilisation 2026 - Page 15"
+  },
+  {
+   "id": "oct_page_16",
+   "text": "[Guide d'utilisation 2026 – Page 16] CHAPITRE05 Agents, groupes et droits d’accès\nUn agent est un utilisateur de l’application, c’est-à-dire un de vos collègues. Chaque agent a son propre\nidentifiant et ses propres droits.\n5.1 Voir la liste des agents\nFigure 7 — La liste des agents\nCliquez sur la case Agents du tableau de bord. La liste affiche, pour chaque agent : son nom, son\nidentifiant, son service, son niveau d’accès (Utilisateur ou Admin) et son statut (actif ou non). Les onglets\nTous / Actifs / Inactifs filtrent la liste.\n5.2 Les groupes de travail (services)\nLes groupes correspondent aux services de l’entreprise : Direction, Déclarants, Comptabilité,\nContremaîtres… Ils servent à classer les agents et à retrouver, par exemple, la liste des contremaîtres lors\nde la mise en livraison.",
+   "source": "pdf",
+   "pageNumber": 16,
+   "screenshotUrl": "/screenshots/g2_page_16.jpg",
+   "title": "Guide d'utilisation 2026 - Page 16"
+  },
+  {
+   "id": "oct_page_17",
+   "text": "[Guide d'utilisation 2026 – Page 17] Figure 8 — Les groupes de travail\n1\nOuvrez la page des groupes. Elle ne figure pas dans le menu : ajoutez simplement /groupes à\nla fin de l’adresse du site (par exemple « https://votre-adresse/groupes »).\n2\nDans Nom du service, tapez le nom du nouveau service, puis, si vous le souhaitez, ses\nmissions.\n3\nCliquez sur Créer le service .\n5.3 Créer un nouvel agent\nFigure 9 — Le formulaire de création d’un agent",
+   "source": "pdf",
+   "pageNumber": 17,
+   "screenshotUrl": "/screenshots/g2_page_17.jpg",
+   "title": "Guide d'utilisation 2026 - Page 17"
+  },
+  {
+   "id": "oct_page_18",
+   "text": "[Guide d'utilisation 2026 – Page 18] 1\nDans la liste des agents, cliquez sur Créer un Agent .\n2\nRemplissez l’identité : prénom et nom, fonction, e-mail, téléphone.\n3\nDans Compte et accès système, choisissez un nom d’utilisateur (login) unique et un mot de\npasse provisoire.\n4\nChoisissez le rôle global : « Collaborateur (droits restreints) » pour un employé normal, «\nAdministrateur (contrôle total) » pour un responsable.\n5\nChoisissez son service / groupe de travail.\n6\nSi cet agent doit être prévenu quand un sommier arrive à échéance, cochez Recevoir alertes\nsuspensifs.\n7\nCliquez sur l’onglet ou la zone Permissions pour régler ses droits (voir ci-dessous), puis\nenregistrez.\nRégler les permissions\nLa matrice des permissions est un tableau : chaque ligne est un domaine de l’application (Clients,\nDossiers, Notes de détail, Factures, Sommiers…) et chaque colonne un droit (Voir, Créer, Modifier,\nSupprimer). Il suffit de cocher les cases voulues.\nProfil\nDroits conseillés\nDéclarant\nClients, Tiers, Dossiers, Notes de détail, Cotations : Voir + Créer + Modifier. Pas de\nsuppression.\nComptable\nFactures, Finances, Clients : Voir + Créer + Modifier.\nContremaître\nVoir les dossiers ; accès à la mise en livraison.\nDirection\nRôle Administrateur : tous les droits.\n💡 A S T UC E\nLes droits sont aussi réglables onglet par onglet à l’intérieur d’un dossier : un agent peut par\nexemple voir l’onglet « Transports » sans voir les onglets de facturation.\n⚠ ATTEN TI O N\nDonnez à chacun le minimum de droits nécessaires à son travail. Moins il y a de personnes\npouvant supprimer ou modifier, moins il y a de risques d’erreurs.\nLe champ « Rôle » est verrouillé sur votre propre compte et sur celui d’un super administrateur :\nc’est une protection pour ne pas perdre l’accès à l’application.\n5.4 Modifier, désactiver un agent\n1\nDans la liste, cliquez sur l’icône crayon de la ligne de l’agent.",
+   "source": "pdf",
+   "pageNumber": 18,
+   "screenshotUrl": "/screenshots/g2_page_18.jpg",
+   "title": "Guide d'utilisation 2026 - Page 18"
+  },
+  {
+   "id": "oct_page_19",
+   "text": "[Guide d'utilisation 2026 – Page 19] 2\nModifiez les informations voulues (nom, fonction, mot de passe, droits…).\n3\nPour empêcher un agent qui a quitté l’entreprise de se connecter, désactivez son compte\nplutôt que de le supprimer : son historique est conservé.\n⛔ ÀNEPASFA IR E\nNe supprimez pas un agent qui a déjà travaillé sur des dossiers : l’historique de ses actions serait\nperdu. Désactivez-le.",
+   "source": "pdf",
+   "pageNumber": 19,
+   "screenshotUrl": "/screenshots/g2_page_19.jpg",
+   "title": "Guide d'utilisation 2026 - Page 19"
+  },
+  {
+   "id": "oct_page_20",
+   "text": "[Guide d'utilisation 2026 – Page 20] CHAPITRE06 Les listes de référence (Paramètres)\nLes listes de référence sont les « menus déroulants » de l’application : devises, pays, ports, moyens de\ntransport, rubriques de facturation… Elles sont préparées une fois pour toutes, puis mises à jour de\ntemps en temps.\nToutes sont regroupées dans la page Paramètres système, accessible par la case Paramètres du\ntableau de bord (ou le menu flottant).\nFigure 10 — La page Paramètres système et ses rubriques\nFamille\nListe\nÀ quoi elle sert\nCommunication\nComptes Mails\nLes boîtes e-mail depuis lesquelles l’application envoie\nles factures.\nLogistique &\ntransport\nMoyens de transport\nLes navires, avions et camions connus.\nLieux & Ports\nLes villes, ports, aéroports et bureaux de douane.\nÉtapes dossiers\nLes étapes de la vie d’un dossier (Ouvert, Déclaré, Mis\nen livraison, Livré, Facturé…).\nGestion des pays\nLa liste des pays avec leurs codes.\nTypes de transport\nAvion, navire, camion, train…\nFacturation &\ndouane\nTarifs & Taxes\nLe TEC, les taxes et leurs taux (voir chapitre 7).\nRubriques\nLes lignes qu’on peut mettre sur un devis ou une\nfacture.\nGestion des devises\nLes monnaies étrangères et leur taux de change.",
+   "source": "pdf",
+   "pageNumber": 20,
+   "screenshotUrl": "/screenshots/g2_page_20.jpg",
+   "title": "Guide d'utilisation 2026 - Page 20"
+  },
+  {
+   "id": "oct_page_21",
+   "text": "[Guide d'utilisation 2026 – Page 21] Famille\nListe\nÀ quoi elle sert\nTypes de documents\nFacture, BL, DPI, ordre de transit, rapports…\nRéférentiels métier\nModes de règlement\nVirement, chèque, espèces…\nStatuts organisations\nLes formes juridiques (SA, SARL, ONG…).\nUnités de poids et de volume\nKg, tonne, m³, litre…\nRégimes de déclaration\nLes codes des régimes douaniers (voir chapitre 7).\nConfiguration Transit\nIncoterms, régimes des ordres de transit et types de\ndocuments.\nCodes couleurs\nLes couleurs des alertes de délai.\nSécurité &\nmaintenance\nSauvegardes du système\nLes copies de sécurité (voir 6.6).\n6.1 La méthode est toujours la même\nPresque toutes ces pages se présentent de la même façon : un formulaire à gauche pour ajouter un\nélément et la liste à droite. Pour modifier ou supprimer, utilisez les petites icônes à la fin de chaque\nligne.\n1\nOuvrez la liste souhaitée (par exemple Modes de règlement).\n2\nDans le formulaire à gauche, tapez le nom du nouvel élément (par exemple « Mobile money\n»).\n3\nCliquez sur Ajouter .\n4\nL’élément apparaît dans la liste et devient aussitôt disponible dans tous les formulaires.",
+   "source": "pdf",
+   "pageNumber": 21,
+   "screenshotUrl": "/screenshots/g2_page_21.jpg",
+   "title": "Guide d'utilisation 2026 - Page 21"
+  },
+  {
+   "id": "oct_page_22",
+   "text": "[Guide d'utilisation 2026 – Page 22] Figure 11 — Exemple : la liste des modes de règlement\n⚠ ATTEN TI O N\nAvant de supprimer un élément, vérifiez qu’il n’est plus utilisé. L’application refuse de supprimer un\nélément déjà employé dans un dossier : c’est normal et protecteur.\n6.2 Les devises et les taux de change\nL’application travaille dans une monnaie de référence (ici le franc CFA, « F XAF »). Pour les\nmarchandises achetées dans une autre monnaie (dollar, euro…), elle convertit les montants à l’aide du\ntaux de change que vous renseignez.\nFigure 12 — La gestion des devises",
+   "source": "pdf",
+   "pageNumber": 22,
+   "screenshotUrl": "/screenshots/g2_page_22.jpg",
+   "title": "Guide d'utilisation 2026 - Page 22"
+  },
+  {
+   "id": "oct_page_23",
+   "text": "[Guide d'utilisation 2026 – Page 23] 1\nOuvrez Gestion des devises.\n2\nSur la carte de la devise (par exemple Dollar), cliquez sur Modifier .\n3\nSaisissez le taux de change : combien d’unités de la monnaie de référence valent 1 unité de\ncette devise (exemple : 1 dollar = 583,51 F XAF).\n4\nEnregistrez. Le bouton Définir comme référence ne doit servir qu’exceptionnellement, à la\ncréation de l’entreprise.\n📌 À R E TE N IR\nLe franc CFA est rattaché à l’euro par une parité fixe : 1 euro = 655,957 F XAF. Le taux de l’euro ne\nchange donc pas ; ce sont les autres devises (dollar, livre, yuan…) qu’il faut actualiser.\n⚠ ATTEN TI O N\nMettez les taux à jour régulièrement (au moins chaque semaine, ou chaque fois que la douane\npublie un nouveau taux). Un taux périmé fausse le calcul des droits et taxes.\n6.3 Les lieux (ports, aéroports, bureaux)\nLa page Lieux & Ports contient les villes, ports, aéroports et gares utilisés pour décrire un transport. La\nliste est déjà pré-remplie. Pour en ajouter un, remplissez Nom du lieu, Type de lieu et Pays, puis\ncliquez sur Enregistrer .\nFigure 13 — La liste des lieux et ports\n6.4 Les rubriques de facturation\nUne rubrique est une ligne que l’on peut mettre sur un devis ou une facture : « Droit de douane à\nl’importation », « Remise documentaire », « Manutention »… Chaque rubrique a un code (1001, 1101,",
+   "source": "pdf",
+   "pageNumber": 23,
+   "screenshotUrl": "/screenshots/g2_page_23.jpg",
+   "title": "Guide d'utilisation 2026 - Page 23"
+  },
+  {
+   "id": "oct_page_24",
+   "text": "[Guide d'utilisation 2026 – Page 24] 4001…) qui indique son type : les codes 10xx sont des droits de douane, 11xx des débours, 40xx des\nprestations de l’entreprise.\nFigure 14 — Les rubriques de facturation\n💡 A S T UC E\nLa case À facturer par défaut pré-sélectionne la rubrique à chaque nouvelle facture. Pratique pour\nles prestations que vous facturez presque toujours.\n6.5 Les comptes mails\nPour envoyer une facture par e-mail directement depuis l’application, il faut déclarer au moins une boîte\ne-mail d’envoi : adresse, mot de passe et serveur. Ouvrez Comptes Mails, cliquez sur Nouveau compte\n, remplissez le formulaire puis utilisez Tester la connexion SMTP avant d’enregistrer.",
+   "source": "pdf",
+   "pageNumber": 24,
+   "screenshotUrl": "/screenshots/g2_page_24.jpg",
+   "title": "Guide d'utilisation 2026 - Page 24"
+  },
+  {
+   "id": "oct_page_25",
+   "text": "[Guide d'utilisation 2026 – Page 25] Figure 15 — Les comptes e-mail d’envoi\n6.6 Les sauvegardes\nUne sauvegarde est une copie de sécurité de toutes vos données. Elle permet de tout retrouver en cas\nde panne ou d’erreur grave. La case Sauvegarder du tableau de bord ouvre la page dédiée.\nFigure 16 — La page des sauvegardes\n💡 A S T UC E\nProgrammez une sauvegarde automatique (chaque nuit, par exemple) et indiquez un dossier de\ndestination situé sur un autre disque ou un service en ligne : une copie qui reste sur le même\nordinateur ne protège pas d’une panne de cet ordinateur.",
+   "source": "pdf",
+   "pageNumber": 25,
+   "screenshotUrl": "/screenshots/g2_page_25.jpg",
+   "title": "Guide d'utilisation 2026 - Page 25"
+  },
+  {
+   "id": "oct_page_26",
+   "text": "[Guide d'utilisation 2026 – Page 26] CHAPITRE07 Le tarif douanier (TEC), les taxes et les régimes\nCe chapitre explique la « matière première » du calcul des droits et taxes. Pour la plupart des utilisateurs,\nil suffit de consulter ces pages ; seuls les administrateurs les modifient, et rarement.\n7.1 Le TEC et les codes NTS\nChaque marchandise du monde appartient à une catégorie d’un grand catalogue. Dans un groupe de\npays, ce catalogue est le Tarif Extérieur Commun (TEC). Chaque ligne a un code de 11 chiffres appelé\nNTS (nomenclature tarifaire et statistique), et une description.\n🧩 EXEMP LE\nDans l’exemple du guide, un client importe des tracteurs agricoles. Dans le TEC, la ligne\ncorrespondante est :\n87011000000 — Tracteurs à essieu simple\nEt pour des charrues : 84321000000. Le code détermine ensuite les taxes à payer.\nFigure 17 — La page « Codification produits » : recherche dans le catalogue des marchandises\n1\nOuvrez la page Produits (« Codification Produits ») depuis le menu.\n2\nDans la zone de recherche, tapez un mot (« tracteur ») ou un début de code (« 8701 »).\n3\nLa liste se réduit : repérez la ligne qui décrit le mieux votre marchandise et notez son code à\n11 chiffres.\n⚠ ATTEN TI O N\nChoisir le bon code est la responsabilité du déclarant : un mauvais code change les taxes et peut\nentraîner un redressement douanier. En cas de doute, demandez conseil avant de valider.",
+   "source": "pdf",
+   "pageNumber": 26,
+   "screenshotUrl": "/screenshots/g2_page_26.jpg",
+   "title": "Guide d'utilisation 2026 - Page 26"
+  },
+  {
+   "id": "oct_page_27",
+   "text": "[Guide d'utilisation 2026 – Page 27] 7.2 Les taxes, les taux et les associations\nLa page Tarifs & Taxes douanières regroupe quatre éléments, présentés en colonnes :\nFigure 18 — Tarifs & Taxes douanières\nÉlément\nExplication\nExemple\nProduits (NTS)\nLe catalogue des marchandises.\n87011000000 – Tracteurs à essieu simple\nTaxes douanières\nLes différents droits et redevances à payer.\nDDI (droit de douane), TVA, CSS, CCI,\nCAF…\nCodes taux\nLes pourcentages applicables.\nExemple : un code « DAC1 » = taux de 1\n%\nAssociations\nLe lien « ce produit est soumis à cette taxe\navec ce taux ».\nTracteurs → DDI à 10 %\n🧩 EXEMP LE\nCalcul pour un lot de tracteurs (valeur CAF = 42 500 000 F XAF) :\n• Droit de douane (DDI) à 10 % → 4 250 000 F XAF\n• TVA à 18 % → 7 650 000 F XAF\n• Autres redevances (OAD, RUSID, CSS, CCI, CAF) → quelques centaines de milliers de F XAF\nTotal à payer à la douane : 13 876 250 F XAF.\nSoft Transit fait ce calcul tout seul une fois le code NTS saisi : voir le chapitre 12.",
+   "source": "pdf",
+   "pageNumber": 27,
+   "screenshotUrl": "/screenshots/g2_page_27.jpg",
+   "title": "Guide d'utilisation 2026 - Page 27"
+  },
+  {
+   "id": "oct_page_28",
+   "text": "[Guide d'utilisation 2026 – Page 28] 7.3 Les régimes douaniers\nUn régime précise dans quel cadre légal passe la marchandise. Chaque régime est identifié par un code\n(comme dans le système douanier SYDONIA) et un libellé. Voici quelques exemples courants :\nCode\nNom courant\nCe que cela signifie\nType\nIM4000\nMise à la consommation\nLa marchandise est importée définitivement, les\ntaxes sont payées.\nDéfinitif\nIM7000\nEntrepôt de stockage\nLa marchandise est stockée sous douane, sans payer\nles taxes pour l’instant.\nSuspensif\nEX1200\nExportation définitive en\nsimple sortie\nLa marchandise quitte définitivement le pays.\nDéfinitif\nEX2200\nExportation temporaire\nLa marchandise sort pour revenir (perfectionnement,\nréparation).\nSuspensif\nLes régimes sont classés en trois types, ce qui commande le suivi dans l’application :\n• Définitif : opération terminée une fois les taxes payées ;\n• Suspensif : la marchandise est « en attente » sous douane ; il faudra un apurement (voir le chapitre\n18) ;\n• Exonération : certaines taxes ne sont pas dues.\nFigure 19 — La liste des régimes de déclaration\n📌 À R E TE N IR\nUn même code peut exister en plusieurs variantes : par exemple IM4000 existe en « Régime\ncommun » (type Définitif) et en « produits de la zone CEMAC » (type Exonération). Choisissez la\nvariante qui correspond exactement à votre cas.",
+   "source": "pdf",
+   "pageNumber": 28,
+   "screenshotUrl": "/screenshots/g2_page_28.jpg",
+   "title": "Guide d'utilisation 2026 - Page 28"
+  },
+  {
+   "id": "oct_page_30",
+   "text": "[Guide d'utilisation 2026 – Page 30] PARTIEC — LETRAVAILAUQUOTIDIEN\nCHAPITRE08 Les clients\nUn client est l’entreprise (ou la personne) pour laquelle vous faites passer des marchandises en douane.\nIl faut créer la fiche du client avant d’ouvrir son premier dossier.\n8.1 Consulter la liste des clients\nFigure 20 — La liste des clients, présentée sous forme de cartes\nCliquez sur la case Clients du tableau de bord. Chaque client est une carte qui montre son nom, son\nnuméro d’identification fiscale (NINEA / NIF), son adresse, son e-mail, son délai de règlement et son\nsolde. En haut, des compteurs donnent le nombre de clients, et les onglets Tous / Exonérés TVA /\nAssujettis TVA filtrent la liste. La zone de recherche retrouve un client par son nom, son numéro\nd’identification, son e-mail ou son code.",
+   "source": "pdf",
+   "pageNumber": 30,
+   "screenshotUrl": "/screenshots/g2_page_30.jpg",
+   "title": "Guide d'utilisation 2026 - Page 30"
+  },
+  {
+   "id": "oct_page_31",
+   "text": "[Guide d'utilisation 2026 – Page 31] 8.2 Créer un nouveau client\nFigure 21 — La fiche client remplie\n1\nDans la page Clients, cliquez sur Nouveau Client .\n2\nDans Informations générales, tapez la raison sociale (le nom de l’entreprise). C’est le seul\nchamp vraiment indispensable avec le statut.\n3\nTapez le NINEA (numéro d’identification fiscale) et l’adresse physique.\n4\nChoisissez le statut client dans la liste (SA, SARL, SUARL…).\n5\nRemplissez le téléphone et l’e-mail de l’entreprise : l’e-mail sert à envoyer les factures.\n6\nDans Paramètres financiers, indiquez le délai de règlement (en jours) accordé au client, et\nle délai de règlement douane.\n7\nSi besoin, renseignez le taux de remise et les commissions (douane et débours) qui\ns’appliquent automatiquement à ce client.\n8\nCliquez sur Valider le dossier client .",
+   "source": "pdf",
+   "pageNumber": 31,
+   "screenshotUrl": "/screenshots/g2_page_31.jpg",
+   "title": "Guide d'utilisation 2026 - Page 31"
+  },
+  {
+   "id": "oct_page_32",
+   "text": "[Guide d'utilisation 2026 – Page 32] 💡 A S T UC E\nLes champs marqués d’une étoile rouge sont obligatoires. Les autres peuvent être complétés plus\ntard : cliquez sur l’icône crayon de la carte pour modifier une fiche.\nChamp\nÀ quoi il sert\nDélai de règlement (jours)\nCalcule la date d’échéance de ses factures (date de la facture + délai).\nDélai règlement douane\nLe délai accordé pour rembourser les sommes avancées à la douane.\nEncours autorisé\nLe montant maximum de factures impayées toléré pour ce client.\nCommission douane / débours\n(%)\nPourcentage appliqué sur les droits de douane ou les débours avancés.\nExonéré de TVA\nÀ cocher pour les clients non soumis à la TVA : elle n’est alors pas ajoutée à\nleurs factures.\nAlerte suspensions\nLe client reçoit une alerte quand un de ses sommiers approche de son\néchéance.\n⛔ ÀNEPASFA IR E\nNe créez pas deux fiches pour le même client (par exemple une avec « SARL » et une sans) : ses\ndossiers et ses factures seraient éparpillés. Cherchez toujours dans la liste avant de créer.",
+   "source": "pdf",
+   "pageNumber": 32,
+   "screenshotUrl": "/screenshots/g2_page_32.jpg",
+   "title": "Guide d'utilisation 2026 - Page 32"
+  },
+  {
+   "id": "oct_page_33",
+   "text": "[Guide d'utilisation 2026 – Page 33] CHAPITRE09 Les tiers (partenaires)\nUn tiers est un partenaire extérieur utilisé dans vos opérations : compagnie maritime ou aérienne,\ntransporteur routier, banque, consignataire… Sa fiche permet ensuite de le sélectionner dans les\nformulaires (onglets Transports, Ordre de transport, Factures Tiers).\nFigure 22 — La liste des tiers\nCliquez sur la case Tiers du tableau de bord. Les tiers apparaissent sous forme de cartes, avec leur\nactivité (transport maritime, aérien, terrestre…) en étiquette. Le filtre Tous les activités limite l’affichage\nà un seul type de partenaire.\n9.1 Ajouter un tiers\nFigure 23 — La fenêtre de création d’un tiers",
+   "source": "pdf",
+   "pageNumber": 33,
+   "screenshotUrl": "/screenshots/g2_page_33.jpg",
+   "title": "Guide d'utilisation 2026 - Page 33"
+  },
+  {
+   "id": "oct_page_34",
+   "text": "[Guide d'utilisation 2026 – Page 34] 1\nCliquez sur Nouveau Tiers .\n2\nDans la fenêtre qui s’ouvre, tapez le nom ou la raison sociale.\n3\nComplétez, si vous les avez, le NINEA, le statut, les téléphones, l’e-mail et le site web.\n4\nChoisissez le ou les domaines d’activité : c’est ce qui permet de retrouver ce tiers dans le\nbon formulaire (par exemple, les compagnies maritimes dans l’onglet Transports).\n5\nCliquez sur Créer le tiers .\n🧩 EXEMP LE\nDans l’exemple du guide, la compagnie maritime CMA CGM est un tiers d’activité « Transport\nmaritime ». Elle apparaît donc dans la liste « Compagnie de transport » d’un dossier maritime, mais\npas dans celle d’un dossier aérien.\n💡 A S T UC E\nUne carte de tiers propose aussi un lien vers le site de suivi de la compagnie (suivi des conteneurs),\nquand l’adresse est renseignée.",
+   "source": "pdf",
+   "pageNumber": 34,
+   "screenshotUrl": "/screenshots/g2_page_34.jpg",
+   "title": "Guide d'utilisation 2026 - Page 34"
+  },
+  {
+   "id": "oct_page_35",
+   "text": "[Guide d'utilisation 2026 – Page 35] CHAPITRE10 Ouvrir et retrouver un dossier\n10.1 La liste des dossiers\nLa case Dossiers du tableau de bord ouvre la liste de tous les dossiers. C’est la page que vous utiliserez\nle plus.\nFigure 24 — La liste des dossiers\nChaque ligne indique : le code du dossier, son libellé et le client, le mode de transport, l’état (En\ncours…) et l’état de facturation (Facturé / Non facturé). En haut, des compteurs résument le total, les\ndossiers en cours, facturés et non facturés ; les onglets Tous modes / Maritime / Aérien / Routier\nfiltrent par type de transport ; la zone de recherche retrouve un dossier par son code, son libellé ou son\nclient.\nIcône\nEffet\nCrayon\nOuvre le dossier pour le consulter ou le modifier.\nCorbeille\nSupprime le dossier (réservé à ceux qui en ont le droit, et à confirmer).\nFlèche ›\nOuvre aussi le dossier. Un clic n’importe où sur la ligne a le même effet.",
+   "source": "pdf",
+   "pageNumber": 35,
+   "screenshotUrl": "/screenshots/g2_page_35.jpg",
+   "title": "Guide d'utilisation 2026 - Page 35"
+  },
+  {
+   "id": "oct_page_36",
+   "text": "[Guide d'utilisation 2026 – Page 36] 10.2 Ouvrir un nouveau dossier\nFigure 25 — L’ouverture d’un dossier : client choisi et libellé saisi\n1\nDans la liste, cliquez sur Nouveau Dossier .\n2\nDans Sélection du client, tapez quelques lettres du nom dans Rechercher un client, puis\ncliquez sur la ligne du bon client. Elle se colore pour confirmer votre choix.\n3\nTapez le libellé : une courte description de l’opération (exemple : « Importation de matériel\nagricole »).\n4\nChoisissez la nature du dossier : Import ou Export.\n5\nChoisissez le mode d’expédition : Maritime, Aérien ou Routier.\n6\nChoisissez le type : Conteneur, Conventionnel (marchandise non conteneurisée) ou Groupage\n(plusieurs clients dans un même conteneur).\n7\nSi vous les avez, renseignez le numéro DPI, une personne à contacter (nom, téléphone, e-\nmail) et des observations. Vous pouvez aussi joindre un scan de la fiche dossier.\n8\nCliquez sur Valider et créer le dossier .\n📌 À R E TE N IR\nLe code du dossier et le numéro d’ordre sont générés automatiquement. Vous n’avez jamais à les\ninventer. Le code reprend la nature, le mode, le type et l’année (exemple : IMP-MA-TC-2026-00001).",
+   "source": "pdf",
+   "pageNumber": 36,
+   "screenshotUrl": "/screenshots/g2_page_36.jpg",
+   "title": "Guide d'utilisation 2026 - Page 36"
+  },
+  {
+   "id": "oct_page_37",
+   "text": "[Guide d'utilisation 2026 – Page 37] ⚠ ATTEN TI O N\nVérifiez bien le client, la nature, le mode et le type avant de valider : ces choix déterminent le\ncode du dossier et les onglets qui seront utiles. Si vous vous êtes trompé, corrigez-le tout de suite\ndans l’onglet Détails ou supprimez le dossier s’il est encore vide.\n⛔ ÀNEPASFA IR E\nNe rouvrez pas un dossier ancien pour y ranger une nouvelle opération : ouvrez un nouveau\ndossier. Un dossier = une opération.",
+   "source": "pdf",
+   "pageNumber": 37,
+   "screenshotUrl": "/screenshots/g2_page_37.jpg",
+   "title": "Guide d'utilisation 2026 - Page 37"
+  },
+  {
+   "id": "oct_page_38",
+   "text": "[Guide d'utilisation 2026 – Page 38] CHAPITRE11 Le dossier (1/4) : préparer le transport\nQuand vous ouvrez un dossier (crayon de la liste), vous arrivez sur une page à onglets. Les onglets sont\nrangés dans l’ordre du travail : on les parcourt de gauche à droite.\nFigure 26 — Un dossier ouvert : l’en-tête et les 16 onglets\nL’en-tête orange rappelle le code du dossier, le client, le mode (Maritime), la nature (Importation) et le\ntype (Conteneur). L’onglet actif est celui qui est surligné en orange.\nRangée\nOnglets\nPremière rangée\nDétails · Cotation · OT (Transit) · TT (Titre) · Transports · Composition · Notes de détail ·\nDéclaration · Mise en Liv. · OTR (Transp.)\nDeuxième rangée\nBL (Bordereau) · Devis · Factures Tiers · Facturation · Envoi Factures · Règlements\n💡 A S T UC E\nChaque onglet enregistre séparément. Pensez à cliquer sur le bouton Enregistrer de l’onglet\navant d’en changer : sinon ce que vous venez de saisir peut être perdu.",
+   "source": "pdf",
+   "pageNumber": 38,
+   "screenshotUrl": "/screenshots/g2_page_38.jpg",
+   "title": "Guide d'utilisation 2026 - Page 38"
+  },
+  {
+   "id": "oct_page_39",
+   "text": "[Guide d'utilisation 2026 – Page 39] 11.1 Onglet « Détails »\nCet onglet reprend les informations saisies à l’ouverture et permet de les corriger : libellé, date de\nremise des documents, nature, expédition, type, point focal (la personne à contacter chez le client),\nobservations.\nZone\nContenu\nIdentification & type\nLibellé du dossier, Date remise docs (la date à laquelle le client vous a remis ses\ndocuments), nature, expédition, type.\nValidation & fiches\nNuméro de dossier (automatique, non modifiable), Validé par, et Fiche dossier\n(scan) pour joindre un fichier.\nContact & suivi\nPoint focal, téléphone, e-mail et observations internes.\nCases du bas\nPrêt pour facturation : à cocher quand tout est terminé. Étape de cotation :\nindique que le dossier doit être confié à un déclarant.\nCliquez sur Enregistrer les modifications pour valider, ou sur Annuler pour tout abandonner.\n11.2 Onglet « Cotation » : confier le dossier à un déclarant\nLa cotation consiste à affecter le dossier à un déclarant, c’est-à-dire l’agent qui préparera sa déclaration\nen douane. Tant qu’aucun déclarant n’est affecté, l’onglet Déclaration reste bloqué.\nFigure 27 — L’onglet Cotation : le déclarant actuel du dossier\n1\nOuvrez l’onglet Cotation.\n2\nCliquez sur Réaffecter (ou sur le bouton d’affectation si aucun déclarant n’est encore choisi).\n3\nChoisissez le déclarant dans la liste, la date d’effet et, si besoin, le motif.\n4\nCliquez sur le bouton de validation : le nom du déclarant s’affiche dans « Agent actuel » avec\nla date et la mention « Actif ».",
+   "source": "pdf",
+   "pageNumber": 39,
+   "screenshotUrl": "/screenshots/g2_page_39.jpg",
+   "title": "Guide d'utilisation 2026 - Page 39"
+  },
+  {
+   "id": "oct_page_40",
+   "text": "[Guide d'utilisation 2026 – Page 40] 📌 À R E TE N IR\nLes changements de déclarant sont conservés : l’application garde l’historique de qui a eu le\ndossier et depuis quand.\nVous pouvez aussi affecter plusieurs dossiers d’un coup depuis la page Cotation du tableau de bord\n(voir le chapitre 15).\n11.3 Onglet « OT (Transit) » : l’ordre de transit\nL’ordre de transit (OT) est le document par lequel le client vous demande officiellement d’effectuer le\ntransit. Il indique l’incoterm, la provenance, le régime et la liste des documents à remettre.\nFigure 28 — L’onglet OT, quand aucun ordre n’est encore associé\n1\nOuvrez l’onglet OT (Transit). S’il n’y a pas d’ordre, le message « Aucun Ordre de Transit n’est\nassocié à ce dossier » s’affiche.\n2\nCliquez sur Créer OT .\n3\nRemplissez le numéro OT, la date, l’incoterm, la provenance, le régime OT et la date de\nremise.\n4\nDans Documents à remettre, cochez les documents déjà reçus du client et notez la date de\nremise.\n5\nEnregistrez.\n💡 A S T UC E\nLes listes proposées (incoterms, régimes OT, types de documents) se gèrent dans Configuration\nOT (chapitre 6). Un incoterm est un code qui précise qui paie le transport et l’assurance : par\nexemple CIF (le vendeur paie le transport et l’assurance jusqu’au port d’arrivée) ou FOB (l’acheteur\nles paie à partir du port de départ).",
+   "source": "pdf",
+   "pageNumber": 40,
+   "screenshotUrl": "/screenshots/g2_page_40.jpg",
+   "title": "Guide d'utilisation 2026 - Page 40"
+  },
+  {
+   "id": "oct_page_41",
+   "text": "[Guide d'utilisation 2026 – Page 41] 11.4 Onglet « TT (Titre) » : le titre de transport\nLe titre de transport est le document du transporteur : le connaissement (B/L) pour la mer, la LTA\npour l’avion, la lettre de voiture pour la route. Il suffit de recopier ses informations.\nFigure 29 — L’onglet TT : le titre de transport rempli\nChamp\nQue mettre ?\nNuméro titre transport\nLe numéro inscrit sur le B/L, la LTA ou la lettre de voiture. Très important : il\nrelie ensuite l’onglet Transports.\nType titre transport\nConnaissement maritime, LTA, lettre de voiture…\nFournisseur\nLe vendeur étranger qui expédie la marchandise.\nConsignee\nLe destinataire désigné sur le titre (en général le client).\nNotify client\nLa personne à prévenir à l’arrivée.\nExpéditeur\nCelui qui a remis la marchandise au transporteur.\nAdresse de livraison finale\nOù la marchandise doit être livrée.\nLieu de réception / lieu de\npaiement du fret\nVoir le titre de transport.\nNbre BL originaux\nLe nombre d’exemplaires originaux émis (souvent 3).",
+   "source": "pdf",
+   "pageNumber": 41,
+   "screenshotUrl": "/screenshots/g2_page_41.jpg",
+   "title": "Guide d'utilisation 2026 - Page 41"
+  },
+  {
+   "id": "oct_page_42",
+   "text": "[Guide d'utilisation 2026 – Page 42] Champ\nQue mettre ?\nNombre conteneurs\nCombien de conteneurs au total.\nDurée franchise (jours)\nLe nombre de jours gratuits avant que la compagnie ne facture des frais de\nsurestaries (retard de restitution des conteneurs).\nCliquez sur Enregistrer en bas de l’onglet.\n⚠ ATTEN TI O N\nRecopiez le numéro du titre de transport exactement comme sur le document, lettres et chiffres\ncompris : il sert à identifier l’expédition dans tous les écrans.\n11.5 Onglet « Transports » : le navire, le vol ou le camion\nCet onglet décrit le voyage : quel navire (ou avion, ou camion), parti d’où, arrivé où, et quand. Les dates\nd’arrivée alimentent le calendrier des arrivées, très utile aux déclarants.\nFigure 30 — L’onglet Transports\n1\nDans Type de transport, choisissez Maritime (Navire), Aérien (Avion) ou Terrestre (Camion).\n2\nDans Compagnie de transport, cliquez sur la liste et choisissez la compagnie (tapez\nquelques lettres pour la retrouver).",
+   "source": "pdf",
+   "pageNumber": 42,
+   "screenshotUrl": "/screenshots/g2_page_42.jpg",
+   "title": "Guide d'utilisation 2026 - Page 42"
+  },
+  {
+   "id": "oct_page_43",
+   "text": "[Guide d'utilisation 2026 – Page 43] 3\nDans Nom navire (ou avion, ou camion), choisissez le moyen de transport. La liste ne\npropose que ceux de la compagnie choisie.\n4\nVérifiez le numéro BL (repris du titre de transport).\n5\nChoisissez le pays de départ, puis le port de départ et la date de départ.\n6\nChoisissez le pays d’arrivée et le lieu d’arrivée.\n7\nSaisissez la date d’arrivée prévue (ETA), le numéro d’escale (ou de vol) et l’heure\nd’arrivée.\n8\nAjoutez des observations si nécessaire, puis cliquez sur Enregistrer les informations .\n💡 A S T UC E\nDans les listes déroulantes à recherche, tapez les premières lettres (« Chi » pour Chine) au lieu de\nfaire défiler toute la liste.\n🧩 EXEMP LE\nDans l’exemple, le navire CMA SAVANNAH de la compagnie CMA CGM part du Port de Shanghai\n(Chine) et arrive au Port d’Owendo (Gabon). Dès l’enregistrement, il figure dans le calendrier des\narrivées du tableau de bord, avec le nombre de jours restants.\n11.6 Onglet « Composition » : les conteneurs et leur contenu\nLa composition liste ce qu’il y a dans l’expédition : chaque conteneur et ce qu’il contient. Pour un\ndossier non conteneurisé (conventionnel ou groupage), on liste directement les colis.\nFigure 31 — L’onglet Composition : liste des conteneurs et contenu du conteneur choisi\n⚠ ATTEN TI O N\nCet onglet exige qu’un titre de transport existe : sinon l’écran affiche « Titre de transport requis ».\nRemplissez d’abord l’onglet TT.",
+   "source": "pdf",
+   "pageNumber": 43,
+   "screenshotUrl": "/screenshots/g2_page_43.jpg",
+   "title": "Guide d'utilisation 2026 - Page 43"
+  },
+  {
+   "id": "oct_page_44",
+   "text": "[Guide d'utilisation 2026 – Page 44] 1\nDans Liste des TC, cliquez sur le bouton + pour ajouter un conteneur.\n2\nSaisissez le numéro du conteneur (4 lettres et 7 chiffres, par exemple CMAU1234567), son\ntype (20 pieds, 40 pieds HC…) et sa tare (poids à vide), puis cliquez sur Ajouter le TC .\n3\nCliquez sur le conteneur dans la liste : sa fiche s’ouvre à droite, dans Contenu du conteneur.\n4\nDans Nature march., tapez ce que contient le conteneur (exemple : « Tracteurs agricoles »),\npuis la quantité, le poids net et l’unité (Kg).\n5\nCliquez sur Valider pour ajouter la ligne. Répétez si le conteneur contient plusieurs sortes de\nmarchandises.\n🧩 EXEMP LE\nDeux conteneurs dans notre exemple :\n• CMAU1234567 (40 pieds HC) : 4 tracteurs agricoles, 9 200 kg ;\n• MSKU7654321 (20 pieds) : 36 charrues et pièces détachées, 6 800 kg.\nPour retirer un conteneur ou une ligne, utilisez l’icône corbeille correspondante.",
+   "source": "pdf",
+   "pageNumber": 44,
+   "screenshotUrl": "/screenshots/g2_page_44.jpg",
+   "title": "Guide d'utilisation 2026 - Page 44"
+  },
+  {
+   "id": "oct_page_45",
+   "text": "[Guide d'utilisation 2026 – Page 45] CHAPITRE12 Le dossier (2/4) : droits et taxes, déclaration\n12.1 Onglet « Notes de détail » : calculer les droits et taxes\nLa note de détail est le cœur du travail du déclarant. Pour chaque article de l’expédition, elle calcule\nautomatiquement les droits et taxes que la douane va réclamer. On parle de liquidation.\nFigure 32 — L’onglet Notes de détail : la grille de saisie des articles\nComprendre l’écran\nL’écran est dense, mais il se lit par blocs :\nBloc\nRôle\nPortefeuille clients, Dossiers\nactifs, Notes de détail\nLes trois listes du haut : on choisit un client, puis son dossier, puis la note («\nrépertoire n° REP-2026-0001 »). Dans un dossier ouvert, ils sont déjà\nsélectionnés.\nRecherche NTS & produits\nPour trouver un code NTS : tapez un mot ou un début de code. Cliquer sur\nune ligne place le code dans l’article actif.\nRégimes de déclaration\nLa liste des régimes : un clic sur une ligne place le code du régime dans\nl’article actif.",
+   "source": "pdf",
+   "pageNumber": 45,
+   "screenshotUrl": "/screenshots/g2_page_45.jpg",
+   "title": "Guide d'utilisation 2026 - Page 45"
+  },
+  {
+   "id": "oct_page_46",
+   "text": "[Guide d'utilisation 2026 – Page 46] Bloc\nRôle\nRépartition & devise\nLes totaux (FOB, fret, assurance, poids) et le bouton Répartir pour répartir\nautomatiquement le fret, l’assurance et le poids sur les articles, au prorata de\nleur valeur.\nMatrice de liquidation\nLa grille de saisie : une colonne = un article (les colonnes 1, 2, 3… sont les\narticles), une ligne = une information (code NTS, régime, origine, valeur FOB,\ndevise, fret, assurance, poids, nombre de colis…).\nLiquidation des taxes\nLe résultat du calcul pour l’article actif : chaque taxe, son taux et son\nmontant, puis le cumul liquidé.\nOpérations de publication\nLes boutons Sauvegarder la matrice, Générer note de détail (PDF) et\nValider la note.\nSaisir une note pas à pas\nFigure 33 — La matrice remplie avec deux articles",
+   "source": "pdf",
+   "pageNumber": 46,
+   "screenshotUrl": "/screenshots/g2_page_46.jpg",
+   "title": "Guide d'utilisation 2026 - Page 46"
+  },
+  {
+   "id": "oct_page_47",
+   "text": "[Guide d'utilisation 2026 – Page 47] 1\nDans la zone Notes de détail, cliquez sur Nouveau pour créer une note (elle reçoit un\nnuméro « REP-… » automatique), ou cliquez sur une note existante pour la rouvrir.\n2\nCliquez dans la colonne 1 de la matrice : c’est l’article n° 1.\n3\nLigne Code NTS : tapez le code à 11 chiffres de la marchandise (ou utilisez la recherche à\ngauche). Exemple : 87011000000.\n4\nLigne Régime acc. : tapez le code du régime (exemple : IM4000).\n5\nLignes Origine et Provenance : indiquez le code du pays (exemple : CN pour la Chine).\n6\nLigne Valeur FOB : le prix d’achat des marchandises de cet article, puis sa devise dans la ligne\ndu dessous.\n7\nLignes Valeur fret et Valeur assur. : le coût du transport et de l’assurance de cet article, avec\nleurs devises. Astuce : saisissez les totaux dans « Répartition & devise » puis cliquez sur\nRépartir.\n8\nLignes Nb colis, Poids brut, Poids net : recopiez-les depuis le titre de transport.\n9\nLa ligne verte Valeur CAF (XOF) se calcule toute seule : FOB + fret + assurance, converti dans\nla monnaie de référence.\n10\nPassez à la colonne 2 pour l’article suivant, et ainsi de suite.\n11\nCliquez sur Sauvegarder la Matrice pour enregistrer.",
+   "source": "pdf",
+   "pageNumber": 47,
+   "screenshotUrl": "/screenshots/g2_page_47.jpg",
+   "title": "Guide d'utilisation 2026 - Page 47"
+  },
+  {
+   "id": "oct_page_48",
+   "text": "[Guide d'utilisation 2026 – Page 48] Lancer le calcul des taxes\nFigure 34 — Le calcul des droits et taxes de l’article 1 : 13 876 250 F XAF au total\n1\nCliquez sur la colonne de l’article à calculer (sa colonne se colore en vert).\n2\nDans le bloc rouge Liquidation des taxes, cliquez sur Lancer .\n3\nLes taxes s’affichent : code, nom, taux et montant. Le cumul liquidé en bas donne le total à\npayer pour cet article.\n4\nPour recommencer, cliquez sur Reset .",
+   "source": "pdf",
+   "pageNumber": 48,
+   "screenshotUrl": "/screenshots/g2_page_48.jpg",
+   "title": "Guide d'utilisation 2026 - Page 48"
+  },
+  {
+   "id": "oct_page_49",
+   "text": "[Guide d'utilisation 2026 – Page 49] 🧩 EXEMP LE\nArticle 1 — Tracteurs à essieu simple (NTS 87011000000)\nValeur FOB 38 000 000 + fret 4 200 000 + assurance 300 000 = valeur CAF 42 500 000 F XAF.\nDroit de douane (DDI) à 10 % = 4 250 000 · TVA à 18 % = 7 650 000 · autres redevances (OAD,\nRUSID, CSS, CCI, CAF…) = le reste.\nTotal liquidé : 13 876 250 F XAF.\nValider et imprimer\n1\nQuand tous les articles sont saisis et calculés, cliquez sur Générer Note de Détail (PDF) : le\ndocument s’ouvre pour être imprimé ou envoyé.\n2\nQuand la note est définitive, activez l’interrupteur Valider la note. Une note validée peut\nêtre facturée (voir le chapitre 14).\n⚠ ATTEN TI O N\nLes taxes dépendent du code NTS : vérifiez-le deux fois.\nContrôlez la devise de chaque montant : 1 000 dollars et 1 000 F XAF n’ont pas du tout la même\nvaleur.\nSi la liquidation affiche « – » pour une taxe, c’est qu’aucun taux n’est associé à ce code dans le tarif :\nprévenez votre administrateur (voir le chapitre 7).\n⛔ ÀNEPASFA IR E\nNe modifiez pas une note de détail validée sans l’accord du responsable : elle a peut-être déjà servi\nà établir une facture.\nLes mêmes outils sont disponibles dans la page Note de détail du tableau de bord, où vous choisissez\nvous-même le client, le dossier et la note.\n12.2 Onglet « Déclaration » : enregistrer la déclaration en douane\nUne fois la déclaration déposée à la douane (via le système douanier), vous l’enregistrez ici pour garder\nune trace de son numéro, de ses dates et de son régime.",
+   "source": "pdf",
+   "pageNumber": 49,
+   "screenshotUrl": "/screenshots/g2_page_49.jpg",
+   "title": "Guide d'utilisation 2026 - Page 49"
+  },
+  {
+   "id": "oct_page_50",
+   "text": "[Guide d'utilisation 2026 – Page 50] Figure 35 — L’onglet Déclaration\n⚠ ATTEN TI O N\nL’onglet n’est utilisable que si un déclarant est assigné au dossier (onglet Cotation). Sinon vous\nvoyez « Aucun déclarant assigné ! ».\n1\nOuvrez l’onglet Déclaration.\n2\nCliquez sur Ajouter une déclaration .\n3\nDans la fenêtre Nouvelle déclaration, tapez le numéro de déclaration donné par la douane\n(exemple : C-2026-000123).\n4\nRenseignez la date de déclaration et la date BAE (le « bon à enlever », qui autorise à retirer\nla marchandise).\n5\nChoisissez le régime et le numéro de bureau de douane.\n6\nAjoutez des observations et vérifiez le déclarant responsable.\n7\nCliquez sur Enregistrer .\nLa déclaration apparaît dans la liste avec ses dates, son régime (par exemple IM4000) et son bureau. À\ndroite, la carte Déclarant assigné rappelle qui est responsable du dossier, avec ses coordonnées.\n📌 À R E TE N IR\nUn dossier peut avoir plusieurs déclarations (par exemple si la marchandise est déclarée en\nplusieurs parties). Elles sont toutes listées.",
+   "source": "pdf",
+   "pageNumber": 50,
+   "screenshotUrl": "/screenshots/g2_page_50.jpg",
+   "title": "Guide d'utilisation 2026 - Page 50"
+  },
+  {
+   "id": "oct_page_51",
+   "text": "[Guide d'utilisation 2026 – Page 51] CHAPITRE13 Le dossier (3/4) : livrer la marchandise\nUne fois la marchandise dédouanée, il faut la sortir du port et la livrer au client. Trois onglets\norganisent cette étape : la mise en livraison, l’ordre de transport et le bordereau de livraison.\n13.1 Onglet « Mise en Liv. » : confier la marchandise au contremaître\nLe contremaître est la personne qui se rend au port pour retirer physiquement les conteneurs. La mise\nen livraison lui transmet le dossier.\nFigure 36 — L’onglet Mise en livraison\n1\nOuvrez l’onglet Mise en Liv.\n2\nÀ droite, dans Liste des contremaîtres, cliquez sur le contremaître choisi : il apparaît sous «\nAssigné au dossier ».\n3\nRenseignez la date de mise en livraison, le numéro de pregate (la référence de rendez-vous\nau portail du port) et la date de remise au contremaître.\n4\nPlus tard, au fil de l’avancement, complétez la date de retour du conteneur (RCO) — le jour\noù le conteneur vide est rendu à la compagnie — et la date de livraison effective.\n5\nAjoutez des observations (consignes particulières).\n6\nCliquez sur Valider la mise en livraison . Le bouton Imprimer Bordereau permet\nd’imprimer la feuille de remise.",
+   "source": "pdf",
+   "pageNumber": 51,
+   "screenshotUrl": "/screenshots/g2_page_51.jpg",
+   "title": "Guide d'utilisation 2026 - Page 51"
+  },
+  {
+   "id": "oct_page_52",
+   "text": "[Guide d'utilisation 2026 – Page 52] 💡 A S T UC E\nLa date de retour du conteneur compte : au-delà de la durée de franchise indiquée sur le titre de\ntransport, la compagnie facture des surestaries (frais de retard). Surveillez-la.\n⚠ ATTEN TI O N\nLe contremaître doit exister comme agent dans le groupe « Contremaîtres » (chapitre 5) pour\napparaître dans la liste.\n13.2 Onglet « OTR (Transp.) » : l’ordre de transport routier\nL’ordre de transport (OTR) est le document que vous remettez au transporteur routier : il lui indique\nquels conteneurs enlever et où les livrer.\nFigure 37 — L’onglet OTR : composition à gauche, détails de l’ordre à droite\n1\nOuvrez l’onglet OTR (Transp.).",
+   "source": "pdf",
+   "pageNumber": 52,
+   "screenshotUrl": "/screenshots/g2_page_52.jpg",
+   "title": "Guide d'utilisation 2026 - Page 52"
+  },
+  {
+   "id": "oct_page_53",
+   "text": "[Guide d'utilisation 2026 – Page 53] 2\nDans Composition du transport, cochez les conteneurs (ou colis) concernés par cet ordre.\nCeux déjà affectés à un autre ordre sont signalés « Déjà affecté ».\n3\nDans Transporteurs terrestres, cliquez sur le transporteur choisi (ce sont les tiers d’activité\ntransport terrestre).\n4\nDans Détails de l’ordre de transport, vérifiez le code de l’ordre (automatique, par exemple\nOTR-2026-0001), la date et le numéro de série.\n5\nTapez l’adresse de livraison.\n6\nRédigez, si besoin, l’introduction (la phrase d’appel) et la formule de politesse.\n7\nCliquez sur Enregistrer et Imprimer . Le PDF de l’ordre s’ouvre : imprimez-le ou enregistrez-\nle.\nLes ordres déjà émis sont listés en bas, dans Historique des ordres de transport (code, date,\ntransporteur, articles), avec une icône pour les supprimer.\n⚠ ATTEN TI O N\nPour pouvoir créer un ordre de transport, il faut un transporteur terrestre enregistré dans les tiers\net au moins un conteneur ou colis dans l’onglet Composition. Sinon l’application affiche « Aucun\ntransporteur terrestre trouvé » ou « Aucun élément dans la composition ».\n13.3 Onglet « BL (Bordereau) » : le bordereau de livraison\nLe bordereau de livraison (BL) est la pièce que le client signe à réception de sa marchandise : elle\nprouve la livraison. Il se génère à partir d’un ordre de transport.\nFigure 38 — L’onglet BL : génération du bordereau à partir d’un ordre de transport",
+   "source": "pdf",
+   "pageNumber": 53,
+   "screenshotUrl": "/screenshots/g2_page_53.jpg",
+   "title": "Guide d'utilisation 2026 - Page 53"
+  },
+  {
+   "id": "oct_page_54",
+   "text": "[Guide d'utilisation 2026 – Page 54] 1\nOuvrez l’onglet BL (Bordereau).\n2\nCliquez sur l’ordre de transport concerné : la carte se colore en bleu, et l’aperçu « OTR-2026-\n0001 → BL-00001 » s’affiche.\n3\nCliquez sur Générer le Bordereau de Livraison .\n4\nImprimez le bordereau en deux exemplaires : un pour le transporteur, un pour le client (à\nsigner).\n⚠ ATTEN TI O N\nSans ordre de transport, l’écran affiche « Vous devez d’abord créer un ordre de transport ».\nRemplissez d’abord l’onglet OTR.",
+   "source": "pdf",
+   "pageNumber": 54,
+   "screenshotUrl": "/screenshots/g2_page_54.jpg",
+   "title": "Guide d'utilisation 2026 - Page 54"
+  },
+  {
+   "id": "oct_page_55",
+   "text": "[Guide d'utilisation 2026 – Page 55] CHAPITRE14 Le dossier (4/4) : facturer et encaisser\nDernière étape : demander au client l’argent qu’il vous doit. On distingue :\n• le devis : une estimation avant les prestations ;\n• les factures de tiers (débours) : ce que vous avez payé pour le compte du client (port, compagnie\nmaritime…) ;\n• la facture : le document définitif envoyé au client ;\n• le règlement : le paiement que le client vous fait.\n14.1 Onglet « Devis »\nFigure 39 — L’onglet Devis : rubriques cochées à gauche, devis en cours à droite\nL’écran est en deux parties. À gauche, la liste des rubriques disponibles, classées en trois familles :\nDouane (10xx), Débours (11xx) et Prestations (40xx). À droite, le devis en cours, avec le nom de\nl’utilisateur, du client et du dossier.\n1\nDans la liste de gauche, cochez une à une les rubriques à inclure (exemple : « Remise\ndocumentaire », « Manutention »). Utilisez la zone Rechercher pour en retrouver une\nrapidement.\n2\nChaque rubrique cochée passe dans le panneau de droite. Complétez son montant HT (hors\ntaxe) et, si besoin, un complément de libellé.",
+   "source": "pdf",
+   "pageNumber": 55,
+   "screenshotUrl": "/screenshots/g2_page_55.jpg",
+   "title": "Guide d'utilisation 2026 - Page 55"
+  },
+  {
+   "id": "oct_page_56",
+   "text": "[Guide d'utilisation 2026 – Page 56] 3\nLes totaux se calculent seuls : total HT, TVA (au taux en vigueur, par exemple 18 %) et TOTAL\nTTC.\n4\nCliquez sur le bouton de génération du devis : le PDF s’ouvre et le devis est ajouté à\nl’historique des devis.\n📌 À R E TE N IR\nLe devis n’est pas une facture : il ne crée aucune dette. Il sert à donner un prix au client avant le\ntravail et à garder une trace de ce qui lui a été annoncé.\n14.2 Onglet « Factures Tiers » : les débours\nLes débours sont les sommes que vous avez avancées pour le client. Vous les saisissez ici à partir des\nfactures que vous avez reçues (compagnie maritime, port, transporteur…), afin de les refacturer ensuite\nau client.\nFigure 40 — L’onglet Factures Tiers : saisie d’une facture de fournisseur\n1\nÀ gauche, dans Tiers (prestataire), choisissez le fournisseur (exemple : CMA CGM).\n2\nDans Rubrique débours (11xx), tapez quelques lettres pour retrouver la rubrique (exemple :\n« 1108 » ou « Débours »).\n3\nSaisissez le numéro de facture du fournisseur (exemple : FACT-2026-0042) et le montant\nTTC.\n4\nAjoutez des observations si utile, puis cliquez sur Ajouter .",
+   "source": "pdf",
+   "pageNumber": 56,
+   "screenshotUrl": "/screenshots/g2_page_56.jpg",
+   "title": "Guide d'utilisation 2026 - Page 56"
+  },
+  {
+   "id": "oct_page_57",
+   "text": "[Guide d'utilisation 2026 – Page 57] À droite apparaissent les factures tiers saisies pour ce dossier, avec un récapitulatif par rubrique et le\ntotal des débours. Dans l’onglet Facturation, le bouton Intégrer tiers les reprend en un clic dans la\nfacture du client.\n⚠ ATTEN TI O N\nLa rubrique et le montant TTC sont obligatoires. Gardez le justificatif (la facture du fournisseur) :\nle client peut vous le réclamer.\n14.3 Onglet « Facturation » : établir la facture du client\nFigure 41 — L’onglet Facturation : en cliquant sur « Note de détail », l’application propose de valider la note non validée\nComme le devis, l’écran est divisé : rubriques disponibles à gauche, facture en cours à droite.\n1\nOuvrez l’onglet Facturation. Vérifiez en haut le client et le dossier de destination.\n2\nPour facturer les droits de douane, cliquez sur le bouton Note de détail : l’application\nreprend toutes les taxes calculées dans les notes de détail du dossier et crée\nautomatiquement les lignes correspondantes (rubriques 10xx).\n3\nSi une note n’est pas encore validée, une fenêtre « Notes de détail non validées » vous\npropose, pour chacune, de la valider (les montants sont alors figés) ou de la supprimer.\n4\nPour refacturer les sommes avancées, cliquez sur Intégrer tiers : les factures de tiers saisies à\nl’étape précédente deviennent des lignes de la facture.",
+   "source": "pdf",
+   "pageNumber": 57,
+   "screenshotUrl": "/screenshots/g2_page_57.jpg",
+   "title": "Guide d'utilisation 2026 - Page 57"
+  },
+  {
+   "id": "oct_page_58",
+   "text": "[Guide d'utilisation 2026 – Page 58] 5\nPour ajouter vos prestations (manutention, commission…), cochez les rubriques voulues dans\nla liste de gauche (zone Rechercher pour les retrouver) et complétez leur montant HT et leur\ncomplément de libellé.\n6\nContrôlez les totaux : Total HT, TVA et Total TTC. La TVA (au taux en vigueur, par exemple\n18 %) ne s’applique qu’aux prestations.\n7\nCliquez sur Terminer & imprimer la facture . La facture reçoit son numéro et un PDF est\ngénéré.\n8\nEn bas de page, l’historique liste les factures déjà établies : utilisez valider pour la rendre\ndéfinitive, ou supprimer tant qu’elle n’est pas validée.\nType de facture\nPréfixe du numéro\nContenu\nDouane\nFD\nUniquement des droits et taxes de douane (rubriques\n10xx).\nPrestations\nFP\nDébours et prestations de l’entreprise (rubriques 11xx et\n40xx).\nGlobale\nFG\nLes deux mélangés.\nLe type est déterminé automatiquement par les lignes choisies : il s’affiche dans la zone Type\nautomatique en haut à gauche.\n📌 À R E TE N IR\nUne facture non validée est un brouillon : on peut encore la modifier. Une facture validée est\ndéfinitive : elle compte dans le chiffre d’affaires et peut être envoyée au client.\nSeules les notes de détail validées alimentent la facturation de la douane : le bouton « Note de\ndétail » vous propose de valider celles qui ne le sont pas.\n⛔ ÀNEPASFA IR E\nNe validez pas une facture sans l’avoir relue en entier (client, montants, TVA). Pour corriger une\nfacture validée, il faut d’abord la dévalider, avec le droit de modification des factures.\nVous pouvez aussi joindre des justificatifs (PDF ou images) à la facture : glissez le fichier dans la zone «\nCliquez ou glissez un fichier ici ».",
+   "source": "pdf",
+   "pageNumber": 58,
+   "screenshotUrl": "/screenshots/g2_page_58.jpg",
+   "title": "Guide d'utilisation 2026 - Page 58"
+  },
+  {
+   "id": "oct_page_59",
+   "text": "[Guide d'utilisation 2026 – Page 59] 14.4 Onglet « Envoi Factures » : envoyer la facture par e-mail\nFigure 42 — L’onglet Envoi Factures\n1\nOuvrez l’onglet Envoi Factures. Seules les factures validées y figurent (sinon : « Aucune\nfacture validée »).\n2\nChoisissez la facture à envoyer.\n3\nVérifiez le compte expéditeur (la boîte e-mail d’envoi), le destinataire (l’e-mail du client),\nl’objet et le message.\n4\nCochez les pièces jointes utiles : la facture PDF et les documents du dossier.\n5\nCliquez sur Envoyer la facture .\n⚠ ATTEN TI O N\nSi l’écran indique « Aucun compte mail configuré », demandez à l’administrateur de configurer un\ncompte mail (chapitre 6.5). Vérifiez aussi que le client a bien une adresse e-mail dans sa fiche.",
+   "source": "pdf",
+   "pageNumber": 59,
+   "screenshotUrl": "/screenshots/g2_page_59.jpg",
+   "title": "Guide d'utilisation 2026 - Page 59"
+  },
+  {
+   "id": "oct_page_60",
+   "text": "[Guide d'utilisation 2026 – Page 60] 14.5 Onglet « Règlements » : encaisser les paiements\nFigure 43 — L’onglet Règlements : trois totaux, les factures et l’historique des paiements\nCet onglet donne la situation financière du dossier en un coup d’œil :\nCarte\nSignification\nTotal facturé (bleu)\nLa somme des factures validées du dossier.\nTotal réglé (vert)\nCe que le client a déjà payé.\nReliquat (jaune)\nCe qu’il reste à payer. Quand il est à zéro, « Toutes les factures sont soldées ».\n1\nCliquez sur Saisir un règlement .\n2\nChoisissez la facture à régler (elle doit être validée).\n3\nIndiquez le montant reçu, la date et le mode de règlement (virement, chèque, espèces…).\n4\nNotez le numéro de chèque ou la référence du virement dans les observations.\n5\nEnregistrez : le reliquat est recalculé et le règlement apparaît dans l’historique. Une facture\npartiellement payée porte l’étiquette « Partiel ».\n🧩 EXEMP LE\nFacture de 570 000 F XAF, règlement de 300 000 F XAF par virement : Total réglé 300 000,\nReliquat 270 000, statut Partiel. Un second règlement de 270 000 soldera la facture.",
+   "source": "pdf",
+   "pageNumber": 60,
+   "screenshotUrl": "/screenshots/g2_page_60.jpg",
+   "title": "Guide d'utilisation 2026 - Page 60"
+  },
+  {
+   "id": "oct_page_61",
+   "text": "[Guide d'utilisation 2026 – Page 61] CHAPITRE15 Suivre l’activité de l’entreprise\nPlusieurs pages du menu Dossiers & Transit vous donnent une vue d’ensemble, sans ouvrir les\ndossiers un par un.\n15.1 Suivi dossiers\nFigure 44 — Le tableau de suivi des dossiers\nUn tableau de bord de tous les dossiers : client, code, dates, numéro de titre de transport, navire, date\nd’arrivée, numéro de déclaration… Quatre compteurs résument la situation (dossiers au total, en cours,\narrivées prévues, retards). On peut filtrer par statut, rechercher et exporter vers Excel avec le bouton\nvert.",
+   "source": "pdf",
+   "pageNumber": 61,
+   "screenshotUrl": "/screenshots/g2_page_61.jpg",
+   "title": "Guide d'utilisation 2026 - Page 61"
+  },
+  {
+   "id": "oct_page_62",
+   "text": "[Guide d'utilisation 2026 – Page 62] 15.2 Arrivées navires\nFigure 45 — Le calendrier des arrivées\nLa liste chronologique des prochaines arrivées de navires, d’avions ou de camions rattachés à vos\ndossiers, avec le nombre de jours restants. Une couleur signale l’urgence : plus l’arrivée est proche,\nplus la couleur est vive. Les couleurs se règlent dans Codes couleurs (chapitre 6).\n15.3 Suivi traitements\nFigure 46 — Le suivi des traitements\nCette page mesure l’urgence de chaque dossier maritime en cours : combien de jours se sont écoulés\ndepuis l’arrivée, combien il en reste avant les pénalités, et à quelle étape (Ouvert, Déclaré, Mis en",
+   "source": "pdf",
+   "pageNumber": 62,
+   "screenshotUrl": "/screenshots/g2_page_62.jpg",
+   "title": "Guide d'utilisation 2026 - Page 62"
+  },
+  {
+   "id": "oct_page_63",
+   "text": "[Guide d'utilisation 2026 – Page 63] livraison, Livré, Facturé) il se trouve. Les compteurs Critique / Urgent / Normal / En avance montrent\nd’un coup où agir en priorité. Cliquez sur une étape pour filtrer.\n💡 A S T UC E\nCommencez chaque journée par cette page : traitez d’abord les dossiers Critiques, puis les\nUrgents.\n15.4 Cotation (affectation en série)\nFigure 47 — La page Cotation : dossiers à imputer et choix du déclarant\n1\nDans l’onglet À imputer, cochez un ou plusieurs dossiers sans déclarant (la zone Rechercher\nun dossier aide).\n2\nÀ droite, choisissez le déclarant et la date d’imputation.\n3\nCliquez sur Appliquer . Les dossiers passent dans l’onglet Imputés.\n4\nPour changer de déclarant, utilisez l’onglet Réaffectation.",
+   "source": "pdf",
+   "pageNumber": 63,
+   "screenshotUrl": "/screenshots/g2_page_63.jpg",
+   "title": "Guide d'utilisation 2026 - Page 63"
+  },
+  {
+   "id": "oct_page_64",
+   "text": "[Guide d'utilisation 2026 – Page 64] 15.5 Ordre de transit et configuration OT\nFigure 48 — La liste des ordres de transit\nLa page Ordre de Transit liste tous les ordres de transit de l’entreprise, avec des compteurs (total OT,\ndossiers, provenances) et une recherche. Nouveau OT permet d’en créer un. La page Configuration\nOT gère les listes utilisées : incoterms, régimes OT et types de documents OT.\nFigure 49 — La configuration des ordres de transit",
+   "source": "pdf",
+   "pageNumber": 64,
+   "screenshotUrl": "/screenshots/g2_page_64.jpg",
+   "title": "Guide d'utilisation 2026 - Page 64"
+  },
+  {
+   "id": "oct_page_65",
+   "text": "[Guide d'utilisation 2026 – Page 65] 15.6 Gestion des documents\nFigure 50 — La gestion des documents\nPour archiver tout document lié à un dossier (contrat, facture fournisseur, photo, attestation…) :\n1\nDans Sélection, choisissez le client, puis le dossier.\n2\nCliquez sur Nouveau .\n3\nRenseignez le titre, le type de document, la date, le numéro, une description, puis\nchoisissez le fichier sur votre ordinateur.\n4\nEnregistrez : le document apparaît dans la liste, où vous pouvez le télécharger ou le\nsupprimer.\n💡 A S T UC E\nDonnez des titres clairs (« Facture fournisseur janvier ») plutôt que « scan001 » : vous retrouverez\nbeaucoup plus vite vos pièces.",
+   "source": "pdf",
+   "pageNumber": 65,
+   "screenshotUrl": "/screenshots/g2_page_65.jpg",
+   "title": "Guide d'utilisation 2026 - Page 65"
+  },
+  {
+   "id": "oct_page_66",
+   "text": "[Guide d'utilisation 2026 – Page 66] CHAPITRE16 Règlements et suivi des factures\nDeux pages, accessibles aussi par le menu flottant, regroupent tous les paiements et toutes les factures,\ntous dossiers confondus.\n16.1 Saisie des règlements\nFigure 51 — La page « Saisie des règlements » : un client est sélectionné et sa facture impayée s’affiche\nUtilisez cette page quand un client paie plusieurs factures d’un coup (par exemple un virement unique\npour trois dossiers).\n1\nÀ gauche, sous Sélection du client, cliquez sur le client qui vient de payer.\n2\nSes factures impayées s’affichent au centre : numéro, code dossier, date, montant TTC, déjà\nréglé et reliquat. Cochez celles que ce paiement concerne.\n3\nÀ droite, le Panneau d’enregistrement affiche le montant à régler (la somme des factures\ncochées). Saisissez le montant reçu, la date du règlement et le mode de règlement.\n4\nAjoutez dans Observations le numéro de chèque ou la référence du virement.\n5\nCliquez sur le bouton d’enregistrement. Les factures concernées sont mises à jour.\n💡 A S T UC E\nSi le client est à jour, l’écran affiche « Aucune facture impayée — ce client est à jour dans ses\npaiements de factures validées ».\nLe bouton Historique & annulations (en haut) permet de retrouver un règlement et de l’annuler en\ncas d’erreur de saisie. Une annulation est enregistrée et laisse une trace.",
+   "source": "pdf",
+   "pageNumber": 66,
+   "screenshotUrl": "/screenshots/g2_page_66.jpg",
+   "title": "Guide d'utilisation 2026 - Page 66"
+  },
+  {
+   "id": "oct_page_67",
+   "text": "[Guide d'utilisation 2026 – Page 67] 16.2 Suivi factures par client\nFigure 52 — Le suivi des factures d’un client\nSélectionnez un client dans la liste de gauche : toutes ses factures s’affichent, avec le total facturé, le\ntotal réglé et le reliquat. C’est la page à ouvrir quand un client demande « où en est mon compte ? »\nou pour préparer une relance.",
+   "source": "pdf",
+   "pageNumber": 67,
+   "screenshotUrl": "/screenshots/g2_page_67.jpg",
+   "title": "Guide d'utilisation 2026 - Page 67"
+  },
+  {
+   "id": "oct_page_68",
+   "text": "[Guide d'utilisation 2026 – Page 68] CHAPITRE17 États financiers et tableau de direction\n17.1 États financiers\nFigure 53 — La page des états financiers : liste des factures de la période\nCette page produit les rapports comptables. Les onglets du haut sont :\nOnglet\nCe qu’il donne\nFactures clients\nLa liste des factures d’une période, pour les clients exonérés ou non de TVA.\nRelevé de compte client\nLe relevé d’un client : factures (débit), règlements (crédit) et solde, sur une\npériode. À envoyer au client pour rapprochement.\nGrand livre\nLe détail des écritures par compte.\nChiffre d’affaires\nLe chiffre d’affaires par mois ou par année.\nJournal\nLe journal comptable, à exporter vers le logiciel de comptabilité.\n1\nChoisissez l’onglet du rapport voulu.\n2\nÀ droite, dans Paramètres du rapport, indiquez la période (date début et date fin, ou mois\net année) et, selon le rapport, le client.\n3\nCliquez sur Afficher pour voir le résultat à l’écran.\n4\nCliquez sur Imprimer (ou Traiter ) pour obtenir le PDF ou le fichier d’export.",
+   "source": "pdf",
+   "pageNumber": 68,
+   "screenshotUrl": "/screenshots/g2_page_68.jpg",
+   "title": "Guide d'utilisation 2026 - Page 68"
+  },
+  {
+   "id": "oct_page_69",
+   "text": "[Guide d'utilisation 2026 – Page 69] 17.2 Le tableau de bord directionnel\nFigure 54 — Le tableau de bord directionnel\nRéservé à la direction, il se trouve dans la case Dashboard. Il présente, en graphiques :\n• le chiffre d’affaires et les encours clients (factures non payées) ;\n• les flux financiers (encaissements récents) ;\n• le nombre d’ouvertures de dossiers sur 12 mois ;\n• l’évolution comparée du chiffre d’affaires facturé et des règlements ;\n• la balance âgée : l’ancienneté des créances (0-30 jours, 30-60 jours…), très utile pour décider des\nrelances.\n💡 A S T UC E\nLe bouton Exporter Rapport produit un document à présenter en réunion, et Actualiser\nrecalcule les chiffres à la minute.",
+   "source": "pdf",
+   "pageNumber": 69,
+   "screenshotUrl": "/screenshots/g2_page_69.jpg",
+   "title": "Guide d'utilisation 2026 - Page 69"
+  },
+  {
+   "id": "oct_page_70",
+   "text": "[Guide d'utilisation 2026 – Page 70] CHAPITRE18 Entrepôts, sommiers et apurements (régimes\nsuspensifs)\nCertaines marchandises n’acquittent pas immédiatement les droits et taxes : elles sont placées sous\ndouane (dans un entrepôt, par exemple) en attendant leur destination finale. C’est ce qu’on appelle un\nrégime suspensif (voir le chapitre 7.3). L’entreprise a alors l’obligation de suivre ces marchandises\njusqu’à leur sortie.\nSoft Transit offre trois outils : les entrepôts, les sommiers et l’historique.\n📌 À R E TE N IR\nLe sommier est la fiche de suivi d’une marchandise sous douane : il a un numéro de déclaration,\nun régime, une échéance (date limite) et des articles (les marchandises).\nL’apurement est l’opération par laquelle on justifie la sortie de la marchandise : réexportation,\nmise à la consommation (on paie alors les taxes), destruction, transfert vers un autre régime…\nUn sommier est apuré (terminé) quand chaque article est sorti en totalité.\n18.1 Les entrepôts\nFigure 55 — La liste des entrepôts\nUn entrepôt est un lieu agréé de stockage sous douane. Il faut en créer au moins un avant d’enregistrer\nun sommier.",
+   "source": "pdf",
+   "pageNumber": 70,
+   "screenshotUrl": "/screenshots/g2_page_70.jpg",
+   "title": "Guide d'utilisation 2026 - Page 70"
+  },
+  {
+   "id": "oct_page_71",
+   "text": "[Guide d'utilisation 2026 – Page 71] Figure 56 — La création d’un entrepôt\n1\nOuvrez Entrepôts puis cliquez sur Nouvel entrepôt .\n2\nTapez le libellé (exemple : « Entrepôt sous douane n° 1 »), un code (exemple : ESD-01) et\nl’adresse.\n3\nChoisissez le type d’entrepôt (REEL, FICTIF, MAD, PRIVE, PUBLIC ou AUTRE) selon l’agrément\nreçu de la douane.\n4\nCliquez sur Créer . Le lien Articles d’une ligne affiche les marchandises actuellement\nstockées.\n18.2 Créer un sommier\nFigure 57 — La liste des sommiers : compteurs, filtres et échéances",
+   "source": "pdf",
+   "pageNumber": 71,
+   "screenshotUrl": "/screenshots/g2_page_71.jpg",
+   "title": "Guide d'utilisation 2026 - Page 71"
+  },
+  {
+   "id": "oct_page_72",
+   "text": "[Guide d'utilisation 2026 – Page 72] La page Sommiers présente quatre compteurs : Total, Actifs, Urgents (≤ 7 jours) et Apurés. Le menu\nActifs / Apurés / Expirés / Résiliés / Tous statuts filtre la liste, et la colonne Échéance affiche le\nnombre de jours restants (« J-35 ») dans une pastille colorée.\nFigure 58 — Le formulaire « Nouveau sommier »\n1\nCliquez sur Nouveau sommier .\n2\nDans Déclaration douanière, choisissez le régime (un régime suspensif, par exemple\nIM7000), tapez le numéro de déclaration (unique), la date de déclaration et la date\nd’échéance.\n3\nDans Rattachement (optionnel), choisissez le client puis le dossier concerné.\n4\nCochez Caution requise si une caution a été exigée, et indiquez son montant.\n5\nDans Articles déclarés, cliquez sur Ajouter article : tapez la désignation, le code SH (le\ncode tarifaire), choisissez l’entrepôt, puis le poids, le nombre de colis et la valeur CAF.\nRépétez pour chaque article.\n6\nCliquez sur Créer le sommier .\n⚠ ATTEN TI O N\nLes articles déclarés sont figés après la création : vérifiez-les soigneusement avant de valider. Le\nnuméro de déclaration doit être unique : une erreur apparaît s’il existe déjà.\n18.3 Consulter un sommier et saisir une sortie\nCliquez sur une ligne de la liste : le détail du sommier s’ouvre dans un volet sur le côté. Trois onglets le\ncomposent :",
+   "source": "pdf",
+   "pageNumber": 72,
+   "screenshotUrl": "/screenshots/g2_page_72.jpg",
+   "title": "Guide d'utilisation 2026 - Page 72"
+  },
+  {
+   "id": "oct_page_73",
+   "text": "[Guide d'utilisation 2026 – Page 73] Figure 59 — Le détail d’un sommier (échéance J-35)\nOnglet\nContenu\nDétail\nLe dossier, le client, la date de déclaration et la date d’échéance.\nArticles\nPour chaque article : le initial, l’apuré (déjà sorti) et le restant, en poids / colis / valeur.\nApurements\nL’historique de toutes les sorties saisies, avec leur date, leur type et leur référence.\nFigure 60 — L’onglet Articles : initial, apuré et restant\nPour enregistrer une sortie de marchandise :",
+   "source": "pdf",
+   "pageNumber": 73,
+   "screenshotUrl": "/screenshots/g2_page_73.jpg",
+   "title": "Guide d'utilisation 2026 - Page 73"
+  },
+  {
+   "id": "oct_page_74",
+   "text": "[Guide d'utilisation 2026 – Page 74] Figure 61 — La fenêtre « Nouvel apurement »\n1\nDans le détail du sommier, cliquez sur Saisir une sortie (ou Nouvel apurement dans\nl’onglet Apurements).\n2\nChoisissez la date et le type de sortie : Réexportation, Mise à la consommation, Destruction,\nTransfert régime ou Autre.\n3\nNotez la référence (numéro de la déclaration de sortie ou du procès-verbal) et des\nobservations.\n4\nDans Ventilation par article, saisissez, pour chaque article concerné, le poids, les colis et la\nvaleur qui sortent (laissez vide ou 0 si l’article n’est pas concerné). Le restant actuel est\nrappelé en gris.\n5\nCliquez sur Enregistrer apurement . Les compteurs sont mis à jour.",
+   "source": "pdf",
+   "pageNumber": 74,
+   "screenshotUrl": "/screenshots/g2_page_74.jpg",
+   "title": "Guide d'utilisation 2026 - Page 74"
+  },
+  {
+   "id": "oct_page_75",
+   "text": "[Guide d'utilisation 2026 – Page 75] Figure 62 — L’historique des apurements d’un sommier\n🧩 EXEMP LE\nNotre sommier S-2026-000045 (régime IM7000) contient 6 véhicules d’occasion : 9 000 kg, 6 colis,\n18 000 000 F XAF.\nDeux sorties de 2 véhicules (3 000 kg, 2 colis, 6 000 000) sont enregistrées « Mise à la\nconsommation ». Il reste 3 000 kg, 2 colis et 6 000 000 F XAF. Le sommier reste Actif ; il deviendra\nApuré dès que le dernier véhicule sera sorti.\nBouton\nEffet\nModifier\nCorrige les informations générales (échéance, rattachement…).\nRésilier\nMet fin au sommier avant terme (statut « Résilié »).\nLibérer caution\nUne fois le sommier apuré, enregistre la restitution de la caution.\nSupprimer\nRetire le sommier de la liste (à réserver aux erreurs de saisie).\n18.4 Les alertes d’échéance\nPour que rien ne soit oublié, l’application envoie automatiquement des e-mails d’alerte quand\nl’échéance d’un sommier approche : à 30, 15, 7, 3, 2 et 1 jour(s), puis le jour même. Les destinataires\nsont :\n• les agents dont la case Recevoir alertes suspensifs est cochée (chapitre 5) ;\n• les clients dont la fiche porte l’option « Alerte suspensions » (chapitre 8).\nJours restants\nNiveau\nCouleur du message\nPlus de 15 jours\nRappel\nOrange clair",
+   "source": "pdf",
+   "pageNumber": 75,
+   "screenshotUrl": "/screenshots/g2_page_75.jpg",
+   "title": "Guide d'utilisation 2026 - Page 75"
+  },
+  {
+   "id": "oct_page_76",
+   "text": "[Guide d'utilisation 2026 – Page 76] Jours restants\nNiveau\nCouleur du message\n8 à 15 jours\nAttention\nOrange\n4 à 7 jours\nUrgent\nRouge\n0 à 3 jours\nCritique\nRouge foncé\nÉchéance dépassée\nDépassé\nNoir\n⛔ ÀNEPASFA IR E\nNe laissez jamais un sommier dépasser son échéance : la douane peut exiger le paiement immédiat\ndes droits et taxes, voire appliquer des pénalités. Prévoyez l’apurement ou une demande de\nprolongation bien avant la date limite.\n18.5 L’historique des sommiers\nFigure 63 — L’historique des sommiers, consultable par client ou par entrepôt\nLa page Historique Sommiers permet de retrouver les sommiers passés. Deux modes de lecture : Par\nclient (cliquez sur un client pour voir ses entrepôts, puis ses sommiers) ou Par entrepôt (pour savoir ce\nqui a été stocké dans tel entrepôt). On y voit pour chaque sommier le type de sortie, le poids et les\ncolis sortis, la référence et le statut, avec des filtres par statut et par type.",
+   "source": "pdf",
+   "pageNumber": 76,
+   "screenshotUrl": "/screenshots/g2_page_76.jpg",
+   "title": "Guide d'utilisation 2026 - Page 76"
+  },
+  {
+   "id": "oct_page_77",
+   "text": "[Guide d'utilisation 2026 – Page 77] CHAPITRE19 Le portail client (option)\nLe portail client est un petit site web, en lecture seule, que vous mettez à la disposition de vos clients.\nIls y suivent eux-mêmes l’avancement de leurs dossiers, téléchargent leurs documents et consultent leurs\nfactures, sans vous téléphoner et sans entrer dans l’application de l’entreprise.\n📌 À R E TE N IR\nLe portail est une option : il n’existe que si votre administrateur informatique l’a activé. Si la case\nPortail client n’apparaît pas dans votre tableau de bord, demandez son activation à votre\nadministrateur ou à Soft Services Technologiques.\nLe client ne peut rien modifier : il consulte et télécharge. Il ne voit que ses propres dossiers,\ndocuments et factures.\nUn compte du portail est distinct d’un compte d’agent : il n’ouvre jamais les écrans de l’entreprise.\n19.1 Où se trouve le portail et comment le communiquer\nFigure 64 — La case « Portail client » dans la famille Outils et administration\nLa gestion du portail se fait depuis la case Portail client de la famille Outils et administration. Cette\ncase est réservée aux administrateurs (rôles Admin et Super admin).\nEn haut de la page, l’application rappelle l’adresse du portail, de la forme https://votre-site/portail.\nC’est cette adresse que vous communiquez à vos clients, par e-mail, sur vos factures ou sur votre site\nweb.\n💡 A S T UC E\nPlacez le lien du portail dans la signature de vos e-mails : vos clients le retrouvent à chaque\néchange.\n19.2 Ce que fait le client pour obtenir un accès\nEn ouvrant l’adresse du portail, le client arrive sur la page Espace client. Elle est séparée de l’application\nde l’entreprise.",
+   "source": "pdf",
+   "pageNumber": 77,
+   "screenshotUrl": "/screenshots/g2_page_77.jpg",
+   "title": "Guide d'utilisation 2026 - Page 77"
+  },
+  {
+   "id": "oct_page_78",
+   "text": "[Guide d'utilisation 2026 – Page 78] Figure 65 — La page « Espace client » : connexion et demande d’accès\nS’il n’a pas encore de compte, il clique sur l’onglet Demander un accès :\nFigure 66 — Le formulaire de demande d’accès (aucun mot de passe à cette étape)\n1\nLe client tape son nom, sa société et son adresse e-mail (le téléphone est facultatif).\n2\nIl clique sur Envoyer ma demande . Un message vert confirme que la demande est\nenregistrée.",
+   "source": "pdf",
+   "pageNumber": 78,
+   "screenshotUrl": "/screenshots/g2_page_78.jpg",
+   "title": "Guide d'utilisation 2026 - Page 78"
+  },
+  {
+   "id": "oct_page_79",
+   "text": "[Guide d'utilisation 2026 – Page 79] 3\nIl reçoit un e-mail contenant un lien, valable 24 heures. Il clique sur ce lien.\n4\nSur la page qui s’ouvre, il choisit lui-même son mot de passe (8 caractères minimum, avec\nune majuscule, une minuscule et un chiffre), puis clique sur Confirmer et enregistrer .\nFigure 67 — Le message de confirmation après l’envoi de la demande\nFigure 68 — La page où le client choisit son mot de passe\n⚠ ATTEN TI O N\nLe client ne choisit jamais son mot de passe au moment de la demande : il le fait seulement en\ncliquant sur le lien reçu par e-mail. Cela prouve que l’adresse lui appartient et évite qu’une\npersonne demande un accès avec l’adresse d’un autre.\nTant que l’équipe n’a pas validé sa demande, le client qui se connecte voit un message « en attente de\nvalidation ». Un accès peut être dans l’un de ces quatre états :",
+   "source": "pdf",
+   "pageNumber": 79,
+   "screenshotUrl": "/screenshots/g2_page_79.jpg",
+   "title": "Guide d'utilisation 2026 - Page 79"
+  },
+  {
+   "id": "oct_page_80",
+   "text": "[Guide d'utilisation 2026 – Page 80] État\nSignification\nEn attente\nLa demande est reçue (adresse confirmée ou non) et attend la décision de l’équipe.\nActif\nLe client est rattaché à une fiche client et peut consulter ses dossiers.\nSuspendu\nL’équipe a coupé l’accès. Il peut être rétabli à tout moment.\nRefusé\nLa demande a été rejetée.\n19.3 Valider une demande d’accès\nFigure 69 — L’onglet Demandes : une demande non confirmée et une demande confirmée\nLes demandes arrivent dans l’onglet Demandes , dont le nombre est rappelé entre parenthèses. Pour\nchaque demande, la colonne Client à rattacher indique la situation :\nCe que vous lisez\nCe que cela veut dire\nQue faire ?\nAdresse e-mail non confirmée\nLe demandeur n’a pas encore cliqué sur\nle lien reçu. Le bouton Valider est grisé.\nAttendre, ou cliquer sur\nRenvoyer l’e-mail si le message\nn’est pas arrivé.\nAdresse confirmée. Elle\ncorrespond à la fiche « … »\nL’application a retrouvé la fiche client qui\nporte la même adresse e-mail et l’a\nsélectionnée.\nVérifier que le demandeur est bien\nla personne attendue, puis cliquer\nsur Valider .\nAdresse confirmée, mais elle\nne correspond à aucune fiche\nclient\nL’adresse est bien celle du demandeur,\nmais elle ne figure sur aucune fiche.\nVérifier l’identité du demandeur,\npuis choisir à la main le client à\nrattacher.\n1\nOuvrez Portail client puis l’onglet Demandes .\n2\nRepérez la demande. Si l’adresse est confirmée, vérifiez la fiche client proposée ; sinon,\nchoisissez le client dans la liste — Choisir un client —.\n3\nCliquez sur Valider . Un message vert indique « Accès activé pour » suivi du nom du client.\n4\nPour rejeter une demande, cliquez sur Refuser .",
+   "source": "pdf",
+   "pageNumber": 80,
+   "screenshotUrl": "/screenshots/g2_page_80.jpg",
+   "title": "Guide d'utilisation 2026 - Page 80"
+  },
+  {
+   "id": "oct_page_81",
+   "text": "[Guide d'utilisation 2026 – Page 81] ⛔ ÀNEPASFA IR E\nNe validez jamais la demande d’une personne que vous ne connaissez pas : une fois l’accès activé,\nelle voit toutes les factures et tous les documents du client choisi. En cas de doute, appelez le\nclient avant de valider.\n19.4 Gérer les accès existants\nFigure 70 — L’onglet Comptes : état, dernière connexion et bouton Suspendre\nL’onglet Comptes liste tous les accès déjà traités, avec le client rattaché, l’état et la dernière\nconnexion.\n• Suspendre coupe l’accès d’un compte actif (départ d’un collaborateur du client, litige…). Le client\nrevient à la page de connexion et ne peut plus entrer ;\n• Réactiver rétablit l’accès d’un compte suspendu.\n19.5 Choisir les documents visibles\nFigure 71 — L’onglet Documents visibles : une case par type de document\nPar défaut, un client voit tous les documents de ses dossiers. L’onglet Documents visibles vous\npermet de cacher certains types : décochez la case du type concerné. Il disparaît alors de la liste du\nclient et ne peut plus être téléchargé, même avec l’adresse directe du document. Recochez la case\npour le rendre à nouveau visible. Le réglage est enregistré immédiatement.\n💡 A S T UC E\nDécochez par exemple les types qui contiennent des informations internes à l’entreprise (un ordre\nde transit, un rapport). Gardez visibles les documents que le client attend : factures, bons de\nlivraison, déclarations.",
+   "source": "pdf",
+   "pageNumber": 81,
+   "screenshotUrl": "/screenshots/g2_page_81.jpg",
+   "title": "Guide d'utilisation 2026 - Page 81"
+  },
+  {
+   "id": "oct_page_82",
+   "text": "[Guide d'utilisation 2026 – Page 82] 19.6 Ce que voit le client\nUne fois son accès validé, le client se connecte avec son adresse e-mail et son mot de passe. Il arrive sur\nla page Mes dossiers.\nFigure 72 — La page « Mes dossiers » du client\nPage\nCe que le client y trouve\nMes dossiers\nTrois chiffres (nombre de dossiers, total facturé, reste à payer), une zone de\nrecherche et la liste de ses dossiers avec l’étape, l’arrivée prévue du navire, le\nnombre de documents et le reste à payer.\nUn dossier (clic sur une\nligne)\nL’avancement par étapes, le navire (départ, arrivée prévue, titre de transport), les\ndocuments et les factures du dossier.\nMes factures\nToutes ses factures avec le montant, le réglé et le reste, et le PDF de chacune.",
+   "source": "pdf",
+   "pageNumber": 82,
+   "screenshotUrl": "/screenshots/g2_page_82.jpg",
+   "title": "Guide d'utilisation 2026 - Page 82"
+  },
+  {
+   "id": "oct_page_83",
+   "text": "[Guide d'utilisation 2026 – Page 83] Figure 73 — Le détail d’un dossier côté client : navire, documents et factures\n• Chaque document se télécharge avec Télécharger ; le bouton Tout télécharger (ZIP) les réunit\ndans un seul fichier.\n• Seules les factures validées sont visibles : une facture en préparation n’apparaît jamais.\n• Les dossiers supprimés et les documents de types cachés (voir 19.5) n’apparaissent pas.\nFigure 74 — La page « Mes factures » du client\n📌 À R E TE N IR\nLa session du client se ferme automatiquement au bout de 8 heures. Il peut aussi cliquer sur\nDéconnexion . Son compte ne lui donne aucun accès aux écrans du personnel : même en tapant\nleur adresse, il revient à la page de connexion.",
+   "source": "pdf",
+   "pageNumber": 83,
+   "screenshotUrl": "/screenshots/g2_page_83.jpg",
+   "title": "Guide d'utilisation 2026 - Page 83"
+  },
+  {
+   "id": "oct_page_84",
+   "text": "[Guide d'utilisation 2026 – Page 84] 19.7 Le journal : qui a téléchargé quoi ?\nFigure 75 — L’onglet Journal : connexions et téléchargements des clients\nL’onglet Journal garde la trace de l’activité des clients : la date, l’utilisateur, le client, l’action et la\nréférence (le numéro du document ou du dossier). Quatre actions sont enregistrées :\nAction\nQuand est-elle notée ?\nConnexion\nChaque fois qu’un client se connecte au portail.\nDocument téléchargé\nLe client télécharge un document d’un dossier.\nDossier téléchargé (ZIP)\nLe client télécharge tous les documents d’un dossier d’un coup.\nFacture téléchargée\nLe client télécharge le PDF d’une facture.\n19.8 Mot de passe oublié\nSur la page de connexion du portail, le client clique sur Mot de passe oublié ? et tape son adresse e-\nmail. S’il possède un compte, il reçoit un e-mail avec un lien pour choisir un nouveau mot de passe\n(mêmes règles : 8 caractères, une majuscule, une minuscule, un chiffre). Pour des raisons de sécurité, le\nmessage affiché est le même que l’adresse existe ou non.\n19.9 Si le client rencontre une difficulté\nCe que dit le client\nCause probable\nSolution\n« Je n’ai pas reçu l’e-mail\n»\nMessage classé en courrier\nindésirable, adresse mal tapée ou\nenvoi des e-mails non configuré.\nVérifier les courriers indésirables, puis\ncliquer sur Renvoyer l’e-mail . Si cela\npersiste, demander à l’administrateur\ninformatique de vérifier la configuration\nd’envoi des e-mails du serveur (ces\nmessages ne passent pas par les comptes\nmails du chapitre 6.5).\n« Le lien ne fonctionne\nplus »\nLe lien est valable 24 heures.\nCliquer sur Renvoyer l’e-mail pour en\nenvoyer un nouveau.\n« Mon compte est en\nattente »\nVotre équipe n’a pas encore validé la\ndemande.\nOuvrir l’onglet Demandes et traiter la\ndemande.",
+   "source": "pdf",
+   "pageNumber": 84,
+   "screenshotUrl": "/screenshots/g2_page_84.jpg",
+   "title": "Guide d'utilisation 2026 - Page 84"
+  },
+  {
+   "id": "oct_page_85",
+   "text": "[Guide d'utilisation 2026 – Page 85] Ce que dit le client\nCause probable\nSolution\n« Je ne vois pas un\ndocument »\nLe type du document est caché aux\nclients, ou le document n’est pas\ndans un dossier de ce client.\nVérifier l’onglet Documents visibles et le\ndossier concerné.\n« Je ne vois pas une\nfacture »\nLa facture n’est pas encore validée.\nValider la facture dans l’application\n(chapitre 14).\n« Je suis renvoyé à la\npage de connexion »\nLa session a expiré (8 heures) ou\nl’accès a été suspendu.\nSe reconnecter ; sinon vérifier l’état du\ncompte dans l’onglet Comptes .\n🧩 EXEMP LE\nLa société Mbeki et Fils demande un accès avec l’adresse info@mbeki-exemple.test. Elle confirme\nson adresse et choisit son mot de passe.\nDans l’onglet Demandes, l’application indique « Adresse confirmée. Elle correspond à la fiche «\nÉtablissements Mbeki et Fils » ». L’administrateur vérifie par téléphone, clique sur Valider, et la\nsociété suit dès lors ses dossiers, ses documents et ses factures sans rien demander à personne.",
+   "source": "pdf",
+   "pageNumber": 85,
+   "screenshotUrl": "/screenshots/g2_page_85.jpg",
+   "title": "Guide d'utilisation 2026 - Page 85"
+  },
+  {
+   "id": "oct_page_86",
+   "text": "[Guide d'utilisation 2026 – Page 86] PARTIED — AIDEETRÉFÉRENCES\nCHAPITRE20 Exemple complet : un dossier du début à la fin\nPour fixer les idées, suivons un dossier réel (fictif) de bout en bout. Les noms et chiffres sont inventés,\nmais le parcours est exactement celui que vous suivrez.\n🧩 EXEMP LE — N ot re d os s ie r\nLe client : la Société Africaine de Négoce, qui importe du matériel agricole de Chine.\nLa marchandise : 4 tracteurs à essieu simple (NTS 87011000000) et 36 charrues (NTS\n84321000000), dans 2 conteneurs.\nLe voyage : navire CMA SAVANNAH (CMA CGM), du port de Shanghai au port d’Owendo.\nLe régime : IM4000, mise à la consommation.\nÉtape\nCe que vous faites\nOù\nChapitre\n1\nVous vérifiez que la Société Africaine de Négoce existe\ndans les clients (sinon vous la créez).\nClients\n8\n2\nVous vérifiez que CMA CGM existe dans les tiers (activité\n« transport maritime »).\nTiers\n9\n3\nVous ouvrez le dossier : nature Import, mode Maritime,\ntype Conteneur, libellé « Importation de matériel agricole\n». Le code IMP-MA-TC-2026-00001 est créé.\nDossiers → Nouveau\ndossier\n10\n4\nLa direction affecte le dossier au déclarant Paul Ndong.\nOnglet Cotation\n11\n5\nVous saisissez le connaissement CMDU-EX-260451 (3\noriginaux, 2 conteneurs, 14 jours de franchise).\nOnglet TT\n11\n6\nVous saisissez le voyage : navire CMA SAVANNAH,\ndépart de Shanghai, arrivée à Owendo. Le dossier\napparaît dans le calendrier des arrivées.\nOnglet Transports\n11\n7\nVous enregistrez les 2 conteneurs et leur contenu (4\ntracteurs, 36 charrues).\nOnglet Composition\n11\n8\nVous créez la note de détail REP-2026-0001 : 2 articles,\ncodes NTS, valeurs FOB, fret, assurance. Pour l’article 1,\nvaleur CAF 42 500 000 et droits et taxes de 13 876 250 F\nXAF. Vous validez la note.\nOnglet Notes de détail\n12\n9\nAprès dépôt à la douane, vous enregistrez la déclaration\nC-2026-000123 (régime IM4000, date BAE).\nOnglet Déclaration\n12\n10\nVous confiez le dossier au contremaître Jean Mba (mise\nen livraison, pregate PG-260451).\nOnglet Mise en Liv.\n13\n11\nVous établissez l’ordre de transport OTR-2026-0001\npour les 2 conteneurs, puis générez le bordereau de\nlivraison BL-00001.\nOnglets OTR et BL\n13",
+   "source": "pdf",
+   "pageNumber": 86,
+   "screenshotUrl": "/screenshots/g2_page_86.jpg",
+   "title": "Guide d'utilisation 2026 - Page 86"
+  },
+  {
+   "id": "oct_page_87",
+   "text": "[Guide d'utilisation 2026 – Page 87] Étape\nCe que vous faites\nOù\nChapitre\n12\nLa comptable prépare un devis, saisit les débours, puis\nétablit et valide la facture (570 000 F XAF dans\nl’exemple).\nOnglets Devis, Factures\nTiers, Facturation\n14\n13\nElle envoie la facture par e-mail au client.\nOnglet Envoi Factures\n14\n14\nLe client règle 300 000 F XAF par virement : le règlement\nest enregistré, il reste 270 000 à recevoir.\nOnglet Règlements\n14\n15\nLa direction suit l’ensemble depuis Suivi dossiers, Suivi\nfactures et le tableau de bord directionnel.\nPages de suivi\n15 à 17\n📌 À R E TE N IR\nÀ aucun moment vous n’avez eu à ressaisir une information : le nom du client, le titre de transport,\nles conteneurs, les valeurs et les taxes circulent d’un onglet à l’autre. C’est le grand avantage du\nlogiciel.",
+   "source": "pdf",
+   "pageNumber": 87,
+   "screenshotUrl": "/screenshots/g2_page_87.jpg",
+   "title": "Guide d'utilisation 2026 - Page 87"
+  },
+  {
+   "id": "oct_page_88",
+   "text": "[Guide d'utilisation 2026 – Page 88] CHAPITRE21 Questions fréquentes et dépannage\nVoici les petits problèmes les plus courants, et comment les résoudre sans appeler au secours.\n21.1 Connexion et accès\nProblème\nCause probable\nSolution\n« Invalid credentials » ou «\nIdentifiants invalides »\nFaute de frappe, touche Verr. Maj.\n(majuscules) activée, mauvais\nidentifiant.\nRetapez lentement ; utilisez l’icône œil\npour voir le mot de passe ; sinon cliquez\nsur Oublié ?.\nJe suis bloqué après plusieurs\nessais\nProtection contre les essais\nrépétés.\nAttendez un moment, puis réessayez ;\nsinon demandez à l’administrateur de\nréinitialiser votre mot de passe.\nJe ne reçois pas le mail de\nrécupération\nMessage classé en indésirable, ou\nadresse non reconnue.\nRegardez dans le courrier indésirable ;\nvérifiez l’adresse e-mail saisie ; sinon\nprévenez l’administrateur.\nUn bouton ou une case du\nmenu manque\nVous n’avez pas ce droit.\nDemandez à l’administrateur d’ajuster\nvos permissions (chapitre 5).\nL’application m’a déconnecté\nSession expirée après un long\nmoment d’inactivité.\nReconnectez-vous. Pensez à enregistrer\nvotre travail avant de vous absenter.\n21.2 Dans les dossiers\nMessage ou situation\nExplication\nSolution\n« Aucun déclarant assigné ! »\nLa cotation n’est pas faite.\nOuvrez l’onglet Cotation et affectez un\ndéclarant.\n« Titre de transport requis »\nLa composition a besoin d’un titre\nde transport.\nRemplissez d’abord l’onglet TT (Titre).\nLa liste des compagnies est\nvide\nAucun tiers n’a l’activité\ncorrespondante.\nCréez ou corrigez le tiers (chapitre 9) en\nlui donnant le bon domaine d’activité.\n« Aucun transporteur\nterrestre trouvé »\nAucun tiers d’activité « transport\nterrestre ».\nCréez ce tiers, puis revenez dans l’onglet\nOTR.\n« Aucun élément dans la\ncomposition »\nLe dossier n’a pas de conteneur ni\nde colis.\nRemplissez l’onglet Composition.\nUne taxe affiche « – » dans la\nliquidation\nAucun taux n’est associé à ce code\nNTS.\nVérifiez le code NTS ; sinon signalez-le à\nl’administrateur (chapitre 7).\nLes montants de la note\nsemblent faux\nMauvaise devise ou taux de\nchange périmé.\nContrôlez la devise de chaque ligne et le\ntaux dans Gestion des devises.\n« N° déclaration … déjà utilisé\n» (sommier)\nCe numéro existe déjà.\nVérifiez qu’il n’a pas déjà été saisi ;\nchaque numéro est unique.",
+   "source": "pdf",
+   "pageNumber": 88,
+   "screenshotUrl": "/screenshots/g2_page_88.jpg",
+   "title": "Guide d'utilisation 2026 - Page 88"
+  },
+  {
+   "id": "oct_page_89",
+   "text": "[Guide d'utilisation 2026 – Page 89] Message ou situation\nExplication\nSolution\nJe ne retrouve plus un dossier\nUn filtre ou une recherche est\nactif.\nVidez la zone de recherche et cliquez sur\nTous modes.\nImpossible de supprimer un\nélément d’une liste\nIl est déjà utilisé quelque part.\nC’est normal et protecteur. Gardez-le ou\ncréez-en un nouveau.\n21.3 Documents, impressions et e-mails\nProblème\nSolution\nLe PDF ne s’ouvre pas après un clic\nVotre navigateur bloque peut-être la fenêtre qui s’ouvre. Cliquez\nsur l’icône de blocage dans la barre d’adresse et autorisez le site.\nL’impression est coupée ou décalée\nDans la fenêtre d’impression, choisissez Échelle : 100 % et le format\nA4.\n« Aucun compte mail configuré »\nDemandez à l’administrateur de créer un compte mail (chapitre 6.5).\nLe client n’a pas reçu la facture\nVérifiez l’e-mail du client dans sa fiche, regardez dans le dossier\nÉléments envoyés de la boîte d’envoi, et demandez-lui de vérifier\nses indésirables.\nLe logo ou le cachet est flou\nRemplacez-le par une image plus grande et plus nette (chapitre 4).\n21.4 Si la page ne répond plus\n1\nAttendez quelques secondes : l’application peut simplement être occupée.\n2\nAppuyez sur la touche F5 (ou cliquez sur la flèche circulaire du navigateur) pour recharger la\npage.\n3\nSi le problème continue, déconnectez-vous puis reconnectez-vous.\n4\nFermez puis rouvrez le navigateur ; vérifiez que votre connexion internet fonctionne en\nouvrant un autre site.\n5\nToujours bloqué ? Notez le message exact ou faites une capture d’écran, puis contactez\nvotre administrateur.\n💡 A S T UC E\nPour faire une capture d’écran sous Windows : touches Windows + Maj + S, puis dessinez un\nrectangle. L’image est copiée et peut être collée dans un e-mail.",
+   "source": "pdf",
+   "pageNumber": 89,
+   "screenshotUrl": "/screenshots/g2_page_89.jpg",
+   "title": "Guide d'utilisation 2026 - Page 89"
+  },
+  {
+   "id": "oct_page_90",
+   "text": "[Guide d'utilisation 2026 – Page 90] CHAPITRE22 Bonnes pratiques et sécurité\n22.1 Protéger votre compte\n• Choisissez un mot de passe long (au moins 10 caractères) mélangeant lettres, chiffres et symboles.\nUne phrase facile à retenir convient très bien.\n• N’utilisez pas le même mot de passe que pour votre messagerie ou votre banque.\n• Ne le communiquez à personne, y compris à un informaticien : l’administrateur n’a jamais besoin de\nle connaître.\n• Déconnectez-vous en quittant votre poste, et verrouillez votre ordinateur (touches Windows + L).\n• Méfiez-vous des e-mails qui vous demandent votre mot de passe : l’application ne le fait jamais.\n22.2 Travailler proprement\n• Saisissez une fois, correctement. Une erreur recopiée dans cinq documents est longue à corriger.\n• Enregistrez avant de changer d’onglet ou de page.\n• Relisez les numéros (titre de transport, conteneur, déclaration) : une lettre fausse peut bloquer un\ndossier.\n• Mettez à jour les dates au fil de l’eau (arrivée réelle, livraison effective, retour des conteneurs) : elles\nalimentent les suivis et les alertes.\n• Donnez des libellés clairs aux dossiers et aux documents.\n• Vérifiez les taux de change avant toute note de détail.\n• Ne supprimez pas par réflexe : désactivez ou corrigez plutôt.\n22.3 Les bons réflexes de la journée\nQuand\nQue faire\nLe matin\nOuvrir Suivi traitements et Arrivées navires ; traiter les dossiers critiques et\nurgents.\nPendant la journée\nMettre les onglets à jour dès qu’une étape est terminée ; enregistrer les règlements\nreçus.\nChaque semaine\nContrôler les échéances de sommiers ; mettre à jour les taux de change ; relancer\nles factures en retard (Suivi factures).\nChaque mois\nÉditer les états financiers et les relevés de compte ; vérifier que la sauvegarde\nautomatique a bien fonctionné.\n22.4 Les sauvegardes et la confidentialité\nLes dossiers contiennent des informations confidentielles : valeurs, fournisseurs, prix. Ne les transmettez\nqu’à des personnes autorisées, ne laissez pas d’impressions sur un bureau, et jetez les brouillons dans un",
+   "source": "pdf",
+   "pageNumber": 90,
+   "screenshotUrl": "/screenshots/g2_page_90.jpg",
+   "title": "Guide d'utilisation 2026 - Page 90"
+  },
+  {
+   "id": "oct_page_91",
+   "text": "[Guide d'utilisation 2026 – Page 91] broyeur ou un bac sécurisé. L’administrateur veille à ce que les sauvegardes soient faites et conservées\nhors de l’ordinateur principal.\n📌 À R E TE N IR\nEn cas de doute, demandez avant de supprimer, de valider ou d’envoyer. Une question prend une\nminute ; une erreur sur une facture ou une déclaration peut en prendre mille.",
+   "source": "pdf",
+   "pageNumber": 91,
+   "screenshotUrl": "/screenshots/g2_page_91.jpg",
+   "title": "Guide d'utilisation 2026 - Page 91"
+  },
+  {
+   "id": "oct_page_92",
+   "text": "[Guide d'utilisation 2026 – Page 92] ANNEXEA Lexique\nLes mots du métier de A à Z, expliqués simplement.\nMot\nDéfinition\nApurement\nOpération qui justifie la sortie d’une marchandise placée sous douane\n(réexportation, mise à la consommation, destruction…).\nBAE\nBon à enlever : autorisation donnée par la douane de retirer la marchandise.\nB/L (connaissement)\nTitre de transport maritime. Il prouve l’expédition et la propriété de la\nmarchandise.\nBL (bordereau de livraison)\nPièce signée par le client à la réception de sa marchandise.\nCAF\nCoût, assurance, fret : la valeur de la marchandise rendue au port d’arrivée.\nCautionnement\nSomme ou garantie déposée pour couvrir les droits de la douane sur une\nmarchandise sous douane.\nConventionnel\nMarchandise transportée en vrac ou en colis, sans conteneur.\nCotation\nAffectation d’un dossier à un déclarant.\nDébours\nSommes avancées pour le compte du client et refacturées.\nDéclarant\nAgent qui prépare et dépose la déclaration en douane.\nDéclaration en détail\nDocument officiel déposé à la douane pour dédouaner une marchandise.\nDDI\nDroit de douane à l’importation.\nDossier\nEnsemble des informations d’une opération d’import ou d’export.\nDroits et taxes\nSommes dues à la douane lors du passage d’une marchandise.\nÉchéance\nDate limite, notamment pour apurer un sommier.\nEntrepôt sous douane\nLieu agréé où la marchandise est stockée sans payer immédiatement les taxes.\nETA\nEstimated time of arrival : date d’arrivée prévue.\nFranchise\nNombre de jours gratuits pour garder un conteneur avant les frais de retard.\nFOB\nFree on board : prix de la marchandise chargée sur le navire, sans le transport.\nFret\nPrix du transport de la marchandise.\nGroupage\nPlusieurs petits envois de clients différents regroupés dans un même conteneur.\nIncoterm\nCode international (CIF, FOB…) qui précise qui paie le transport, l’assurance et les\nrisques.\nLTA\nLettre de transport aérien : titre de transport par avion.\nLiquidation\nCalcul des droits et taxes à payer.\nMise à la consommation\nPassage définitif d’une marchandise sur le marché local, après paiement des\ntaxes (régime IM4000).",
+   "source": "pdf",
+   "pageNumber": 92,
+   "screenshotUrl": "/screenshots/g2_page_92.jpg",
+   "title": "Guide d'utilisation 2026 - Page 92"
+  },
+  {
+   "id": "oct_page_93",
+   "text": "[Guide d'utilisation 2026 – Page 93] Mot\nDéfinition\nMise en livraison\nRemise du dossier au contremaître pour retirer la marchandise.\nNINEA / NIF\nNuméro d’identification fiscale d’une entreprise.\nNote de détail\nDocument de calcul des droits et taxes article par article.\nNTS\nNomenclature tarifaire et statistique : code à 11 chiffres d’une marchandise dans\nle TEC.\nOT / OTR\nOrdre de transit / ordre de transport (routier).\nPregate\nRéférence de rendez-vous pour l’entrée ou la sortie d’un conteneur au port.\nRégime douanier\nCadre légal dans lequel une marchandise passe en douane (définitif, suspensif,\nexonération…).\nRégime suspensif\nRégime où les taxes ne sont pas payées tant que la marchandise reste sous\ndouane.\nRéexportation\nRessortie d’une marchandise du pays après son entrée sous régime suspensif.\nReliquat\nReste à payer sur une facture.\nSH / SYDONIA\nSystème harmonisé (codes mondiaux des marchandises) / système informatique\ndouanier utilisé par de nombreux pays.\nSommier\nFiche de suivi d’une marchandise sous régime suspensif.\nSurestaries\nFrais facturés par la compagnie maritime quand un conteneur n’est pas rendu à\ntemps.\nTC\nTerminal container : conteneur.\nTEC\nTarif extérieur commun : tarif douanier commun à un groupe de pays.\nTiers\nPartenaire de l’entreprise qui n’est pas un client (transporteur, compagnie,\nbanque).\nTT\nTitre de transport.\nTVA\nTaxe sur la valeur ajoutée.",
+   "source": "pdf",
+   "pageNumber": 93,
+   "screenshotUrl": "/screenshots/g2_page_93.jpg",
+   "title": "Guide d'utilisation 2026 - Page 93"
+  },
+  {
+   "id": "oct_page_94",
+   "text": "[Guide d'utilisation 2026 – Page 94] ANNEXEB Aide-mémoire : « Je veux… »\nRetrouvez en une ligne où aller pour chaque besoin.\nJe veux…\nJe vais dans…\nChap.\nMe connecter / récupérer mon mot de\npasse\nPage de connexion → Oublié ?\n2\nCréer une fiche client\nClients → Nouveau Client\n8\nAjouter un transporteur ou une\ncompagnie\nTiers → Nouveau Tiers\n9\nOuvrir un dossier\nDossiers → Nouveau Dossier\n10\nConfier un dossier à un déclarant\nOnglet Cotation ou page Cotation\n11, 15\nSaisir le B/L ou la LTA\nOnglet TT (Titre)\n11\nSaisir le navire et les dates\nOnglet Transports\n11\nLister les conteneurs\nOnglet Composition\n11\nCalculer les droits et taxes\nOnglet Notes de détail (Lancer)\n12\nChercher un code NTS\nProduits, ou recherche dans la note de détail\n7, 12\nEnregistrer la déclaration en douane\nOnglet Déclaration\n12\nRemettre le dossier au contremaître\nOnglet Mise en Liv.\n13\nFaire un ordre de transport\nOnglet OTR (Transp.)\n13\nFaire un bordereau de livraison\nOnglet BL (Bordereau)\n13\nFaire un devis\nOnglet Devis\n14\nEnregistrer une facture de fournisseur\nOnglet Factures Tiers\n14\nÉtablir la facture du client\nOnglet Facturation\n14\nEnvoyer une facture par e-mail\nOnglet Envoi Factures\n14\nEnregistrer un paiement\nOnglet Règlements ou page Règlements\n14, 16\nVoir ce qu’un client me doit\nSuivi factures\n16\nÉditer un relevé de compte\nÉtats financiers → Relevé de compte client\n17\nVoir les prochaines arrivées de navires\nArrivées navires\n15\nVoir les dossiers urgents\nSuivi traitements\n15\nSuivre une marchandise sous douane\nSommiers\n18\nFaire sortir une marchandise d’un\nsommier\nSommiers → détail → Saisir une sortie\n18\nAjouter un collègue\nAgents → Créer un Agent\n5",
+   "source": "pdf",
+   "pageNumber": 94,
+   "screenshotUrl": "/screenshots/g2_page_94.jpg",
+   "title": "Guide d'utilisation 2026 - Page 94"
+  },
+  {
+   "id": "oct_page_95",
+   "text": "[Guide d'utilisation 2026 – Page 95] Je veux…\nJe vais dans…\nChap.\nMettre à jour un taux de change\nParamètres → Gestion des devises\n6\nArchiver un document\nGestion documents\n15\nFaire une sauvegarde\nSauvegarder\n6\nDonner à un client l’accès à ses\ndossiers\nPortail client → onglet Demandes → Valider\n19\nVoir qui a téléchargé un document sur\nle portail\nPortail client → onglet Journal\n19\nRaccourcis utiles du navigateur\nTouches\nEffet\nF5\nRecharge la page.\nCtrl + F\nCherche un mot dans la page.\nCtrl + P\nImprime la page ou le PDF affiché.\nCtrl + + et Ctrl + -\nAgrandit ou réduit l’affichage. Ctrl + 0 revient à la taille normale.\nTab\nPasse au champ suivant dans un formulaire.\nÉchap\nFerme une fenêtre ouverte.\nWindows + L\nVerrouille votre ordinateur.",
+   "source": "pdf",
+   "pageNumber": 95,
+   "screenshotUrl": "/screenshots/g2_page_95.jpg",
+   "title": "Guide d'utilisation 2026 - Page 95"
+  },
+  {
+   "id": "oct_page_96",
+   "text": "[Guide d'utilisation 2026 – Page 96] ANNEXEC Droits conseillés par métier\nCe tableau aide l’administrateur à régler les permissions (chapitre 5). V = voir, C = créer, M = modifier, S\n= supprimer.\nDomaine\nDirection\nDéclarant\nAgent de transit\nComptable\nContremaître\nClients\nVCMS\nV C M\nV C M\nV\n—\nTiers\nVCMS\nV C M\nV C\nV\n—\nDossiers\nVCMS\nV C M\nV C M\nV\nV\nNotes de détail\nVCMS\nV C M\nV\n—\n—\nCotations\nVCMS\nV\nV\n—\n—\nFactures\nVCMS\n—\nV\nV C M\n—\nRèglements /\nfinances\nVCMS\n—\n—\nV C M\n—\nSommiers /\nentrepôts\nVCMS\nV C M\nV\nV\n—\nAgents / paramètres\nVCMS\n—\n—\n—\n—\n💡 A S T UC E\nAdaptez ce tableau à votre organisation : il s’agit de recommandations, pas d’obligations.\nL’essentiel est que chacun ait ce qu’il lui faut, et rien de plus.",
+   "source": "pdf",
+   "pageNumber": 96,
+   "screenshotUrl": "/screenshots/g2_page_96.jpg",
+   "title": "Guide d'utilisation 2026 - Page 96"
+  }
+ ],
+ "conserves_juin": {
+  "19": "Gestion électronique des documents (GED)",
+  "28": "Types de factures (tiers, client, globales FG)",
+  "29": "Factures globales (FG)",
+  "31": "Envoi des factures : saisie manuelle des rubriques, validation",
+  "34": "Annulation de factures",
+  "35": "Cotations et devis",
+  "40": "Règlements : annuler un règlement, dépôt (acompte)",
+  "41": "Règlements : dépôt (acompte), solde créditeur du compte client",
+  "42": "Règlements (suite)",
+  "43": "États financiers : balance âgée, chiffres d'affaires, grand livre, état client",
+  "44": "États financiers : relevé de compte",
+  "57": "Sommiers : historique, actions spéciales",
+  "58": "Sommiers : droits d'accès",
+  "59": "Sommiers : bonnes pratiques ; paramètres : comptes mails",
+  "60": "Paramètres : statuts juridiques, incoterms, groupes",
+  "61": "Paramètres : modes de règlement, types de documents, unités, rubriques",
+  "63": "Paramètres : devises, moyens de transport, lieux, domaines d'activités",
+  "64": "Paramètres : domaines d'activités, codes couleurs des alertes",
+  "67": "Annexes",
+  "68": "Annexe B : codification des documents"
+ }
+}
